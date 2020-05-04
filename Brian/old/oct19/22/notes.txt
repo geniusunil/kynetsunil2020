@@ -1,0 +1,12 @@
+https://docs.google.com/document/d/18giU7o0Pe02tuj-64UbmihUAIeu5GAkfyLXAiOKahSE/edit
+
+
+1. $300
+2. $100 extra for existing work
+3. $100 I would suggest $100 extra for "multiple" youtube video fields & monthly/yearly/one-time pricing option. 2 aug 7:47 Pm
+4. $60 When a user selects the category can we filter the list selection(located further down the form) to only show Lists within that category? 5 aug skype
+
+
+First of all, I am sorry for a mistake of mine. I have stopped working on the testing page, it is obsolete.
+https://area51.softwarefindr.com/new-one/ This page is used to create a new list item product.
+Then, on submit it redirects us to https://area51.softwarefindr.com/update-software/?update-software=147286 to further add information to that product.

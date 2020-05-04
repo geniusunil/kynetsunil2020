@@ -1,0 +1,212 @@
+.morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#666;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
+/**
+ * Tooltip Styles
+ */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after,.tooltiptextspan {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12px;
+    border-width: 14px;
+    border-style: solid;
+    border-color: #565d62 transparent transparent transparent;
+}
+.single_data {
+   /* display: inline-block;
+    margin: 1%;
+	float:left;
+	width:10%; */
+    position: absolute;
+    text-align: center;
+}
+.starter {
+    display: block;
+    float: left;
+    /*margin-left: 7%;*/
+    position: relative;
+}
+.graph_text{
+    display: none;
+}
+#morrisjs_graph_data
+{
+	/*min-height:180px;*/
+	margin-bottom:20px;
+	/*background-color: #d9e8f3;*/
+	margin-top: -30px;
+	padding-top:10px;
+	float:left;
+	width:100%;
+}
+#morrisjs_graph_data p a
+{
+    color: #7979d2;
+    font-size: 0.938em;
+    margin-top: 8px;
+}
+#morrisjs_graph_header
+{
+	height: 200px;
+    background-color: #333;
+    padding: 3%;
+    /* display: block; */
+    float: left;
+    width: 100%;
+}
+#morrisjs_graph_header p
+{
+color:#fff;
+}
+#morrisjs_graph_header h3
+{
+	color: #fffdfe;
+    font-weight: normal;
+}
+#morrisjs_graph
+{
+	position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-image: url('../image/sf.png');
+    background-repeat: no-repeat;
+    background-position: center;
+	display:block;
+	float:left;
+	width:100%;
+}
+.graph-btn
+{
+background-color: #49c793;
+    color: #fff !important;
+    padding: 2px;
+}
+#zombify-main-section-front .zf-list ol
+{
+	float:left;
+}
+
+
+/* --------------10-02-2018----------------- */
+#morrisjs_graph_header{position: relative;}
+.filter_options{text-align: right; position: absolute; width: 94%; bottom: 0;}
+.filter_options ul li{ display: inline-block; border-bottom: 0; padding-bottom: 11px;}
+.filter_options ul li a{ display: block; padding: 8px 33px; font-size: 13px; color: #ccc!important; border-radius: 50px;border: 2px solid #333;}
+.filter_options ul li.active a, .filter_options ul li:hover a{ background-color: #2f3a40;border: 2px solid #eff5f7;}
+.filter_options ul li:hover, .filter_options ul li.active{ background: url('../image/crown.png') center bottom no-repeat;}
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+  
+  #morrisjs_graph_data p a
+  {
+  	font-size: 0.625em;
+  	
+  }
+    /*.graph-btn{display: none;}*/
+  
+  /*.starter {
+		display: block;
+		float: left;
+		margin-left: 13%;
+	}
+	
+	.single_data {
+		display: inline-block;
+		margin: 1%;
+		float:left;
+		width:10%;
+	} */
+  
+}
+.graph_section {
+    width: 100%;
+}
+
+
+/*************CSS by renu****************/
+@media (min-width: 1072px) {
+    .graph_section {
+        position: relative;
+
+        min-height: 350px;
+    }
+
+    .graph_section_inner {
+        position: absolute;
+        left: -10%;
+        right: -10%;
+      /*box-shadow: 0 0 0 1px #F2F2F2;*/
+
+    }
+}
+@media (max-width: 1071px) {
+    .graph_section_inner {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .graph-btn{
+        display: block;
+    }
+    p.l_title {
+        display: none;
+    }
+
+    span.affilate_button {
+        display: none;
+    }
+    #morrisjs_graph_data a.mes-lc-li-down.graph-btn i.zf-icon.zf-icon-buy_now {
+        font-family: Material Icons !important;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    #morrisjs_graph_data a.mes-lc-li-down.graph-btn i.zf-icon.zf-icon-buy_now:before {
+        content: "\e2c4";
+    }
+}
+
+.sf_watermark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('../image/sf.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    opacity: 0.5;
+}
+.votes_calculatr {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+}

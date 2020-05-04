@@ -1,0 +1,167 @@
+<div style="background-color: #cccccc;" ng-app="ajamiApp" class="ng-scope">
+	<div class="dt-component ng-scope" ng-controller="DiamondsTableController">
+		<div class="dt-search container" style="width: 100%;">
+			<div class="row dt-search-box">
+				<div class="col-xs-6 dt-search-box">
+					<input type="text" id="stockSearch" onkeyup="applyAllFilters()">
+					<label for="stockSearch">Stock #</label>						
+				</div>
+				<div class="col-xs-6 dt-search-box">
+					<input type="text" id="certificateSearch" onkeyup="applyAllFilters()">
+					<label for="certificateSearch">Certificate #</label>
+				</div>
+			</div>
+			
+			<div class="row dt-search-numberRange">
+				<div class="col-xs-3 dt-search-numberRangeFrom">
+					<input id="sizeFrom" type="number" onkeyup="applyAllFilters()">
+					<label for="sizeFrom">Min. size</label>
+				</div>
+				<div class="col-xs-3 dt-search-numberRangeTo">
+					<input id="sizeTo" type="number" onkeyup="applyAllFilters()">
+					<label for="sizeTo">Max. size</label>
+				</div>
+				<div class="col-xs-3 dt-search-numberRangeFrom">
+					<input id="priceFrom" type="number" onkeyup="applyAllFilters()">
+					<label for="priceFrom">Min. price</label>
+				</div>
+				<div class="col-xs-3 dt-search-numberRangeTo">
+					<input id="priceTo" type="number" onkeyup="applyAllFilters()">
+					<label for="priceTo">Max. price</label>
+				</div>
+			</div>
+			
+			<div class="dt-search-primary">
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Shapes</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select> </div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>colors</option>
+  <option value="D">D</option>
+  <option value="F">F</option>
+  <option value="G">G</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+  <option value="E">E</option>
+</select>	</div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Clarity</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select></div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Lab</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>	</div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Cut grades</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+				</div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Polish</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>	</div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Symmetry</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+				</div>
+				<div class="dt-search-multiple">
+					<select class="filterSelect">
+<option value="none" selected>Fluorescence Intensity</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>	</div>
+				<div style="float: right; padding-top: 10px;">
+					<a class="btn btn-primary" ng-href="http://www.ajami-diamonds.com/contact-us/" rel="noopener noreferrer" href="http://www.ajami-diamonds.com/contact-us/">Order</a>
+				</div>
+				<div style="float: right; padding-top: 10px;">
+					<button onclick="clearxyz()" class="btn btn-primary">Clear</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+
+<!-- three -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css">
+ 
+
+
+    <div class="container-fluid">
+
+    
+      
+      <div id="table-container"></div>
+
+    </div><!-- /.container -->
+
+  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+
+<script>
+  CsvToHtmlTable.init({
+    csv_path: '/RapnetWSTest.csv',
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {"paging": false},
+    custom_formatting: [[4, format_link]]
+  });
+
+  $(document).ready(function() {
+    $(".send").click(function(){
+        var favorite = [];
+        $.each($("input[name='sport']:checked"), function(){    
+    alert();
+            favorite.push($(this).val());
+        });
+        alert("My favourite sports are: " + favorite.join(", "));
+    });
+});
+</script>

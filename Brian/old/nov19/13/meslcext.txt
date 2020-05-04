@@ -1,0 +1,33 @@
+<<<<<<< Updated upstream
+INSIDE on_coupon_vote
+coupon id 0
+post id 145091
+item_id 145091_0
+vote type upinside arra exists
+before setting value
+1 inside update cp vote
+3 inside update cp vote 1
+6 inside update cp vote
+Array
+(
+    [0] => Array
+        (
+            [type] => coupon
+            [link] => https://imagemappro.com/#pricing
+            [title] => 30% off
+            [description] => 30% off on the image map pro plugin. Hurry!
+            [code] => abcd1234
+            [showDate] => show
+            [expdate] => 2019-11-27
+            [id] => 0
+            [votes] => 1
+        )
+
+)
+5 inside update cp vote
+votes are1
+4 inside update cp vote
+2 inside update cp vote
+=======
+location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view LOCATION FROM postININside read vote typebool is falseINside hasvoted read vote typeregister download runningITEM id 145091 and location INmeta key downloads_in_IN and total downloads this location 0.6location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view LOCATION FROM postINregister download runningITEM id 145091 and location INmeta key downloads_in_IN and total downloads this location 1.6location is on list item view location is on list item view location is on list item view LOCATION FROM postINregister download runningITEM id 145091 and location INmeta key downloads_in_IN and total downloads this location 2.6location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view location is on list item view INSIDE on_coupon_vote/nINSIDE on_coupon_vote/n
+>>>>>>> Stashed changes

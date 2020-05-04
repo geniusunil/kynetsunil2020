@@ -1,0 +1,5 @@
+#acf-promoted_list_items .acf-checkbox-list{
+	height: 150px;
+    overflow: scroll;
+    border: #DFDFDF solid 1px;
+}

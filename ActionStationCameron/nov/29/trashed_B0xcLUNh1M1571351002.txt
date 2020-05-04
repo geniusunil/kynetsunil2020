@@ -1,0 +1,80 @@
+<eid>support@solarleadmarket.com.au<endeid>
+<subject>Solar Lead Market Sale %50 off<endsubject><id> B0xcLUNh1M<endid><br/><uid>276<enduid><Date> 1571351002<endDate><br/>
+<message><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml encoding="utf-8"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width"><title>Email 4</title><meta property="og:title" content="Subject"><link rel="stylesheet" media="none" onload="if(media!='all')media='all'" type="text/css" href="https://www.solarleadmarket.com.au/asset/email/style.css" media="screen"><style type="text/css">
+        
+        .ExternalClass {width:100%;}
+        
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+        
+        body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; text-size-adjust:100%; margin:0; padding:0;}
+        body,html{
+            height: 100%;
+        }
+        
+        table {border-spacing:0; border-collapse:collapse; margin-top:20px; margin-bottom:20px;}
+        
+        table td {border-collapse:collapse;}
+        
+        img {-ms-interpolation-mode:bicubic; display:block; outline:none; text-decoration:none;}
+        a img {border:none;}
+        p {margin:0; padding:0; margin-bottom:0;}
+        a.button {background: #fcda04; padding: 10px 20px; display: inline-block; font-size: 20px; font-weight: bold; color: #333; border-radius: 10px;}
+        a.button:hover {background: #fff;}
+        h1, h2, h3, h4, h5, h6 {color:#333333; line-height:100%;}
+        body, #body_style {width:100% !important; min-height:1000px; color:#333333; background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:14px; line-height:1.4;}
+        a         {color:#2f2f2f; text-decoration:none;}
+        a:link    {color:#2f2f2f; text-decoration:none;}
+        a:visited {color:#183082; text-decoration:none;}
+        a:focus   {color:#2f2f2f !important;}
+        a:hover   {color:#2f2f2f !important;}
+        a[href^="tel"], a[href^="sms"] {text-decoration:none; color:#333333; pointer-events:none; cursor:default;}
+        .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {text-decoration:default; color:#6e5c4f !important; pointer-events:auto; cursor:default;}
+        
+        
+        
+        @media only screen and (max-width: 639px) {
+            
+            .hide {display:none !important;}
+            
+            .table {width:320px !important; margin-top:0px; margin-bottom:0px;}
+            .innertable {width:280px !important;}
+            
+            .heroimage {width:100% !important; height:auto !important;}
+            
+            .shadow {width:280px !important; height:4px !important;}
+            
+            .collapse-cell {width:320px !important;}
+            
+            .social-media img {float:left !important; margin:0 1em 0 0 !important;}
+        }
+    </style></head><body style="width:100% !important; min-height:1000px; color:#333333; background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:13px; line-height:1.4;" alink="#114eb1" link="#114eb1" bgcolor="#ffffff" text="#333333">
+<div id="body_style">
+    <table cellpadding="0" cellspacing="0" border="0" align="center" style="width:100% !important; margin:0; padding:0;"><tr><td>
+                <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="table"><tr bgcolor="#fefefe" style="text-align: center"><td><a style="padding:10px;padding-top:20px;display: inline-block;margin: auto;" href="https://www.solarleadmarket.com.au/" target="_blank"><img src="https://www.solarleadmarket.com.au/assets/images/logo.png" width="250px" alt="" class="heroimage"></a>
+
+                        </td>
+                    </tr><tr bgcolor="#fefefe"><td>
+                            <table style="margin-bottom:1em;background-color:#fefefe" width="500" cellpadding="0" cellspacing="0" border="0" align="center" class="innertable"><tr><td style="text-align: center">
+                                        <img src="https://www.solarleadmarket.com.au/assets/images/sale.png" alt="Solar Lead Market Sale" style="max-width: 500px;width: 100%"></td>
+                                </tr><tr><td style="text-align: center;font-weight: bold;font-size: 18px;min-height: 420px">
+                                        <p>
+
+
+                                            Ends Sunday at Midnight
+                                            <br><br><a style="color:#4471C4" href="https://www.solarleadmarket.com.au">CLICK HERE TO BUY NOW</a> <br><br>
+
+                                            Solar Lead Market is overstocked!   <br>
+                                            100% SMS Validated Leads   <br>
+                                            Sale ends midnight Sunday 20-Oct-2019   <br>
+                                            unless sold out before then.   <br><br><a style="color:#4471C4" href="https://www.solarleadmarket.com.au">CLICK HERE TO BUY NOW</a>  <br></p>
+                                    </td>
+                                </tr><tr></tr><tr></tr></table></td>
+                    </tr><tr><td>
+                            <p style="text-align: center;font-size: 12px"> You received this email because you're a SLM client. <a style="color:blue;text-decoration: underline" href="https://www.solarleadmarket.com.au/unsubscribe/2210/5f63084cc1070c25c742fc88c365b4e1"> Unsubscribe from this list.</a></p>
+
+                        </td>
+                    </tr></table></td>
+        </tr></table></div>
+</body></html>
+<endmessage>

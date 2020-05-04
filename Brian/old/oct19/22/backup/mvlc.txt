@@ -1,0 +1,13 @@
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :1postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :1

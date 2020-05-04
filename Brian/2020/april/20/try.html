@@ -1,0 +1,56 @@
+<svg viewBox="0 0 100 100">
+    <g>
+      <circle cx="50" cy="50" r="25" stroke-width:"50" fill:"transparent"
+      transform:"rotate(-90deg)"
+      transform-origin:"50px 50px"
+      stroke-dashoffset:"0"></circle>
+      <circle cx="50" cy="50" r="25" class="pie-part pie-part--two"></circle>
+      <circle cx="50" cy="50" r="25" class="pie-part pie-part--one"></circle>
+      <circle cx="50" cy="50" r="25" class="pie-part circle-animate pie-part--full"></circle>
+    </g>
+    <g>
+      <text class="pie-part--three__text" x="12" y="50">58%</text>
+      <text class="pie-part--two__text" x="50" y="75">58%</text>
+      <text class="pie-part--one__text" x="62" y="37">58%</text>
+    </g>
+  </svg>
+
+  <style>
+      
+
+@keyframes reveal {
+ to {
+  stroke-dashoffset:-314.28571
+ }
+}
+.pie-part {
+
+}
+.pie-part.pie-part--one {
+ stroke:red;
+ stroke-dasharray:39.28571 157.14286
+}
+.pie-part.pie-part--two {
+ stroke:green;
+ stroke-dasharray:102.14286 157.14286
+}
+.pie-part.pie-part--three {
+ stroke:yellow;
+ stroke-dasharray:157.14286 157.14286
+}
+.pie-part.pie-part--full {
+ stroke-width:51;
+ stroke:white;
+ stroke-dasharray:157.14286 157.14286
+}
+.pie-part.circle-animate {
+ animation:revealOne 1s linear;
+ animation-fill-mode:forwards
+}
+@keyframes revealOne {
+ to {
+  stroke-dashoffset:-157.14286
+ }
+}
+
+  </style>

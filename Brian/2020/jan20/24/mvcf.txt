@@ -1,0 +1,663 @@
+inside send_real_user_dbuser id :inside re_save_coupon_meta_boxes
+coupons_list is: Array
+(
+    [0] => Array
+        (
+        )
+
+)
+post inside save coupons function : Array
+(
+    [_wpnonce] => fc84c97d65
+    [_wp_http_referer] => /wp-admin/post.php?post=136923&action=edit&message=1
+    [user_ID] => 13
+    [action] => editpost
+    [originalaction] => editpost
+    [post_author] => 2
+    [post_type] => list_items
+    [original_post_status] => publish
+    [referredby] => https://area52.softwarefindr.com/wp-admin/post.php?post=136923&action=edit
+    [_wp_original_http_referer] => https://area52.softwarefindr.com/wp-admin/post.php?post=136923&action=edit
+    [post_ID] => 136923
+    [meta-box-order-nonce] => 8e54b28ce1
+    [closedpostboxesnonce] => a6ccbecaf1
+    [post_title] => Pixpa
+    [samplepermalinknonce] => 25f24fa3ae
+    [_acf_screen] => post
+    [_acf_post_id] => 136923
+    [_acf_validation] => 1
+    [_acf_nonce] => 
+    [_acf_changed] => 0
+    [content] => Designed for creative professionals, Pixpa delivers pixel-perfect portfolio websites, features a built-in eCommerce store to get you up and running in record time, and also offers client proofing and blogging tools to make the package complete.
+You can do everything from one platform, powered by Pixpa’s best in class hosting and 24x7 support, instead of having to rely on multiple tools or resources to showcase your work. Get started for free with the 15-day trial.
+
+Who is it for?
+
+Our ideal customers are photographers, artists, designers, architects, fashion designers, design agency and small creative businesses. Pixpa is a perfect fit for anyone looking for a visually rich website.
+<table class=\"widefat fixed entry-detail-view\" cellspacing=\"0\">
+<tbody>
+<tr>
+<td class=\"entry-view-field-name\" colspan=\"2\">Key Features/benefits?</td>
+</tr>
+<tr>
+<td class=\"entry-view-field-value\" colspan=\"2\">- Super-easy DIY website builder with no coding knowledge needed.
+- Integrated client galleries, blogging and e-commerce.
+- Beautiful, professional, customizable themes.
+- Cost-effective pricing plan with unlimited images, hosting and bandwidth.
+- All Pixpa websites are responsive and work on all mobile devices
+- Search-engine optimized and social media enabled websites.</td>
+</tr>
+</tbody>
+</table>
+    [available_meta_box_nonce] => 1905712cf3
+    [item_available] => yes
+    [wp-preview] => 
+    [hidden_post_status] => publish
+    [post_status] => publish
+    [hidden_post_password] => 
+    [hidden_post_visibility] => public
+    [visibility] => public
+    [post_password] => 
+    [mm] => 09
+    [jj] => 12
+    [aa] => 2018
+    [hh] => 14
+    [mn] => 11
+    [ss] => 05
+    [hidden_mm] => 09
+    [cur_mm] => 01
+    [hidden_jj] => 12
+    [cur_jj] => 24
+    [hidden_aa] => 2018
+    [cur_aa] => 2020
+    [hidden_hh] => 14
+    [cur_hh] => 11
+    [hidden_mn] => 11
+    [cur_mn] => 17
+    [original_publish] => Update
+    [save] => Update
+    [tax_input] => Array
+        (
+            [list_categories] => Array
+                (
+                    [0] => 0
+                    [1] => 123
+                )
+
+            [item_tags] => Array
+                (
+                )
+
+        )
+
+    [newlist_categories] => New Category Name
+    [newlist_categories_parent] => -1
+    [_ajax_nonce-add-list_categories] => c1ab4e8e23
+    [newtag] => Array
+        (
+            [item_tags] => 
+        )
+
+    [acf] => Array
+        (
+            [field_595c8bb12d183] => 0
+            [field_595c8bc02d184] => 0
+            [field_5d26d08dbd08a] => 
+            [field_5d29816759a9c] => 
+            [field_5d5f8a6a363c8] => 0
+            [field_5d204e3433034] => 136924
+            [field_5d203b4e18af6] => Array
+                (
+                    [0] => subscription
+                )
+
+            [field_5d5f66d9a5917] => 1
+            [field_5d5f66e4a5918] => 0
+            [field_5d1f1c2c8b66d] => 5
+            [field_5d5f68d306547] => Visit Website
+            [field_5d5f67d25ca1a] => 
+            [field_5d5f67d65ca1b] => 
+            [field_5d4a5c43bbc3e] => Month
+            [field_5d1f1c418b66e] => 
+            [field_5d1f211b0020a] => 
+            [field_5d203c4a595d1] => Array
+                (
+                    [0] => comments
+                    [1] => envelope
+                    [2] => phone
+                )
+
+            [field_59352650bde8a] => Array
+                (
+                    [0] => 136028
+                )
+
+            [field_5d243c6578e56] => 
+            [field_5d36829a25564] => 
+            [field_5d243dc978e58] => 
+            [field_5da9a69f06ffe] => https://www.pixpa.com
+            [field_5da9a6b206fff] => 0
+        )
+
+    [_thumbnail_id] => 136924
+    [yoast_free_metabox_nonce] => df321f156e
+    [yoast_free_metabox_social_nonce] => d1b46ccdd4
+    [yoast_wpseo_focuskw] => 
+    [yoast_wpseo_title] => Pixpa Reviews by REAL Users & Our Experts (%%currentmonth%% %%currentyear%%)
+    [yoast_wpseo_metadesc] => 
+    [yoast_wpseo_linkdex] => -1360
+    [yoast_wpseo_content_score] => 0
+    [yoast_wpseo_is_cornerstone] => false
+    [yoast_wpseo_focuskeywords] => []
+    [yoast_wpseo_keywordsynonyms] => [\"\"]
+    [yoast_wpseo_primary_list_categories_term] => 123
+    [yoast_wpseo_primary_list_categories_nonce] => 7aa7a61dd2
+    [yoast_wpseo_primary_list_comp_categories_term] => 
+    [yoast_wpseo_primary_list_comp_categories_nonce] => 7aa7a61dd2
+    [yoast_wpseo_opengraph-title] => 
+    [yoast_wpseo_opengraph-description] => 
+    [yoast_wpseo_opengraph-image] => 
+    [yoast_wpseo_opengraph-image-id] => 
+    [yoast_wpseo_twitter-title] => 
+    [yoast_wpseo_twitter-description] => 
+    [yoast_wpseo_twitter-image] => 
+    [yoast_wpseo_twitter-image-id] => 
+    [yoast_wpseo_meta-robots-noindex] => 0
+    [yoast_wpseo_meta-robots-nofollow] => 0
+    [yoast_wpseo_meta-robots-adv] => Array
+        (
+            [0] => -
+        )
+
+    [yoast_wpseo_bctitle] => 
+    [yoast_wpseo_canonical] => 
+    [nd-list-item-mbnonce] => 1905712cf3
+    [features_list] => Array
+        (
+            [0] => Site Customization
+            [1] => Custom Domains
+            [2] => Beautiful Themes
+            [3] => Site Analytics
+            [4] => File Storage
+            [5] => Mobile Friendly
+            [6] => Online Store
+            [7] => Media Galleries
+            [8] => Social Tools
+        )
+
+    [excerpt] => 
+    [advanced_view] => 1
+    [comment_status] => open
+    [ping_status] => open
+    [add_comment_nonce] => 4059790704
+    [_ajax_fetch_list_nonce] => ddd2f40c69
+    [post_name] => pixpa
+    [post_author_override] => 2
+    [rwp_reviews_meta_box_nonce] => 014b684b4d
+    [rwp-review-type] => PAR+UR
+    [rwp_reviews] => Array
+        (
+            [0] => Array
+                (
+                    [review_type] => PAR+UR
+                    [review_title] => Review Box 0
+                    [review_title_options] => custom_title
+                    [review_template] => rwp_template_590f86153bc54
+                    [review_scores] => Array
+                        (
+                            [rwp_template_590f86153bc54] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 4
+                                    [2] => 4
+                                    [3] => 3
+                                )
+
+                        )
+
+                    [review_custom_overall_score] => 
+                    [review_criteria_source] => reviewer
+                    [review_pros] => 
+                    [review_cons] => 
+                    [review_summary] => 
+                    [review_image] => 
+                    [review_image_url] => 
+                    [review_sameas_attr] => 
+                    [review_id] => 0
+                )
+
+        )
+
+    [rwp_tables_meta_box_nonce] => 84b61a270b
+    [post_mime_type] => 
+    [ID] => 136923
+    [post_content] => Designed for creative professionals, Pixpa delivers pixel-perfect portfolio websites, features a built-in eCommerce store to get you up and running in record time, and also offers client proofing and blogging tools to make the package complete.
+You can do everything from one platform, powered by Pixpa’s best in class hosting and 24x7 support, instead of having to rely on multiple tools or resources to showcase your work. Get started for free with the 15-day trial.
+
+Who is it for?
+
+Our ideal customers are photographers, artists, designers, architects, fashion designers, design agency and small creative businesses. Pixpa is a perfect fit for anyone looking for a visually rich website.
+<table class=\"widefat fixed entry-detail-view\" cellspacing=\"0\">
+<tbody>
+<tr>
+<td class=\"entry-view-field-name\" colspan=\"2\">Key Features/benefits?</td>
+</tr>
+<tr>
+<td class=\"entry-view-field-value\" colspan=\"2\">- Super-easy DIY website builder with no coding knowledge needed.
+- Integrated client galleries, blogging and e-commerce.
+- Beautiful, professional, customizable themes.
+- Cost-effective pricing plan with unlimited images, hosting and bandwidth.
+- All Pixpa websites are responsive and work on all mobile devices
+- Search-engine optimized and social media enabled websites.</td>
+</tr>
+</tbody>
+</table>
+    [post_excerpt] => 
+    [rwp_tables] => Array
+        (
+        )
+
+)
+
+final metaboxvalue is: Array
+(
+)
+inside re_save_qa_meta_boxes
+qas_list is: Array
+(
+    [0] => Array
+        (
+        )
+
+)
+post inside save qas function : Array
+(
+    [_wpnonce] => fc84c97d65
+    [_wp_http_referer] => /wp-admin/post.php?post=136923&action=edit&message=1
+    [user_ID] => 13
+    [action] => editpost
+    [originalaction] => editpost
+    [post_author] => 2
+    [post_type] => list_items
+    [original_post_status] => publish
+    [referredby] => https://area52.softwarefindr.com/wp-admin/post.php?post=136923&action=edit
+    [_wp_original_http_referer] => https://area52.softwarefindr.com/wp-admin/post.php?post=136923&action=edit
+    [post_ID] => 136923
+    [meta-box-order-nonce] => 8e54b28ce1
+    [closedpostboxesnonce] => a6ccbecaf1
+    [post_title] => Pixpa
+    [samplepermalinknonce] => 25f24fa3ae
+    [_acf_screen] => post
+    [_acf_post_id] => 136923
+    [_acf_validation] => 1
+    [_acf_nonce] => 
+    [_acf_changed] => 0
+    [content] => Designed for creative professionals, Pixpa delivers pixel-perfect portfolio websites, features a built-in eCommerce store to get you up and running in record time, and also offers client proofing and blogging tools to make the package complete.
+You can do everything from one platform, powered by Pixpa’s best in class hosting and 24x7 support, instead of having to rely on multiple tools or resources to showcase your work. Get started for free with the 15-day trial.
+
+Who is it for?
+
+Our ideal customers are photographers, artists, designers, architects, fashion designers, design agency and small creative businesses. Pixpa is a perfect fit for anyone looking for a visually rich website.
+<table class=\"widefat fixed entry-detail-view\" cellspacing=\"0\">
+<tbody>
+<tr>
+<td class=\"entry-view-field-name\" colspan=\"2\">Key Features/benefits?</td>
+</tr>
+<tr>
+<td class=\"entry-view-field-value\" colspan=\"2\">- Super-easy DIY website builder with no coding knowledge needed.
+- Integrated client galleries, blogging and e-commerce.
+- Beautiful, professional, customizable themes.
+- Cost-effective pricing plan with unlimited images, hosting and bandwidth.
+- All Pixpa websites are responsive and work on all mobile devices
+- Search-engine optimized and social media enabled websites.</td>
+</tr>
+</tbody>
+</table>
+    [available_meta_box_nonce] => 1905712cf3
+    [item_available] => yes
+    [wp-preview] => 
+    [hidden_post_status] => publish
+    [post_status] => publish
+    [hidden_post_password] => 
+    [hidden_post_visibility] => public
+    [visibility] => public
+    [post_password] => 
+    [mm] => 09
+    [jj] => 12
+    [aa] => 2018
+    [hh] => 14
+    [mn] => 11
+    [ss] => 05
+    [hidden_mm] => 09
+    [cur_mm] => 01
+    [hidden_jj] => 12
+    [cur_jj] => 24
+    [hidden_aa] => 2018
+    [cur_aa] => 2020
+    [hidden_hh] => 14
+    [cur_hh] => 11
+    [hidden_mn] => 11
+    [cur_mn] => 17
+    [original_publish] => Update
+    [save] => Update
+    [tax_input] => Array
+        (
+            [list_categories] => Array
+                (
+                    [0] => 0
+                    [1] => 123
+                )
+
+            [item_tags] => Array
+                (
+                )
+
+        )
+
+    [newlist_categories] => New Category Name
+    [newlist_categories_parent] => -1
+    [_ajax_nonce-add-list_categories] => c1ab4e8e23
+    [newtag] => Array
+        (
+            [item_tags] => 
+        )
+
+    [acf] => Array
+        (
+            [field_595c8bb12d183] => 0
+            [field_595c8bc02d184] => 0
+            [field_5d26d08dbd08a] => 
+            [field_5d29816759a9c] => 
+            [field_5d5f8a6a363c8] => 0
+            [field_5d204e3433034] => 136924
+            [field_5d203b4e18af6] => Array
+                (
+                    [0] => subscription
+                )
+
+            [field_5d5f66d9a5917] => 1
+            [field_5d5f66e4a5918] => 0
+            [field_5d1f1c2c8b66d] => 5
+            [field_5d5f68d306547] => Visit Website
+            [field_5d5f67d25ca1a] => 
+            [field_5d5f67d65ca1b] => 
+            [field_5d4a5c43bbc3e] => Month
+            [field_5d1f1c418b66e] => 
+            [field_5d1f211b0020a] => 
+            [field_5d203c4a595d1] => Array
+                (
+                    [0] => comments
+                    [1] => envelope
+                    [2] => phone
+                )
+
+            [field_59352650bde8a] => Array
+                (
+                    [0] => 136028
+                )
+
+            [field_5d243c6578e56] => 
+            [field_5d36829a25564] => 
+            [field_5d243dc978e58] => 
+            [field_5da9a69f06ffe] => https://www.pixpa.com
+            [field_5da9a6b206fff] => 0
+        )
+
+    [_thumbnail_id] => 136924
+    [yoast_free_metabox_nonce] => df321f156e
+    [yoast_free_metabox_social_nonce] => d1b46ccdd4
+    [yoast_wpseo_focuskw] => 
+    [yoast_wpseo_title] => Pixpa Reviews by REAL Users & Our Experts (%%currentmonth%% %%currentyear%%)
+    [yoast_wpseo_metadesc] => 
+    [yoast_wpseo_linkdex] => -1360
+    [yoast_wpseo_content_score] => 0
+    [yoast_wpseo_is_cornerstone] => false
+    [yoast_wpseo_focuskeywords] => []
+    [yoast_wpseo_keywordsynonyms] => [\"\"]
+    [yoast_wpseo_primary_list_categories_term] => 123
+    [yoast_wpseo_primary_list_categories_nonce] => 7aa7a61dd2
+    [yoast_wpseo_primary_list_comp_categories_term] => 
+    [yoast_wpseo_primary_list_comp_categories_nonce] => 7aa7a61dd2
+    [yoast_wpseo_opengraph-title] => 
+    [yoast_wpseo_opengraph-description] => 
+    [yoast_wpseo_opengraph-image] => 
+    [yoast_wpseo_opengraph-image-id] => 
+    [yoast_wpseo_twitter-title] => 
+    [yoast_wpseo_twitter-description] => 
+    [yoast_wpseo_twitter-image] => 
+    [yoast_wpseo_twitter-image-id] => 
+    [yoast_wpseo_meta-robots-noindex] => 0
+    [yoast_wpseo_meta-robots-nofollow] => 0
+    [yoast_wpseo_meta-robots-adv] => Array
+        (
+            [0] => -
+        )
+
+    [yoast_wpseo_bctitle] => 
+    [yoast_wpseo_canonical] => 
+    [nd-list-item-mbnonce] => 1905712cf3
+    [features_list] => Array
+        (
+            [0] => Site Customization
+            [1] => Custom Domains
+            [2] => Beautiful Themes
+            [3] => Site Analytics
+            [4] => File Storage
+            [5] => Mobile Friendly
+            [6] => Online Store
+            [7] => Media Galleries
+            [8] => Social Tools
+        )
+
+    [excerpt] => 
+    [advanced_view] => 1
+    [comment_status] => open
+    [ping_status] => open
+    [add_comment_nonce] => 4059790704
+    [_ajax_fetch_list_nonce] => ddd2f40c69
+    [post_name] => pixpa
+    [post_author_override] => 2
+    [rwp_reviews_meta_box_nonce] => 014b684b4d
+    [rwp-review-type] => PAR+UR
+    [rwp_reviews] => Array
+        (
+            [0] => Array
+                (
+                    [review_type] => PAR+UR
+                    [review_title] => Review Box 0
+                    [review_title_options] => custom_title
+                    [review_template] => rwp_template_590f86153bc54
+                    [review_scores] => Array
+                        (
+                            [rwp_template_590f86153bc54] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 4
+                                    [2] => 4
+                                    [3] => 3
+                                )
+
+                        )
+
+                    [review_custom_overall_score] => 
+                    [review_criteria_source] => reviewer
+                    [review_pros] => 
+                    [review_cons] => 
+                    [review_summary] => 
+                    [review_image] => 
+                    [review_image_url] => 
+                    [review_sameas_attr] => 
+                    [review_id] => 0
+                )
+
+        )
+
+    [rwp_tables_meta_box_nonce] => 84b61a270b
+    [post_mime_type] => 
+    [ID] => 136923
+    [post_content] => Designed for creative professionals, Pixpa delivers pixel-perfect portfolio websites, features a built-in eCommerce store to get you up and running in record time, and also offers client proofing and blogging tools to make the package complete.
+You can do everything from one platform, powered by Pixpa’s best in class hosting and 24x7 support, instead of having to rely on multiple tools or resources to showcase your work. Get started for free with the 15-day trial.
+
+Who is it for?
+
+Our ideal customers are photographers, artists, designers, architects, fashion designers, design agency and small creative businesses. Pixpa is a perfect fit for anyone looking for a visually rich website.
+<table class=\"widefat fixed entry-detail-view\" cellspacing=\"0\">
+<tbody>
+<tr>
+<td class=\"entry-view-field-name\" colspan=\"2\">Key Features/benefits?</td>
+</tr>
+<tr>
+<td class=\"entry-view-field-value\" colspan=\"2\">- Super-easy DIY website builder with no coding knowledge needed.
+- Integrated client galleries, blogging and e-commerce.
+- Beautiful, professional, customizable themes.
+- Cost-effective pricing plan with unlimited images, hosting and bandwidth.
+- All Pixpa websites are responsive and work on all mobile devices
+- Search-engine optimized and social media enabled websites.</td>
+</tr>
+</tbody>
+</table>
+    [post_excerpt] => 
+    [rwp_tables] => Array
+        (
+        )
+
+)
+
+check 1 : 
+check 2 : 
+check 3 : 
+final metaboxvalue is: Array
+(
+)
+feature list ratings Array
+(
+    [Site Customization] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Custom Domains] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Beautiful Themes] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Site Analytics] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [File Storage] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Mobile Friendly] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Online Store] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Media Galleries] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Social Tools] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+)
+
+couponlist is Array
+(
+)
+
+qalist is Array
+(
+)
+
+feature list ratings Array
+(
+    [Site Customization] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Custom Domains] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Beautiful Themes] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Site Analytics] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [File Storage] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Mobile Friendly] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Online Store] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Media Galleries] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+    [Social Tools] => Array
+        (
+            [total_score] => 10
+            [votes] => 2
+        )
+
+)
+
+couponlist is Array
+(
+)
+
+qalist is Array
+(
+)
+

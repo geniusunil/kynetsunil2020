@@ -1,0 +1,10 @@
+1. Better debugging system
+2. fix permanently delete page goes blank, does not work
+3. fix pagination - shows dots even if there's only one page
+
+
+For debugging purposes which are not trashed EmailID : nowsolar.bac@gmail.com: UID : 544 SID : xJlvCr6azM, UID : 543 SID : 1SSqUpmVMJ, UID : 542 SID : 7Gl8wktcOm, UID : 541 SID : dvTKxArGGV, UID : 539 SID : xeadO0sRsg, UID : 540 SID : Jhry8d7sf6, UID : 538 SID : ZigpfEE6RL, UID : 533 SID : tlX08PysBy, UID : 532 SID : HvZYY9QUOR, UID : 531 SID : 0mdEZKCfaC, For debugging purposes which are trashed EmailID : nowsolar.bac@gmail.com : UID : 522 SID : DzcQAIFAYC, UID : 521 SID : wp1bHfXyap, UID : 520 SID : pSFMBJKxr4, UID : 519 SID : 4oMd1wPZgW, UID : 518 SID : HkYYWEhdMR, UID : 517 SID : YJ7c9VsmJ4, UID : 516 SID : g7AIFdtk8C, UID : 515 SID : NBBdDl1gCG, UID : 514 SID : ptm0uepOgd, UID : 513 SID : DrhrxDLEU8, 	  	
+
+
+For debugging purposes which are not trashed EmailID : nowsolar.bac@gmail.com: UID : 553 SID : m11ybFaesn, UID : 553 SID : EoP30IanXz, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, UID : 553 SID : 0q2CInf0hO, For debugging purposes which are trashed EmailID : nowsolar.bac@gmail.com : UID : 552 SID : dxso4Vkk4O,  
+

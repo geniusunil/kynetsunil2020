@@ -1,0 +1,792 @@
+31. Which of the following correctly sets a height to 100px for an element?
+Answers:
+• angular.element(‘#element’).style.height = ‘100px’;
+• angular.element(‘#element’).css.height = 100;
+• angular.element(‘#element’).css(‘height’, 100);
+• angular.element(‘#element’).css(‘height’, ‘100px’);
+
+answer : d. angular.element(‘#element’).css(‘height’, ‘100px’);
+
+32. How AngularJS expressions are different from the JavaScript expressions?
+Answers:
+• Angular expressions can be added inside the HTML templates.
+• Angular expressions doesn’t support control flow statements (conditionals, loops, or exceptions).
+• Angular expressions support filters to format data before displaying it.
+• All of the above
+
+answer : d. all of the above
+
+33. Which of the following service components in Angular used to create XMLHttpRequest objects?
+Note: There may be more than one right answer.
+Answers:
+• jsonpCallbacks
+• httpParamSerializer
+• httpParamSerializerJQLike
+• http
+• httpBackend
+• xhrFactory
+
+answer : http,xhrFactory
+
+34. AngularJS filters ____.
+Answers:
+• Format the data without changing original data.
+• Filter the data to display on UI.
+• Fetch the data from remote server.
+• Cache the subset of data on the browser.
+
+answer : a. Format the data without changing original data.
+
+35. What is the difference beetween watchGroup and watchCollection methods?
+Answers:
+• The `watchCollection` watch the single object properties, while `watchGroup` watch a group of expressions.
+• The `watchCollection` deeply watch the single object properties, while `watchGroup` watch a group of expressions.
+• The `watchGroup` deeply watch the single object properties, while `watchCollection` watch a group of expressions.
+• The `watchGroup` shallow watch the single object property, while `watchCollection` all object properties.
+
+answer : a. • The `watchCollection` watch the single object properties, while `watchGroup` watch a group of expressions.
+
+36. Using the following Custom AJAX property within AngularJs Service?
+Answers:
+• myApp.factory(‘GetBalance’, [‘$resource’, function ($resource) {
+return $resource(‘/Service/GetBalance’, {}, {
+query: { method: ‘GET’, params: {}, headers: { ‘beforeSend’: » } }, isArray: true,
+});
+}]);
+• myApp.factory(‘GetBalance’, [‘$resource’, function ($resource) {
+return $resource(‘/Service/GetBalance’, {}, {
+query: { method: ‘GET’, params: {}, }, isArray: true,
+});
+}]);
+• $.ajax({
+type: «GET/POST»,
+url: ‘http://somewhere.net/’,
+data: data,
+beforeSend: »,
+}).done().fail();
+• All of the above
+
+answer : a. myApp.factory(‘GetBalance’, [‘$resource’, function ($resource) {
+return $resource(‘/Service/GetBalance’, {}, {
+query: { method: ‘GET’, params: {}, headers: { ‘beforeSend’: » } }, isArray: true,
+});
+}]);
+
+37. What are the filters in AngularJS, Choose the right answer?
+Answers:
+• Filters are the rendered view with information from the controller and model. These can be a single file (like index.html) or multiple views in one page using «partials».
+• Filters select a subset of items from an array and return a new array. Filters are used to show filtered items from a list of items based on defined criteria.
+• It is concept of switching views. AngularJS based controller decides which view to render based on the business logic.
+• All of the above
+
+answer : b. Filters select a subset of items from an array and return a new array. Filters are used to show filtered items from a list of items based on defined criteria.
+
+38. What is $rootScope, Choose a True statement?
+Answers:
+• Scope is a special JavaScript object which plays the role of joining controller with the views. Scope contains the model data. In controllers, model data is accessed via $scope object. $rootScope is the parent of all of the scope variables.
+• Scope is a special Php object which plays the role of joining controller with the views. Scope contains the model data. In controllers, model data is accessed via $scope object. $rootScope is the parent of all of the scope variables.
+• Scope is a special ASP.Net object which plays the role of joining controller with the views. Scope contains the model data. In controllers, model data is accessed via $scope object. $rootScope is the parent of all of the scope variables.
+• All of the above
+
+answer : a. Scope is a special JavaScript object which plays the role of joining controller with the views. Scope contains the model data. In controllers, model data is accessed via $scope object. $rootScope is the parent of all of the scope variables.
+
+
+39. Which of the following is the correct syntax for using filters?
+Answers:
+• «`
+<ul>
+<li ng-repeat=»x in names || orderBy:’country'»>
+{{ x.name + ‘, ‘ + x.country }}
+</li>
+</ul>
+«`
+• «`
+<ul>
+<li ng-repeat=»x in names && orderBy:’country'»>
+{{ x.name + ‘, ‘ + x.country }}
+</li>
+</ul>
+«`
+• «`
+<ul>
+<li ng-repeat=»x in names | orderBy=’country'»>
+{{ x.name + ‘, ‘ + x.country }}
+</li>
+</ul>
+«`
+• «`
+<ul>
+<li ng-repeat=»user in users | orderBy:’country'»>
+{{ user.name + ‘, ‘ user.country}}
+</li>
+</ul>
+«`
+
+answer: d.  «`
+<ul>
+<li ng-repeat=»user in users | orderBy:’country'»>
+{{ user.name + ‘, ‘ user.country}}
+</li>
+</ul>
+«`
+
+40. The ng-model directive is used for ____.
+Answers:
+• One-way data binding.
+• Two-way data binding.
+• Binding view to controller.
+• None of the above.
+
+answer : b. Two-way binding.
+
+42. AngularJS directives can be written in HTML element as:
+Answers:
+• Tag
+• Attribute
+• Class name
+• All of the above.
+
+answer : Attribute
+
+43. Which of the following statement is True about provider?
+Answers:
+• provider is used by AngularJS internally to create services, factory etc.
+• provider is used during config phase
+• provider is a special factory method
+• All of the above
+
+answer : a. • provider is used by AngularJS internally to create services, factory etc.
+
+44. How you can Get AngularJs Service from Plain Javascript using the following code?
+Answers:
+• angular.service(‘messagingService’, [‘$rootScope’, ‘applicationLogService’, ‘dialogService’, MessageService]);
+• angular.injector([‘ng’, ‘error-handling’]).get(«messagingService»).GetName();
+• angular.injector([‘ng’, ‘error-handling’, ‘module-that-owns-dialogService’ ]).get(«messagingService»).GetName();
+• All of the above
+
+answer: c. • angular.injector([‘ng’, ‘error-handling’, ‘module-that-owns-dialogService’ ]).get(«messagingService»).GetName();
+
+
+45. Angular loads into the page, waits for the page to be fully loaded, and then looks for ng-app to define its ___ boundaries?
+Answers:
+• web
+• pages
+• filter
+• template
+
+answer : b. pages
+
+46. What is $scope?
+Answers:
+• It transfers data between a controller and view.
+• It transfers data between model and controller.
+• It is a global scope in AngularJS.
+• None of the above.
+
+answer : It transfers data between a controller and view.
+
+47. Which of the following service is used to retrieve or submit data to the remote server?
+Answers:
+• $http
+• $XMLHttpRequest
+• $window
+• $get
+
+answer: a. http
+
+48. Which of the following modules will help with routing in the Angular application?
+• angularRouter
+• ng-view-router
+• ngRoute
+• viewRouter
+
+answer : ngRoute
+
+49. AngularJS applies some basic transformations on all requests and responses made through its $http service?
+Note: There may be more than one right answer.
+Answers:
+• Request transformations If the data property of the requested config object contains an object, serialize it into JSON format.
+• Response transformations If an XSR prefix is detected, strip it. If a XML response is detected, deserialize it using a JSON parser.
+• Response transformations If an XSRF prefix is detected, strip it. If a JSON response is detected, deserialize it using a JSON parser.
+• None of the above
+
+answer : a. • Request transformations If the data property of the requested config object contains an object, serialize it into JSON format.
+
+
+50. What are the services in AngularJS?
+Answers:
+• Services are singleton objects which are instantiated only once in app an are used to do the defined task.
+• Services are objects which AngularJS uses internally.
+• Services are not used in AngularJS.
+• Services are server side components of AngularJS.
+
+answer : a. • Services are singleton objects which are instantiated only once in app an are used to do the defined task.
+
+51. Which of the following methods make $scope dirty-checking?
+Answers:
+• `$watch, $watchCollection`
+• `$digest, $eval`
+• `$watch, $apply`
+• `$apply, $digest`
+
+answer : d. `$apply, $digest`
+
+52. Which of the following code will clickCount incremented on button click and displayed?
+Answers:
+• <button ng-click=»clickCount = clickCount + 1″ >
+Click me!
+</button>
+<span> count: {{clickCount}} </span>
+• <button on-click=»clickCount = clickCount + 1″ >
+Click me!
+</button>
+<span> count: {{clickCount}} </span>
+• <button ng-click=»clickCount = clickCount + 1″ >
+Click me!
+</button>
+<span> count: {clickCount} </span>
+• <button on-click=»clickCount = clickCount + 1″ >
+Click me!
+</button>
+<span> count: {clickCount} </span>
+
+answer : a. <button ng-click=»clickCount = clickCount + 1″ >
+Click me!
+</button>
+<span> count: {{clickCount}} </span>
+
+53. Which of the following is valid route definition?
+Answers:
+• app.config(function($ routeProvider) { $routeProvider
+.on(«/1», {
+templateUrl : «1.htm» })
+.on(«/2», {
+templateUrl : «2.htm»
+})
+.otherwise( {
+templateUrl : «default.htm»
+})
+});
+• app.config(function($ routeProvider) { $routeProvider
+.when(«/1», { templateUrl : «1.htm»
+})
+.when(«/2», { templateUrl : «2.htm»
+})
+.otherwise( {
+templateUrl : «default.htm»
+})
+});
+• app.config(function($ routeProvider) { $routeProvider
+.when(«/1», { templateUrl : «1.htm»
+})
+.when(«/2», { templateUrl : «2.htm»
+})
+.default( {
+templateUrl : «default.htm»
+})
+});
+• app.config(function($routeProvider) { $routeProvider
+.on(«/1», {
+templateUrl : «1.htm» })
+.on(«/2», {
+templateUrl : «2.htm»
+})
+.default( {
+templateUrl : «default.htm»
+})
+});
+
+answer : b. app.config(function($ routeProvider) { $routeProvider
+.when(«/1», { templateUrl : «1.htm»
+})
+.when(«/2», { templateUrl : «2.htm»
+})
+.otherwise( {
+templateUrl : «default.htm»
+})
+});
+
+
+54. Which of the following is true about ng-model directive?
+Answers:
+• ng-model directive binds the values of AngularJS application data to HTML input controls.
+• ng-model directive creates a model variable which can be used with the html page and within the container control having ng-app directive.
+• Both of the above.
+• None of the above.
+
+c. both of the above
+
+55. How can you display the elements which contains given pattern of a collection?
+Answers:
+• <ul>
+<li ng-repeat=»item in collection | contains:’pattern’ «>
+{{ item }}
+</li>
+</ul>
+• <ul>
+<li ng-repeat=»item in collection filter:’pattern’ «>
+{{ item }}
+</li>
+</ul>
+• <ul>
+<li ng-iterate=»item in collection | filter:’pattern’ «>
+{{ item }}
+</li>
+</ul>
+• <ul>
+<li ng-repeat=»item in collection | filter:’pattern’ «>
+{{ item }}
+</li>
+</ul>
+
+d. <ul>
+<li ng-repeat=»item in collection | filter:’pattern’ «>
+{{ item }}
+</li>
+</ul>
+
+56. What is the output of the following code:
+< div ng-app=»myApp» ng-controller=»myCtrl» >
+< p ng-bind=»marks_obtained» ng-if=»(marks_obtained/total_marks)*100 >= 40″ > </ p>
+< /div>
+var app = angular.module(‘myApp’, []);
+app.controller(‘myCtrl’, function($scope) {
+$scope.marks_obtained= «60»;
+$scope.total_marks = «100»;
+});
+Answers:
+• Pass
+• 60
+• NaN
+• 0.60
+
+answer : NaN
+
+58. Which module is used for navigate to different pages without reloading the entire application?
+Answers:
+• ngBindHtml
+• ngHref
+• ngRoute
+• ngNavigate
+
+answer : c. ngRoute
+
+59. In which component is it right way to use the additional libraries? Such as jQuery and etc.
+Answers:
+• controller
+• service
+• provider
+• directive
+
+answer : directive
+
+60. Which of the following is not a valid for Angular expressions?
+Answers:
+• Arrays
+• Objects
+• Function definition
+• Strings
+
+answer : c • Function definition
+
+61. What is deep linking in AngularJS?
+Answers:
+• Deep linking allows you to encode the state of application in the URL so that it can be bookmarked.
+• Deep linking is a SEO based technique.
+• Deep linking refers to linking various views to a central page.
+• None of the above.
+
+answer : a. • Deep linking allows you to encode the state of application in the URL so that it can be bookmarked.
+
+63. When are the filters executed in the Angular application?
+Answers:
+• After each `$digest`.
+• Before each `$digest`.
+• When their inputs are changed
+• When one of their inputs is undefined
+
+answer c • When their inputs are changed
+
+64. How is it possible to emit some event?
+Answers:
+• `$emit()`
+• `$on()`
+• `$digest`
+• `$watch`
+
+answer: emit()
+
+65. AngularJS supports i18n/L10n for the following filters out of the box?
+Note: There may be more than one right answer.
+Answers:
+• date/time
+• factory
+• number
+• currency
+
+answer : date, number and currency filters
+
+66. What is the output of the following code:
+$scope.x = 20;
+{{ x | number:2 }}
+Answers:
+• 20
+• 20.0
+• 20.00
+
+answer : • 20.00
+
+67. Which of the following syntax is True of filter using HTML Template?
+Answers:
+• {( filter_expression filter : expression : comparator : anyPropertyKey)}
+• {filter_expression filter : expression : comparator : anyPropertyKey}
+• {{ filter_expression | filter : expression : comparator : anyPropertyKey}}
+• { filter_expression | filter : expression : comparator : anyPropertyKey}
+
+answer : • {{ filter_expression | filter : expression : comparator : anyPropertyKey}}
+
+68. Which of the following custom filters will uppercase every third symbol in a string?
+Answers:
+• «`
+app.filter(‘myFormat’, function() {
+return function(x) {
+var i, c, txt = «»;
+for (i = 0; i < x.length; i++) {
+c = x[i];
+if (i % 3 == 0) {
+c = c.toUpperCase();
+}
+txt += c;
+}
+return txt;
+};
+});
+«`
+• «`
+app.filter(‘myFormat’, function() {
+return function(x) {
+var i, c, txt = «»;
+for (i = 0; i < x.length; i++) {
+if (i % 3 == 0) {
+c = c.toLowerCase();
+}
+txt += c;
+}
+return txt;
+};
+});
+«`
+• «`
+app.filter(‘myFormat’, function() {
+return function(x) {
+var i, c, txt = «»;
+for (i = 0; i < x.length; i++) {
+c = x[i];
+if (i % 3 == 0) {
+c = c.toUpperCase();
+}
+txt += c;
+return txt;
+}
+};
+});
+«`
+• «`
+app.filter(‘myFormat’, function() {
+return function(x) {
+var i, c, txt = «»;
+for (i = 0; i < x.length; i++) {
+c = x[i];
+if (i % 3 == 0) {
+txt += c;
+}
+return txt.toUpperCase();
+}
+};
+});
+«`
+
+answer a and c
+
+69. Which of the following is the best way to create a shallow copy of an object in Angular?
+Answers:
+• angular.copy
+• angular.extend
+• angular.identity
+• angular.injector
+
+answer : b angular.extend
+
+70. Which directive is responsible for bootstrapping the AngularJS application?
+Answers:
+• ng-init
+• ng-app
+• ng-model
+• ng-controller
+
+answer b ng-app
+
+71. Which of the following statements are true?
+Answers:
+• Expression cannot contain condition, loop or RegEx.
+• Expression cannot declare a function.
+• Expression cannot contain comma, void or return keyword.
+• All of the above.
+
+answer : all
+
+72. For the given url http://mysite.com:8080/urlpath?q=1 what is the value of the expression below?
+var host = $location.host();
+Answers:
+• mysite.com
+• mysite.com:8080
+• http://mysite.com
+• http://mysite.com:8080
+
+answer : • http://mysite.com
+
+74. What is difference between ng-if and ng-show directives?
+Answers:
+• When using ng-if or ng-show directive, the hidden elements are placed in DOM with property display: none.
+• When using ng-show directive, the hidden elements are placed in DOM with property display: none. directive ng-if includes those elements in DOM, which are equal to the condition. — наиболее подходящее
+• When using ng-if directive, the hidden elements are placed in DOM with property display: none. directive ng-show includes those elements in DOM, which are equal to the condition.
+• When using ng-if or ng-show directive, in DOM are placed those elements, which are equal to the condition.
+
+answer : b • When using ng-show directive, the hidden elements are placed in DOM with property display: none. directive ng-if includes those elements in DOM, which are equal to the condition. — наиболее подходящее
+
+75. Which of the following directives changes CSS-style of DOM-element?
+Note: There may be more than one right answer.
+Answers:
+• `ng-class`
+• `ng-value`
+• `ng-style`
+• `ng-options`
+
+answer : b ng-value
+
+76. Data binding in AngularJS is the synchronization between the and the ?
+Answers:
+• model, view
+• model, state
+• view, controller
+• model, controller
+
+answer a model,view
+
+77. Which of the following directive allows us to use form?
+Answers:
+• ng-include
+• ng-form
+• ng-bind
+• ng-attach
+
+answer : b ng-form
+
+78. How can using ngView directive?
+Answers:
+• To display the HTML templates or views in the specified routes.
+• To display the HTML templates.
+• To display the views in the specified routes.
+• To display iframes
+
+answer : a • To display the HTML templates or views in the specified routes.
+
+79. What is the output for the following code?
+’30’ + 35
+Answers:
+• 65
+• NaN
+• 3035
+
+answer 3035
+
+80. Which of the following statement True of templates in AngularJS?
+Answers:
+• In Angular, templates are written with HTML that contains Angular-specific elements and attributes. Angular combines the template with information from the model and controller to render the dynamic view that a user sees in the browser. In other words, if your HTML page is having some Angular specific elements/attributes it becomes a template in AngularJS.
+• Transfer data to and from the UI:Angular.js helps to eliminate almost all of the boiler plate like validating the form, displaying validation errors, returning to an internal model and so on which occurs due to flow of marshalling data.
+• Deep linking allows you to encode the state of application in the URL so that it can be bookmarked. The application can then be restored from the URL to the same state.
+• All of the above
+
+answer. a • In Angular, templates are written with HTML that contains Angular-specific elements and attributes. Angular combines the template with information from the model and controller to render the dynamic view that a user sees in the browser. In other words, if your HTML page is having some Angular specific elements/attributes it becomes a template in AngularJS.
+
+
+81. How is it possible to pass parameters in $http get request?
+Answers:
+• in property data
+• in property params
+• in property url
+• in property resource
+
+answer : url
+
+82. What are the services in AngularJS?
+Answers:
+• Filters select a subset of items from an array and return a new array. Filters are used to show filtered items from a list of items based on defined criteria.
+• AngularJS come with several built-in services. For example $http service is used to make XMLHttpRequests (Ajax calls). Services are singleton objects which are instantiated only once in app.
+• Templates are the rendered view with information from the controller and model. These can be a single file (like index.html) or multiple views in one page using «partials».
+• All of the above
+
+answer : b • AngularJS come with several built-in services. For example $http service is used to make XMLHttpRequests (Ajax calls). Services are singleton objects which are instantiated only once in app.
+
+84. Do I need to worry about security holes in AngularJS?
+Note: There may be more than one right answer.
+Answers:
+• Like any other technology, AngularJS is not impervious to attack. Angular does, however, provide built-in protection from basic security holes including cross-site scripting and HTML injection attacks. AngularJS does round-trip escaping on all strings for you and even offers XSRF protection for server-side communication.
+• AngularJS was designed to be compatible with other security measures like Content Security Policy (CSP), HTTPS (SSL/TLS) and server-side authentication and authorization that greatly reduce the possible attack vectors and we highly recommended their use.
+• Transfer data to and from the UI:Angular.js helps to eliminate almost all of the boiler plate like validating the form, displaying validation errors, returning to an internal model and so on which occurs due to flow of marshalling data.
+• All of the above
+
+answer : a and b
+
+85. AngularJS has default headers which it applies to all outgoing requests, which include the following?
+Note: There may be more than one right answer.
+Answers:
+• Accept: application/json, text/plain,
+• X-Requested-With: HttpRequest
+• X-Requested-With: XMLHttpRequest
+• None of the above
+
+answer : a • Accept: application/json, text/plain,
+
+86. What makes angular.js better and does?
+Answers:
+• Registering Callbacks:There is no need to register callbacks . This makes your code simple and easy to debug.
+• Control HTML DOM programmatically:All the application that are created using Angular never have to manipulate the DOM although it can be done if it is required.
+• Transfer data to and from the UI:Angular.js helps to eliminate almost all of the boiler plate like validating the form, displaying validation errors, returning to an internal model and so on which occurs due to flow of marshalling data.
+• No initilization code: With angular.js you can bootstrap your app easily using services, which auto-injected into your application in Guice like dependency injection style.
+• All of the above
+
+answer : all
+
+87. What {{::value}} is mean?
+Answers:
+• The output value
+• Two-way object binding is disabled
+• One-way object binding is disabled
+• It’s incorrect
+
+answer : a • The output value
+
+88. How to use and register decorators in AngularJS?
+Note: There may be more than one right answer.
+Answers:
+• $tempalte.decorator
+• $provide.decorator
+• provide.decorator
+• module.decorator
+
+answer b and d
+
+89. Pick the correct statement in connection to the ng-include directive?
+Answers:
+• It is used to embed HTML from an external file
+• It is used to embed JS from external files
+• Both of the above
+• None of the above
+
+answer : It is used to embed HTML from an external file
+
+90. Which method of $routeProvider redirect to a specific page when no other route definition is matched?
+Answers:
+• when()
+• otherwise()
+• redirectTo()
+• default()
+
+answer : otherwise()
+
+91. Which of the following provider can be used to configure routes?
+Answers:
+• $routeProvider
+• $url
+• $rulesProvider
+• None of the above.
+
+answer : a • $routeProvider
+
+92. Select a True statement of RootRouter concept?
+Answers:
+• The top level Router that interacts with the current URL location
+• Displays the Routing Components for the active Route. Manages navigation from one component to the next
+• Defines how the router should navigate to a component based on a URL pattern
+• An Angular component with a RouteConfig and an associated Router
+
+answer a • The top level Router that interacts with the current URL location
+
+93. How can you lowercase a given string named examplePattern?
+Answers:
+• {{ examplePattern filter : lowercase }}
+• {{ examplePattern | lowercase }}
+• {{ lowercase(examplePattern) }}
+• {{ examplePattern | filter : lowercase }}
+
+answer : b • {{ examplePattern | lowercase }}
+
+94. If you want to observe the changes of full object $scope.myObj={one:1, two:2}, what way do you choose?
+Answers:
+• `$scope.$watch(‘myObj’, function(){ … })`
+• `$scope.$on(‘myObj’, function(){ … })`
+• `$scope.$watch(‘myObj’, function(){ … }, true)`
+• `$scope.$on(‘myObj’, function(){ … }, true)`
+
+answer : c • `$scope.$watch(‘myObj’, function(){ … }, true)`
+
+95. The ng-change directive must be used with ng-model directives.
+Answers:
+• True
+• False
+• Sometimes
+• None of the above.
+
+answer a. 
+
+96. Which of the followings are validation directives?
+Answers:
+• ng-required
+• ng-minlength
+• ng-pattern
+• All of the above.
+
+answer d. all
+
+97. What is service in AngularJS?
+Answers:
+• Service is reusable UI component.
+• Service is a reusable JavaScript Function.
+• Service is data provider.
+• None of the above.
+
+answer b • Service is a reusable JavaScript Function.
+
+
+98. Call angularjs service from simple JS following code?
+Answers:
+• angular.module(‘main.app’, []).factory(‘MyService’, [‘$http’, function ($http) {
+return new function () {
+this.GetName = function () {
+return «MyName»;
+};
+};
+}]);
+angular.injector([‘ng’, ‘main.app’]).get(«MyService»).GetName();
+• angular.module(‘app.main’).factory(‘MyService’, [«$http», function ($http) {
+return new function () {
+this.GetName = function () {
+return «MyName»;
+};
+};
+}]);
+• Both of the above
+• None of the above
+
+answer a 
+
+99. Which of the following is valid AngularJS application definition?
+Answers:
+• var myApp = ng.module(‘myApp’,[]); d-)
+• var myApp = angular.app(‘myApp’,[]);
+• var myApp = angular.module(‘myApp’,[]);
+• var myApp = ng.app(‘myApp’,[]);
+
+answer angular.module
+

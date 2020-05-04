@@ -1,0 +1,186 @@
+inside send_real_user_dbuser id :2database namearea52_wordpressinside re_save_coupon_meta_boxes
+inside re_save_qa_meta_boxes
+inside send_real_user_dbuser id :2database namearea52_wordpressinside re_save_coupon_meta_boxes
+inside re_save_qa_meta_boxes
+qas_list is: Array
+(
+)
+post inside save qas function : Array
+(
+    [_wpnonce] => 3aa3e4c939
+    [_wp_http_referer] => /wp-admin/post.php?post=140585&action=edit
+    [user_ID] => 13
+    [action] => editpost
+    [originalaction] => editpost
+    [post_author] => 2
+    [post_type] => lists
+    [original_post_status] => publish
+    [referredby] => https://area52.softwarefindr.com/wp-admin/edit.php?post_type=lists
+    [_wp_original_http_referer] => https://area52.softwarefindr.com/wp-admin/edit.php?post_type=lists
+    [post_ID] => 140585
+    [meta-box-order-nonce] => 64344c22b7
+    [closedpostboxesnonce] => 4d8b4dd6d5
+    [post_title] => [list_number] Best Accounting Software For Small Business ([year] Compared)
+    [samplepermalinknonce] => d9ab8c708e
+    [_elementor_edit_mode_nonce] => d6e03b5495
+    [_elementor_post_mode] => 
+    [_acf_screen] => post
+    [_acf_post_id] => 140585
+    [_acf_validation] => 1
+    [_acf_nonce] => 
+    [_acf_changed] => 0
+    [content] => <span style=\"font-weight: 400;\">When you start your business, you don’t realize how hectic it can become when you start growing. This is where accounting software comes in. Small businesses especially need accounting software so that they can keep up tabs on invoicing, ledger management, payment processing and much more. That’s why, in today’s article, we will be listing the best accounting software for small business.</span>
+
+&nbsp;
+
+<span style=\"font-weight: 400;\">Accounting is an integral part of any business. For a small business, it becomes more vital as they need accounting software that not only offers them all the essential features but also at an affordable cost. To help business, we will be listing the five best accounting software for small business. But, before we get started, we will list the things to consider before you choose your accounting software. Let’s get started.</span>
+
+&nbsp;
+
+<b>Things to consider</b>
+<ol>
+ 	<li><b> Cost:</b><span style=\"font-weight: 400;\"> The first thing that you should consider is the cost of the accounting software that you decide to pick up. As a small business, you need something that can do the work efficiently without costing you a bomb.</span></li>
+ 	<li><b>  Ease of use:</b><span style=\"font-weight: 400;\"> The accounting software should be easy to use. This will make your life easier in handling accounting and ensure that you can focus on important things.</span></li>
+ 	<li><b> Integration with 3rd party apps:</b><span style=\"font-weight: 400;\"> The accounting software should be able to integrate with the 3rd party apps. These integrations will help small businesses to take advantage of other services and also help them integrate the accounting software into their work process.</span></li>
+ 	<li><b> Mobile versions: </b><span style=\"font-weight: 400;\">The need for managing your business accounting on the go is important. And, that’s why you should look for accounting software that offers a mobile version.</span></li>
+</ol>
+<b>5. Customer service:</b><span style=\"font-weight: 400;\"> Before you get an accounting software for your business, do check the customer service they provide.</span>
+    [wp-preview] => 
+    [hidden_post_status] => publish
+    [post_status] => publish
+    [hidden_post_password] => 
+    [hidden_post_visibility] => public
+    [visibility] => public
+    [post_password] => 
+    [mm] => 10
+    [jj] => 23
+    [aa] => 2018
+    [hh] => 21
+    [mn] => 33
+    [ss] => 07
+    [hidden_mm] => 10
+    [cur_mm] => 01
+    [hidden_jj] => 23
+    [cur_jj] => 16
+    [hidden_aa] => 2018
+    [cur_aa] => 2020
+    [hidden_hh] => 21
+    [cur_hh] => 08
+    [hidden_mn] => 33
+    [cur_mn] => 51
+    [original_publish] => Update
+    [save] => Update
+    [tax_input] => Array
+        (
+            [list_categories] => Array
+                (
+                    [0] => 0
+                    [1] => 7686
+                )
+
+        )
+
+    [newlist_categories] => New Category Name
+    [newlist_categories_parent] => -1
+    [_ajax_nonce-add-list_categories] => fe431f7259
+    [page_template] => default
+    [acf] => Array
+        (
+            [field_58fc815e322a7] => Array
+                (
+                    [0] => open_list
+                )
+
+            [field_58fc81a2322a8] => 50
+            [field_5901dbbf2c021] => 0
+            [field_5b486f8814bec] => 0
+            [field_5d20360c9f178] => Array
+                (
+                    [0] => 126622
+                    [1] => 140593
+                    [2] => 140597
+                    [3] => 140602
+                    [4] => 140605
+                )
+
+            [field_5d2036c82ed71] => 
+            [field_5b6825aadc113] => 
+        )
+
+    [_thumbnail_id] => 140591
+    [yoast_free_metabox_nonce] => 6b05f0c049
+    [yoast_free_metabox_social_nonce] => 40ab19da1d
+    [yoast_wpseo_focuskw] => 
+    [yoast_wpseo_title] => 
+    [yoast_wpseo_metadesc] => 
+    [yoast_wpseo_linkdex] => -1350
+    [yoast_wpseo_content_score] => 0
+    [yoast_wpseo_is_cornerstone] => false
+    [yoast_wpseo_focuskeywords] => []
+    [yoast_wpseo_keywordsynonyms] => [\"\"]
+    [yoast_wpseo_primary_list_categories_term] => 
+    [yoast_wpseo_primary_list_categories_nonce] => 86025dedb8
+    [yoast_wpseo_opengraph-title] => 
+    [yoast_wpseo_opengraph-description] => 
+    [yoast_wpseo_opengraph-image] => 
+    [yoast_wpseo_opengraph-image-id] => 
+    [yoast_wpseo_twitter-title] => 
+    [yoast_wpseo_twitter-description] => 
+    [yoast_wpseo_twitter-image] => 
+    [yoast_wpseo_twitter-image-id] => 
+    [yoast_wpseo_meta-robots-noindex] => 0
+    [yoast_wpseo_meta-robots-nofollow] => 0
+    [yoast_wpseo_meta-robots-adv] => Array
+        (
+            [0] => -
+        )
+
+    [yoast_wpseo_bctitle] => 
+    [yoast_wpseo_canonical] => 
+    [nd-list-item-mbnonce] => 48b9d5f4d7
+    [new_question] => Array
+        (
+            [0] => a
+        )
+
+    [new_answer] => Array
+        (
+            [0] => b
+        )
+
+    [excerpt] => 
+    [advanced_view] => 1
+    [ping_status] => open
+    [add_comment_nonce] => 07f4008b09
+    [_ajax_fetch_list_nonce] => 377ac2f39c
+    [post_name] => accounting-software-for-small-business
+    [post_author_override] => 2
+    [post_mime_type] => 
+    [ID] => 140585
+    [post_content] => <span style=\"font-weight: 400;\">When you start your business, you don’t realize how hectic it can become when you start growing. This is where accounting software comes in. Small businesses especially need accounting software so that they can keep up tabs on invoicing, ledger management, payment processing and much more. That’s why, in today’s article, we will be listing the best accounting software for small business.</span>
+
+&nbsp;
+
+<span style=\"font-weight: 400;\">Accounting is an integral part of any business. For a small business, it becomes more vital as they need accounting software that not only offers them all the essential features but also at an affordable cost. To help business, we will be listing the five best accounting software for small business. But, before we get started, we will list the things to consider before you choose your accounting software. Let’s get started.</span>
+
+&nbsp;
+
+<b>Things to consider</b>
+<ol>
+ 	<li><b> Cost:</b><span style=\"font-weight: 400;\"> The first thing that you should consider is the cost of the accounting software that you decide to pick up. As a small business, you need something that can do the work efficiently without costing you a bomb.</span></li>
+ 	<li><b>  Ease of use:</b><span style=\"font-weight: 400;\"> The accounting software should be easy to use. This will make your life easier in handling accounting and ensure that you can focus on important things.</span></li>
+ 	<li><b> Integration with 3rd party apps:</b><span style=\"font-weight: 400;\"> The accounting software should be able to integrate with the 3rd party apps. These integrations will help small businesses to take advantage of other services and also help them integrate the accounting software into their work process.</span></li>
+ 	<li><b> Mobile versions: </b><span style=\"font-weight: 400;\">The need for managing your business accounting on the go is important. And, that’s why you should look for accounting software that offers a mobile version.</span></li>
+</ol>
+<b>5. Customer service:</b><span style=\"font-weight: 400;\"> Before you get an accounting software for your business, do check the customer service they provide.</span>
+    [post_excerpt] => 
+    [comment_status] => closed
+)
+
+final metaboxvalue is: Array
+(
+)
+qalist is Array
+(
+)
+

@@ -1,0 +1,694 @@
+video_list_new is : Array
+(
+    [0] => 46h0wN55u5I
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 46h0wN55u5I
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 46h0wN55u5I
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => mYJ8nzcDU1o
+    [1] => https://www.youtube.com/watch?v=gpwHMhVeTks
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => mYJ8nzcDU1o
+    [1] => gpwHMhVeTks
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => mYJ8nzcDU1o
+    [1] => https://www.youtube.com/watch?v=gpwHMhVeTks
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => mYJ8nzcDU1o
+    [1] => gpwHMhVeTks
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => EidFBkmtMdk
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => EidFBkmtMdk
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => trkTdNKHPYs
+    [1] => https://www.youtube.com/watch?v=trkTdNKHPYs
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => trkTdNKHPYs
+    [1] => trkTdNKHPYs
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => trkTdNKHPYs
+    [1] => https://www.youtube.com/watch?v=trkTdNKHPYs
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => trkTdNKHPYs
+    [1] => trkTdNKHPYs
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => uuYoNWcTLeI
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => uuYoNWcTLeI
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 4bqusIjzDas
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 4bqusIjzDas
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => c9FD8RYzz1s
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => c9FD8RYzz1s
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => c9FD8RYzz1s
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => c9FD8RYzz1s
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => lcp7btFaicE
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => lcp7btFaicE
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => vUcS9PV-WJg
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => vUcS9PV-WJg
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => JuO_WrstTUI
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => JuO_WrstTUI
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => SBQVeegCd28
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => SBQVeegCd28
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => yfmZ0SBIsys
+    [1] => https://www.youtube.com/watch?v=yfmZ0SBIsys
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => yfmZ0SBIsys
+    [1] => yfmZ0SBIsys
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => yfmZ0SBIsys
+    [1] => https://www.youtube.com/watch?v=yfmZ0SBIsys
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => yfmZ0SBIsys
+    [1] => yfmZ0SBIsys
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 3oFgL-lqguk
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 3oFgL-lqguk
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 7malmLTTxB8
+    [1] => https://www.youtube.com/watch?v=4goD4kk48UM
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 7malmLTTxB8
+    [1] => 4goD4kk48UM
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 7malmLTTxB8
+    [1] => https://www.youtube.com/watch?v=4goD4kk48UM
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => 7malmLTTxB8
+    [1] => 4goD4kk48UM
+    [2] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => SylAM0uPxMw
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => SylAM0uPxMw
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => i8eS-sU3g0c
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => i8eS-sU3g0c
+    [1] => 
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => NQhZl41jaI4
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => NQhZl41jaI4
+)
+end of video_list_new
+content youtube is : end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : {
+ "kind": "youtube#videoListResponse",
+ "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wH3uqXDHWHYEFIH0M61QZ8JmtSk\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#video",
+   "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OoxDdC3B0szZXNGNx1w4tCwCTQI\"",
+   "id": "ofz4Rwhp2SA",
+   "snippet": {
+    "publishedAt": "2015-01-16T20:07:48.000Z",
+    "channelId": "UCQji2TO1XFOHyO47TFnMN2A",
+    "title": "Mad Mimi Email Marketing Webinar: Drip Campaigns!",
+    "description": "Join Aaron from the Mad Mimi Email Marketing team, as he discusses all the uses, benefits, and tricks of using the Mad Mimi Drip Campaign feature. This is what we call our autoresponders -- they're free and easy to use.\n\nWe discussed setting up a Drip Campaign in your account, and cloning to an existing promotion into it. Set your send frequency, and mailing details.\n\nLearn more about all these details, here: http://help.madmimi.com/everything-drip-campaigns-auto-responders/\n\nThere's so many uses for Drip Campaigns, to build your business and grow your audience. Read more about different ideas for Drip Campaigns, here: http://blog.madmimi.com/21-autoresponder-ideas/\n\nAnd here, for some lovely, ladies-specific examples: http://blog.madmimi.com/woman-powered-drip-campaigns/\n\nAnd for photographers, here: http://blog.madmimi.com/autoresponders-for-photographers/\n\nUse Drip Campaigns as automated welcome emails for your signups, or for tutorials or class series. You can even use them in conjunction with our Link-to-List feature, to follow-up after an RSVP.\n\nThe Link-to-List feature allows you to have someone added to a certain list in your audience, when they click on a link in your email. Simply add the link like normal, and then select to add clickers to a specific list.\n\nFind out more about the Link-to-List feature, here: http://help.madmimi.com/connect-your-email-newsletter-links-to-your-lists/\n\nWe also covered using custom audience fields as personalization tags. These are fields for each audience member, like first name and last name. Then you can place a shortcode in your email text to have Mimi automatically substitute the field data in each email that's sent out.\n\nLearn more about personalization tags, and using a \"fallback\" parameter, in case there's no data: http://help.madmimi.com/do-you-support-personalization-tags-e-g-dear-first_name/\n\nThen, we even covered our brand new feature called \"Triggers\". You can use any custom field that's a date, and set up an automatic email to send on that date for that audience member. Simply turn on the feature in your Add Things menu, and follow the prompts.\n\nLearn more about the new Triggers feature, here: http://help.madmimi.com/send-emails-based-date-triggers/\n\nThanks for joining us, and as always, keep in touch with any more questions at support@madmimi.com\n\nHappy emailing!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Mad Mimi",
+    "tags": [
+     "madmimi",
+     "email marketing",
+     "email newsletters",
+     "design",
+     "sending",
+     "tracking",
+     "stats",
+     "subscribers",
+     "autoresponders",
+     "drip campaigns",
+     "Drip Marketing",
+     "Marketing",
+     "Business"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "localized": {
+     "title": "Mad Mimi Email Marketing Webinar: Drip Campaigns!",
+     "description": "Join Aaron from the Mad Mimi Email Marketing team, as he discusses all the uses, benefits, and tricks of using the Mad Mimi Drip Campaign feature. This is what we call our autoresponders -- they're free and easy to use.\n\nWe discussed setting up a Drip Campaign in your account, and cloning to an existing promotion into it. Set your send frequency, and mailing details.\n\nLearn more about all these details, here: http://help.madmimi.com/everything-drip-campaigns-auto-responders/\n\nThere's so many uses for Drip Campaigns, to build your business and grow your audience. Read more about different ideas for Drip Campaigns, here: http://blog.madmimi.com/21-autoresponder-ideas/\n\nAnd here, for some lovely, ladies-specific examples: http://blog.madmimi.com/woman-powered-drip-campaigns/\n\nAnd for photographers, here: http://blog.madmimi.com/autoresponders-for-photographers/\n\nUse Drip Campaigns as automated welcome emails for your signups, or for tutorials or class series. You can even use them in conjunction with our Link-to-List feature, to follow-up after an RSVP.\n\nThe Link-to-List feature allows you to have someone added to a certain list in your audience, when they click on a link in your email. Simply add the link like normal, and then select to add clickers to a specific list.\n\nFind out more about the Link-to-List feature, here: http://help.madmimi.com/connect-your-email-newsletter-links-to-your-lists/\n\nWe also covered using custom audience fields as personalization tags. These are fields for each audience member, like first name and last name. Then you can place a shortcode in your email text to have Mimi automatically substitute the field data in each email that's sent out.\n\nLearn more about personalization tags, and using a \"fallback\" parameter, in case there's no data: http://help.madmimi.com/do-you-support-personalization-tags-e-g-dear-first_name/\n\nThen, we even covered our brand new feature called \"Triggers\". You can use any custom field that's a date, and set up an automatic email to send on that date for that audience member. Simply turn on the feature in your Add Things menu, and follow the prompts.\n\nLearn more about the new Triggers feature, here: http://help.madmimi.com/send-emails-based-date-triggers/\n\nThanks for joining us, and as always, keep in touch with any more questions at support@madmimi.com\n\nHappy emailing!"
+    },
+    "defaultAudioLanguage": "en"
+   }
+  }
+ ]
+}
+end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : {
+ "kind": "youtube#videoListResponse",
+ "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wH3uqXDHWHYEFIH0M61QZ8JmtSk\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#video",
+   "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OoxDdC3B0szZXNGNx1w4tCwCTQI\"",
+   "id": "ofz4Rwhp2SA",
+   "snippet": {
+    "publishedAt": "2015-01-16T20:07:48.000Z",
+    "channelId": "UCQji2TO1XFOHyO47TFnMN2A",
+    "title": "Mad Mimi Email Marketing Webinar: Drip Campaigns!",
+    "description": "Join Aaron from the Mad Mimi Email Marketing team, as he discusses all the uses, benefits, and tricks of using the Mad Mimi Drip Campaign feature. This is what we call our autoresponders -- they're free and easy to use.\n\nWe discussed setting up a Drip Campaign in your account, and cloning to an existing promotion into it. Set your send frequency, and mailing details.\n\nLearn more about all these details, here: http://help.madmimi.com/everything-drip-campaigns-auto-responders/\n\nThere's so many uses for Drip Campaigns, to build your business and grow your audience. Read more about different ideas for Drip Campaigns, here: http://blog.madmimi.com/21-autoresponder-ideas/\n\nAnd here, for some lovely, ladies-specific examples: http://blog.madmimi.com/woman-powered-drip-campaigns/\n\nAnd for photographers, here: http://blog.madmimi.com/autoresponders-for-photographers/\n\nUse Drip Campaigns as automated welcome emails for your signups, or for tutorials or class series. You can even use them in conjunction with our Link-to-List feature, to follow-up after an RSVP.\n\nThe Link-to-List feature allows you to have someone added to a certain list in your audience, when they click on a link in your email. Simply add the link like normal, and then select to add clickers to a specific list.\n\nFind out more about the Link-to-List feature, here: http://help.madmimi.com/connect-your-email-newsletter-links-to-your-lists/\n\nWe also covered using custom audience fields as personalization tags. These are fields for each audience member, like first name and last name. Then you can place a shortcode in your email text to have Mimi automatically substitute the field data in each email that's sent out.\n\nLearn more about personalization tags, and using a \"fallback\" parameter, in case there's no data: http://help.madmimi.com/do-you-support-personalization-tags-e-g-dear-first_name/\n\nThen, we even covered our brand new feature called \"Triggers\". You can use any custom field that's a date, and set up an automatic email to send on that date for that audience member. Simply turn on the feature in your Add Things menu, and follow the prompts.\n\nLearn more about the new Triggers feature, here: http://help.madmimi.com/send-emails-based-date-triggers/\n\nThanks for joining us, and as always, keep in touch with any more questions at support@madmimi.com\n\nHappy emailing!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Mad Mimi",
+    "tags": [
+     "madmimi",
+     "email marketing",
+     "email newsletters",
+     "design",
+     "sending",
+     "tracking",
+     "stats",
+     "subscribers",
+     "autoresponders",
+     "drip campaigns",
+     "Drip Marketing",
+     "Marketing",
+     "Business"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "localized": {
+     "title": "Mad Mimi Email Marketing Webinar: Drip Campaigns!",
+     "description": "Join Aaron from the Mad Mimi Email Marketing team, as he discusses all the uses, benefits, and tricks of using the Mad Mimi Drip Campaign feature. This is what we call our autoresponders -- they're free and easy to use.\n\nWe discussed setting up a Drip Campaign in your account, and cloning to an existing promotion into it. Set your send frequency, and mailing details.\n\nLearn more about all these details, here: http://help.madmimi.com/everything-drip-campaigns-auto-responders/\n\nThere's so many uses for Drip Campaigns, to build your business and grow your audience. Read more about different ideas for Drip Campaigns, here: http://blog.madmimi.com/21-autoresponder-ideas/\n\nAnd here, for some lovely, ladies-specific examples: http://blog.madmimi.com/woman-powered-drip-campaigns/\n\nAnd for photographers, here: http://blog.madmimi.com/autoresponders-for-photographers/\n\nUse Drip Campaigns as automated welcome emails for your signups, or for tutorials or class series. You can even use them in conjunction with our Link-to-List feature, to follow-up after an RSVP.\n\nThe Link-to-List feature allows you to have someone added to a certain list in your audience, when they click on a link in your email. Simply add the link like normal, and then select to add clickers to a specific list.\n\nFind out more about the Link-to-List feature, here: http://help.madmimi.com/connect-your-email-newsletter-links-to-your-lists/\n\nWe also covered using custom audience fields as personalization tags. These are fields for each audience member, like first name and last name. Then you can place a shortcode in your email text to have Mimi automatically substitute the field data in each email that's sent out.\n\nLearn more about personalization tags, and using a \"fallback\" parameter, in case there's no data: http://help.madmimi.com/do-you-support-personalization-tags-e-g-dear-first_name/\n\nThen, we even covered our brand new feature called \"Triggers\". You can use any custom field that's a date, and set up an automatic email to send on that date for that audience member. Simply turn on the feature in your Add Things menu, and follow the prompts.\n\nLearn more about the new Triggers feature, here: http://help.madmimi.com/send-emails-based-date-triggers/\n\nThanks for joining us, and as always, keep in touch with any more questions at support@madmimi.com\n\nHappy emailing!"
+    },
+    "defaultAudioLanguage": "en"
+   }
+  }
+ ]
+}
+end of content youtube
+jsondec youtube is : end of jsondec youtube
+video_list_new is : Array
+(
+    [0] => ofz4Rwhp2SA
+    [1] => 
+)
+end of video_list_new
+content youtube is : {
+ "kind": "youtube#videoListResponse",
+ "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wH3uqXDHWHYEFIH0M61QZ8JmtSk\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#video",
+   "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OoxDdC3B0szZXNGNx1w4tCwCTQI\"",
+   "id": "ofz4Rwhp2SA",
+   "snippet": {
+    "publishedAt": "2015-01-16T20:07:48.000Z",
+    "channelId": "UCQji2TO1XFOHyO47TFnMN2A",
+    "title": "Mad Mimi Email Marketing Webinar: Drip Campaigns!",
+    "description": "Join Aaron from the Mad Mimi Email Marketing team, as he discusses all the uses, benefits, and tricks of using the Mad Mimi Drip Campaign feature. This is what we call our autoresponders -- they're free and easy to use.\n\nWe discussed setting up a Drip Campaign in your account, and cloning to an existing promotion into it. Set your send frequency, and mailing details.\n\nLearn more about all these details, here: http://help.madmimi.com/everything-drip-campaigns-auto-responders/\n\nThere's so many uses for Drip Campaigns, to build your business and grow your audience. Read more about different ideas for Drip Campaigns, here: http://blog.madmimi.com/21-autoresponder-ideas/\n\nAnd here, for some lovely, ladies-specific examples: http://blog.madmimi.com/woman-powered-drip-campaigns/\n\nAnd for photographers, here: http://blog.madmimi.com/autoresponders-for-photographers/\n\nUse Drip Campaigns as automated welcome emails for your signups, or for tutorials or class series. You can even use them in conjunction with our Link-to-List feature, to follow-up after an RSVP.\n\nThe Link-to-List feature allows you to have someone added to a certain list in your audience, when they click on a link in your email. Simply add the link like normal, and then select to add clickers to a specific list.\n\nFind out more about the Link-to-List feature, here: http://help.madmimi.com/connect-your-email-newsletter-links-to-your-lists/\n\nWe also covered using custom audience fields as personalization tags. These are fields for each audience member, like first name and last name. Then you can place a shortcode in your email text to have Mimi automatically substitute the field data in each email that's sent out.\n\nLearn more about personalization tags, and using a \"fallback\" parameter, in case there's no data: http://help.madmimi.com/do-you-support-personalization-tags-e-g-dear-first_name/\n\nThen, we even covered our brand new feature called \"Triggers\". You can use any custom field that's a date, and set up an automatic email to send on that date for that audience member. Simply turn on the feature in your Add Things menu, and follow the prompts.\n\nLearn more about the new Triggers feature, here: http://help.madmimi.com/send-emails-based-date-triggers/\n\nThanks for joining us, and as always, keep in touch with any more questions at support@madmimi.com\n\nHappy emailing!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ofz4Rwhp2SA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Mad Mimi",
+    "tags": [
+     "madmimi",
+     "email marketing",
+     "email newsletters",
+     "design",
+     "sending",
+     "tracking",
+     "stats",
+     "subscribers",
+     "autoresponders",
+     "drip campaigns",
+     "Drip Marketing",
+     "Marketing",
+     "Business"
+    ],
+    "categoryId": "26",
+    "liveBroadcastContent": "none",
+    "localized": {
+     "title": "Mad Mimi Email Marketing Webinar: Drip Campaigns!",
+     "description": "Join Aaron from the Mad Mimi Email Marketing team, as he discusses all the uses, benefits, and tricks of using the Mad Mimi Drip Campaign feature. This is what we call our autoresponders -- they're free and easy to use.\n\nWe discussed setting up a Drip Campaign in your account, and cloning to an existing promotion into it. Set your send frequency, and mailing details.\n\nLearn more about all these details, here: http://help.madmimi.com/everything-drip-campaigns-auto-responders/\n\nThere's so many uses for Drip Campaigns, to build your business and grow your audience. Read more about different ideas for Drip Campaigns, here: http://blog.madmimi.com/21-autoresponder-ideas/\n\nAnd here, for some lovely, ladies-specific examples: http://blog.madmimi.com/woman-powered-drip-campaigns/\n\nAnd for photographers, here: http://blog.madmimi.com/autoresponders-for-photographers/\n\nUse Drip Campaigns as automated welcome emails for your signups, or for tutorials or class series. You can even use them in conjunction with our Link-to-List feature, to follow-up after an RSVP.\n\nThe Link-to-List feature allows you to have someone added to a certain list in your audience, when they click on a link in your email. Simply add the link like normal, and then select to add clickers to a specific list.\n\nFind out more about the Link-to-List feature, here: http://help.madmimi.com/connect-your-email-newsletter-links-to-your-lists/\n\nWe also covered using custom audience fields as personalization tags. These are fields for each audience member, like first name and last name. Then you can place a shortcode in your email text to have Mimi automatically substitute the field data in each email that's sent out.\n\nLearn more about personalization tags, and using a \"fallback\" parameter, in case there's no data: http://help.madmimi.com/do-you-support-personalization-tags-e-g-dear-first_name/\n\nThen, we even covered our brand new feature called \"Triggers\". You can use any custom field that's a date, and set up an automatic email to send on that date for that audience member. Simply turn on the feature in your Add Things menu, and follow the prompts.\n\nLearn more about the new Triggers feature, here: http://help.madmimi.com/send-emails-based-date-triggers/\n\nThanks for joining us, and as always, keep in touch with any more questions at support@madmimi.com\n\nHappy emailing!"
+    },
+    "defaultAudioLanguage": "en"
+   }
+  }
+ ]
+}
+end of content youtube
+jsondec youtube is : end of jsondec youtube

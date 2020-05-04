@@ -1,0 +1,35 @@
+Kynet website suggestions
+1. Add some pics of office environment and events in gallery.
+2. Add google map location and update address.
+3. update portfolio.
+5. Meet our team.
+4. http://training.kynetweb.com/ add a page for every course offered like core php 
+5. Have us call you option is not functional.
+
+
+
+Pages to add
+1. About Us 
+        -- Gallery
+        -- Meet our team
+2. Contact Us
+        -- Google map location
+
+
+Tasks :
+- Add links to contact us and about us page from the homepage.
+- Contact Us
+        -- correct the Google map location
+        -- update the address
+        -- Add these :
+                +919459050795
+                01905-221795
+                Write To Us
+                contact@kynetweb.com
+                rekhasharma0809@gmail.com
+                Video chat with us
+                prashant.thakur63
+                rekha.devi8
+
+   
+

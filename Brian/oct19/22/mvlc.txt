@@ -1,0 +1,726 @@
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 138754
+    [1] => 138758
+)
+
+ and postsArr is :Array
+(
+    [0] => 138754
+    [1] => 138758
+)
+postarroriginal is: Array
+(
+    [0] => 138754
+    [1] => 138758
+)
+
+ and postsArr is :Array
+(
+    [0] => 138754
+    [1] => 138758
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+
+ and postsArr is :Array
+(
+    [0] => 140602
+    [1] => 140605
+)
+postarroriginal is: Array
+(
+    [0] => 123069
+    [1] => 123068
+)
+
+ and postsArr is :Array
+(
+    [0] => 123068
+    [1] => 123069
+)
+postarroriginal is: Array
+(
+    [0] => 124436
+    [1] => 124438
+)
+
+ and postsArr is :Array
+(
+    [0] => 124436
+    [1] => 124438
+)
+postarroriginal is: Array
+(
+    [0] => 124436
+    [1] => 124438
+)
+
+ and postsArr is :Array
+(
+    [0] => 124436
+    [1] => 124438
+)
+postarroriginal is: Array
+(
+    [0] => 123939
+    [1] => 123372
+)
+
+ and postsArr is :Array
+(
+    [0] => 123372
+    [1] => 123939
+)
+postarroriginal is: Array
+(
+    [0] => 123078
+    [1] => 123459
+)
+
+ and postsArr is :Array
+(
+    [0] => 123078
+    [1] => 123459
+)
+postarroriginal is: Array
+(
+    [0] => 124324
+    [1] => 124317
+)
+
+ and postsArr is :Array
+(
+    [0] => 124317
+    [1] => 124324
+)
+postarroriginal is: Array
+(
+    [0] => 147627
+    [1] => 124108
+)
+
+ and postsArr is :Array
+(
+    [0] => 124108
+    [1] => 147627
+)
+postarroriginal is: Array
+(
+    [0] => 124652
+    [1] => 124651
+)
+
+ and postsArr is :Array
+(
+    [0] => 124651
+    [1] => 124652
+)
+postarroriginal is: Array
+(
+    [0] => 123107
+    [1] => 123986
+)
+
+ and postsArr is :Array
+(
+    [0] => 123107
+    [1] => 123986
+)
+postarroriginal is: Array
+(
+    [0] => 123107
+    [1] => 123986
+)
+
+ and postsArr is :Array
+(
+    [0] => 123107
+    [1] => 123986
+)
+postarroriginal is: Array
+(
+    [0] => 124324
+    [1] => 124321
+)
+
+ and postsArr is :Array
+(
+    [0] => 124321
+    [1] => 124324
+)
+postarroriginal is: Array
+(
+    [0] => 123107
+    [1] => 123986
+)
+
+ and postsArr is :Array
+(
+    [0] => 123107
+    [1] => 123986
+)
+postarroriginal is: Array
+(
+    [0] => 124499
+    [1] => 124505
+)
+
+ and postsArr is :Array
+(
+    [0] => 124499
+    [1] => 124505
+)
+postarroriginal is: Array
+(
+    [0] => 123107
+    [1] => 123471
+)
+
+ and postsArr is :Array
+(
+    [0] => 123107
+    [1] => 123471
+)
+postarroriginal is: Array
+(
+    [0] => 123107
+    [1] => 123471
+)
+
+ and postsArr is :Array
+(
+    [0] => 123107
+    [1] => 123471
+)
+postarroriginal is: Array
+(
+    [0] => 123208
+    [1] => 123209
+)
+
+ and postsArr is :Array
+(
+    [0] => 123208
+    [1] => 123209
+)
+postarroriginal is: Array
+(
+    [0] => 123208
+    [1] => 123209
+)
+
+ and postsArr is :Array
+(
+    [0] => 123208
+    [1] => 123209
+)
+postarroriginal is: Array
+(
+    [0] => 124183
+    [1] => 124202
+)
+
+ and postsArr is :Array
+(
+    [0] => 124183
+    [1] => 124202
+)
+postarroriginal is: Array
+(
+    [0] => 124183
+    [1] => 124202
+)
+
+ and postsArr is :Array
+(
+    [0] => 124183
+    [1] => 124202
+)
+postarroriginal is: Array
+(
+    [0] => 125804
+    [1] => 124859
+)
+
+ and postsArr is :Array
+(
+    [0] => 124859
+    [1] => 125804
+)
+postarroriginal is: Array
+(
+    [0] => 124183
+    [1] => 124195
+)
+
+ and postsArr is :Array
+(
+    [0] => 124183
+    [1] => 124195
+)
+postarroriginal is: Array
+(
+    [0] => 124183
+    [1] => 124195
+)
+
+ and postsArr is :Array
+(
+    [0] => 124183
+    [1] => 124195
+)
+postarroriginal is: Array
+(
+    [0] => 123107
+    [1] => 123471
+)
+
+ and postsArr is :Array
+(
+    [0] => 123107
+    [1] => 123471
+)
+postarroriginal is: Array
+(
+    [0] => 123208
+    [1] => 123716
+)
+
+ and postsArr is :Array
+(
+    [0] => 123208
+    [1] => 123716
+)
+postarroriginal is: Array
+(
+    [0] => 123208
+    [1] => 123716
+)
+
+ and postsArr is :Array
+(
+    [0] => 123208
+    [1] => 123716
+)
+postarroriginal is: Array
+(
+    [0] => 123208
+    [1] => 123716
+)
+
+ and postsArr is :Array
+(
+    [0] => 123208
+    [1] => 123716
+)
+postarroriginal is: Array
+(
+    [0] => 136194
+    [1] => 136199
+)
+
+ and postsArr is :Array
+(
+    [0] => 136194
+    [1] => 136199
+)
+postarroriginal is: Array
+(
+    [0] => 125652
+    [1] => 123138
+)
+
+ and postsArr is :Array
+(
+    [0] => 123138
+    [1] => 125652
+)
+postarroriginal is: Array
+(
+    [0] => 147461
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 147461
+)
+postarroriginal is: Array
+(
+    [0] => 140608
+    [1] => 126608
+)
+
+ and postsArr is :Array
+(
+    [0] => 126608
+    [1] => 140608
+)
+postarroriginal is: Array
+(
+    [0] => 126276
+    [1] => 124792
+)
+
+ and postsArr is :Array
+(
+    [0] => 124792
+    [1] => 126276
+)
+postarroriginal is: Array
+(
+    [0] => 126101
+    [1] => 126087
+)
+
+ and postsArr is :Array
+(
+    [0] => 126087
+    [1] => 126101
+)
+postarroriginal is: Array
+(
+    [0] => 124652
+    [1] => 124653
+)
+
+ and postsArr is :Array
+(
+    [0] => 124652
+    [1] => 124653
+)
+postarroriginal is: Array
+(
+    [0] => 124652
+    [1] => 124653
+)
+
+ and postsArr is :Array
+(
+    [0] => 124652
+    [1] => 124653
+)
+postarroriginal is: Array
+(
+    [0] => 123766
+    [1] => 123277
+)
+
+ and postsArr is :Array
+(
+    [0] => 123277
+    [1] => 123766
+)
+postarroriginal is: Array
+(
+    [0] => 126178
+    [1] => 126168
+)
+
+ and postsArr is :Array
+(
+    [0] => 126168
+    [1] => 126178
+)
+postarroriginal is: Array
+(
+    [0] => 123860
+    [1] => 123857
+)
+
+ and postsArr is :Array
+(
+    [0] => 123857
+    [1] => 123860
+)
+postarroriginal is: Array
+(
+    [0] => 123330
+    [1] => 123326
+)
+
+ and postsArr is :Array
+(
+    [0] => 123326
+    [1] => 123330
+)
+postarroriginal is: Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)
+postarroriginal is: Array
+(
+    [0] => 126610
+    [1] => 124802
+)
+
+ and postsArr is :Array
+(
+    [0] => 124802
+    [1] => 126610
+)

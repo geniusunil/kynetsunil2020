@@ -1,0 +1,1320 @@
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024537037037037
+calculating daysfromnow 30 value after 0.0024537037037037
+calculating lastuupdated
+daysfromnow before0.40395833333333
+daysfromnow after 0.40395833333333
+fs returned is66
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is66
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582323525
+)
+
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is64
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582323525
+)
+
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is87
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582323525
+)
+
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is50
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582323525
+)
+
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is42
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582323525
+)
+
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is54
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582323525
+)
+
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is57
+postid 123949 fsarr Array
+(
+    [fs] => 60
+    [lastupdated] => 1582323525
+)
+
+postid 123949 fsarr Array
+(
+    [fs] => 60
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is60
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582324783
+)
+
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582358316
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358316
+calculating daysfromnow 30 value before 0.0012962962962963
+calculating daysfromnow 30 value after 0.0012962962962963
+calculating lastuupdated
+daysfromnow before0.38940972222222
+daysfromnow after 0.38940972222222
+fs returned is69
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582323525
+)
+
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is64
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is66
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582323525
+)
+
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is87
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582323525
+)
+
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is50
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582323525
+)
+
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is54
+postid 123402 fsarr Array
+(
+    [fs] => 68
+    [lastupdated] => 1582323525
+)
+
+postid 123402 fsarr Array
+(
+    [fs] => 68
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is68
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582323525
+)
+
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is57
+postid 123405 fsarr Array
+(
+    [fs] => 48
+    [lastupdated] => 1582323525
+)
+
+postid 123405 fsarr Array
+(
+    [fs] => 48
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is48
+postid 123406 fsarr Array
+(
+    [fs] => 17
+    [lastupdated] => 1582323525
+)
+
+postid 123406 fsarr Array
+(
+    [fs] => 17
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is17
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582323525
+)
+
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is42
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582324783
+)
+
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582358316
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358316
+calculating daysfromnow 30 value before 0.0012962962962963
+calculating daysfromnow 30 value after 0.0012962962962963
+calculating lastuupdated
+daysfromnow before0.38940972222222
+daysfromnow after 0.38940972222222
+fs returned is69
+postid 146848 fsarr Array
+(
+    [fs] => 47
+    [lastupdated] => 1582323525
+)
+
+postid 146848 fsarr Array
+(
+    [fs] => 47
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is47
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is66
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is66
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582323525
+)
+
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is64
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582323525
+)
+
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is87
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582323525
+)
+
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is50
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582323525
+)
+
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is42
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582323525
+)
+
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is54
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582323525
+)
+
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is57
+postid 123949 fsarr Array
+(
+    [fs] => 60
+    [lastupdated] => 1582323525
+)
+
+postid 123949 fsarr Array
+(
+    [fs] => 60
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is60
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582324783
+)
+
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582358316
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358316
+calculating daysfromnow 30 value before 0.0012962962962963
+calculating daysfromnow 30 value after 0.0012962962962963
+calculating lastuupdated
+daysfromnow before0.38940972222222
+daysfromnow after 0.38940972222222
+fs returned is69
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582323525
+)
+
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is64
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is66
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582323525
+)
+
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is87
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582323525
+)
+
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is50
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582323525
+)
+
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is54
+postid 123402 fsarr Array
+(
+    [fs] => 68
+    [lastupdated] => 1582323525
+)
+
+postid 123402 fsarr Array
+(
+    [fs] => 68
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is68
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582323525
+)
+
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is57
+postid 123405 fsarr Array
+(
+    [fs] => 48
+    [lastupdated] => 1582323525
+)
+
+postid 123405 fsarr Array
+(
+    [fs] => 48
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is48
+postid 123406 fsarr Array
+(
+    [fs] => 17
+    [lastupdated] => 1582323525
+)
+
+postid 123406 fsarr Array
+(
+    [fs] => 17
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is17
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582323525
+)
+
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is42
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582324783
+)
+
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582358316
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358316
+calculating daysfromnow 30 value before 0.0012962962962963
+calculating daysfromnow 30 value after 0.0012962962962963
+calculating lastuupdated
+daysfromnow before0.38940972222222
+daysfromnow after 0.38940972222222
+fs returned is69
+postid 146848 fsarr Array
+(
+    [fs] => 47
+    [lastupdated] => 1582323525
+)
+
+postid 146848 fsarr Array
+(
+    [fs] => 47
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024652777777778
+calculating daysfromnow 30 value after 0.0024652777777778
+calculating lastuupdated
+daysfromnow before0.40396990740741
+daysfromnow after 0.40396990740741
+fs returned is47
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is66
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is66
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582323525
+)
+
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is64
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582323525
+)
+
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is87
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582323525
+)
+
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is50
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582323525
+)
+
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is42
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582323525
+)
+
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is54
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582323525
+)
+
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is57
+postid 123949 fsarr Array
+(
+    [fs] => 60
+    [lastupdated] => 1582323525
+)
+
+postid 123949 fsarr Array
+(
+    [fs] => 60
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is60
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582324783
+)
+
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582358316
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358316
+calculating daysfromnow 30 value before 0.0013194444444444
+calculating daysfromnow 30 value after 0.0013194444444444
+calculating lastuupdated
+daysfromnow before0.38943287037037
+daysfromnow after 0.38943287037037
+fs returned is69
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582323525
+)
+
+postid 123397 fsarr Array
+(
+    [fs] => 64
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is64
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582323525
+)
+
+postid 123398 fsarr Array
+(
+    [fs] => 66
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is66
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582323525
+)
+
+postid 123399 fsarr Array
+(
+    [fs] => 87
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is87
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582323525
+)
+
+postid 123400 fsarr Array
+(
+    [fs] => 50
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is50
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582323525
+)
+
+postid 123401 fsarr Array
+(
+    [fs] => 54
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is54
+postid 123402 fsarr Array
+(
+    [fs] => 68
+    [lastupdated] => 1582323525
+)
+
+postid 123402 fsarr Array
+(
+    [fs] => 68
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is68
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582323525
+)
+
+postid 123403 fsarr Array
+(
+    [fs] => 57
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is57
+postid 123405 fsarr Array
+(
+    [fs] => 48
+    [lastupdated] => 1582323525
+)
+
+postid 123405 fsarr Array
+(
+    [fs] => 48
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is48
+postid 123406 fsarr Array
+(
+    [fs] => 17
+    [lastupdated] => 1582323525
+)
+
+postid 123406 fsarr Array
+(
+    [fs] => 17
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is17
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582323525
+)
+
+postid 123407 fsarr Array
+(
+    [fs] => 42
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is42
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582324783
+)
+
+postid 129142 fsarr Array
+(
+    [fs] => 69
+    [lastupdated] => 1582358316
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358316
+calculating daysfromnow 30 value before 0.0013194444444444
+calculating daysfromnow 30 value after 0.0013194444444444
+calculating lastuupdated
+daysfromnow before0.38943287037037
+daysfromnow after 0.38943287037037
+fs returned is69
+postid 146848 fsarr Array
+(
+    [fs] => 47
+    [lastupdated] => 1582323525
+)
+
+postid 146848 fsarr Array
+(
+    [fs] => 47
+    [lastupdated] => 1582358215
+)
+
+calculating lastupdated 30
+calculating lastupdated 30 value 1582358215
+calculating daysfromnow 30 value before 0.0024884259259259
+calculating daysfromnow 30 value after 0.0024884259259259
+calculating lastuupdated
+daysfromnow before0.40399305555556
+daysfromnow after 0.40399305555556
+fs returned is47

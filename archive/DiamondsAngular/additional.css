@@ -1,0 +1,162 @@
+.dt-search-primary .col-3{
+	padding:0;
+}
+#fav{
+	display:none;
+}
+.page-id-92 .row-main{
+	margin:0 auto;
+	max-width: 1300px;
+}
+td a{
+	color:#787d7f;
+}
+#table-container{
+	overflow-x:scroll;
+}
+.dt-search {
+	background:#000;
+	padding:2% !important;
+}
+
+.dt-search-box > label {
+	position: absolute;
+}
+
+.dt-href {
+	color: #eee9d9;
+	text-decoration: underline;
+}
+
+.dt-th {
+	color:#D5DDE5;
+	
+	border-bottom:4px solid #9ea7af;
+	border-right: 1px solid #343a45;
+	font-size:11px;
+	font-weight: 100;
+	padding:20px;
+	text-align:left;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	vertical-align:middle;
+}
+
+.dt-td{
+	background:#3c3e3f;
+	color:#787d7f;
+}
+.dt-table{
+	width: 100%
+}
+
+.dt-property {
+	background:#1b1e24;
+}
+
+.dt-property:hover {
+	background:#41719a;
+}
+
+.dt-selected-property {
+	background:#ba7136;
+}
+
+.dt-tr  > td{
+	color:#D5DDE5;
+	background: #3c3e3f;
+	border-bottom:4px solid #9ea7af;
+	border-right: 2px solid #9ea7af;
+	font-size:11px;
+	font-weight: 100;
+	padding:10px;
+	text-align:left;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	vertical-align:middle;
+}
+
+.dt-tr:hover > td{
+	background: #41719a;
+	color:#CCC;
+}
+
+.dt-unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* BLACK UP-POINTING TRIANGLE */
+.sortorder:after {
+  content: '\25b2';   
+}
+
+/* BLACK DOWN-POINTING TRIANGLE */
+.sortorder.reverse:after {
+  content: '\25bc';   
+}
+
+.dt-search-multiple {
+	box-sizing: border-box;
+	margin: 10px 0;
+	float:left;
+	font-size:medium;
+	width:95%;
+}
+
+.dt-search-multiple select{
+	border-radius:5px;
+}
+
+.dt-search-box > div, .dt-search-numberRange > div {
+  position: relative;
+  overflow: hidden;
+}
+
+.dt-search-box .fifty{
+	width:50%;
+}
+.dt-search input {
+  color: white;
+  width: 100%;
+  border: 2px solid gray;
+  border-color: #999;
+  background: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 8px 12px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  outline: 0;
+}
+
+.dt-search input:focus {
+  border-color: #2e6da4;
+}
+
+.dt-search input:focus + label{
+	background: #245580;;
+}
+
+.dt-search label {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  bottom: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: 100px;
+  background: #999;
+  color: white;
+  font-size: 85%;
+  padding: 1px 6px;
+  z-index: 2;
+  text-transform: uppercase;
+	display:flex;
+	align-items:center;
+}

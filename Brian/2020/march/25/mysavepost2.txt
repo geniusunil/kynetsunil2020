@@ -1,0 +1,57 @@
+videoArr is before: Array
+(
+    [0] => https://www.youtube.com/watch?v=QkKlT5aPncQ
+    [1] => https://www.youtube.com/watch?v=OyHqfO_f1Ns
+    [2] => https://www.youtube.com/watch?v=aoZh19XsTr4
+    [3] => https://www.youtube.com/watch?v=M3zHVHsWBaY
+    [4] => https://www.youtube.com/watch?v=UJTgmRF9kFQ
+    [5] => https://www.youtube.com/watch?v=pDRkHkmHdx0
+    [6] => 
+)
+videoArr is after: Array
+(
+    [0] => https://www.youtube.com/watch?v=QkKlT5aPncQ
+    [1] => https://www.youtube.com/watch?v=OyHqfO_f1Ns
+    [2] => https://www.youtube.com/watch?v=aoZh19XsTr4
+    [3] => https://www.youtube.com/watch?v=M3zHVHsWBaY
+    [4] => https://www.youtube.com/watch?v=UJTgmRF9kFQ
+    [5] => https://www.youtube.com/watch?v=pDRkHkmHdx0
+)
+videoArr is before: Array
+(
+    [0] => https://www.youtube.com/watch?v=QkKlT5aPncQ
+    [1] => https://www.youtube.com/watch?v=OyHqfO_f1Ns
+    [2] => https://www.youtube.com/watch?v=aoZh19XsTr4
+    [3] => https://www.youtube.com/watch?v=M3zHVHsWBaY
+    [4] => https://www.youtube.com/watch?v=UJTgmRF9kFQ
+    [5] => https://www.youtube.com/watch?v=pDRkHkmHdx0
+    [6] => 
+)
+129142 is post id, videoArr is after: Array
+(
+    [0] => https://www.youtube.com/watch?v=QkKlT5aPncQ
+    [1] => https://www.youtube.com/watch?v=OyHqfO_f1Ns
+    [2] => https://www.youtube.com/watch?v=aoZh19XsTr4
+    [3] => https://www.youtube.com/watch?v=M3zHVHsWBaY
+    [4] => https://www.youtube.com/watch?v=UJTgmRF9kFQ
+    [5] => https://www.youtube.com/watch?v=pDRkHkmHdx0
+)
+videoArr is before: Array
+(
+    [0] => https://www.youtube.com/watch?v=QkKlT5aPncQ
+    [1] => https://www.youtube.com/watch?v=OyHqfO_f1Ns
+    [2] => https://www.youtube.com/watch?v=aoZh19XsTr4
+    [3] => https://www.youtube.com/watch?v=M3zHVHsWBaY
+    [4] => https://www.youtube.com/watch?v=UJTgmRF9kFQ
+    [5] => https://www.youtube.com/watch?v=pDRkHkmHdx0
+    [6] => 
+)
+129142 is post id, videoArr is after: Array
+(
+    [0] => https://www.youtube.com/watch?v=QkKlT5aPncQ
+    [1] => https://www.youtube.com/watch?v=OyHqfO_f1Ns
+    [2] => https://www.youtube.com/watch?v=aoZh19XsTr4
+    [3] => https://www.youtube.com/watch?v=M3zHVHsWBaY
+    [4] => https://www.youtube.com/watch?v=UJTgmRF9kFQ
+    [5] => https://www.youtube.com/watch?v=pDRkHkmHdx0
+)

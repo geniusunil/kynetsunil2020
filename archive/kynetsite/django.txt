@@ -1,0 +1,12 @@
+cd /usr/local/lib/python3.7/site-packages/
+cd /usr/local/lib/python3.7/
+sudo chown oxelkynetn /usr/local/lib/python3.7/site-packages
+sudo chown oxelkynetn /usr/local/bin
+cd ~/Django224/django
+python3.7 setup.py install
+cd ~/wheels_dir
+cd /home/kynetuweb/www/django-python/hotel-project-master
+python3.7 manage.py runserver
+cd ~/Python-3.7.4
+
+SSL -I/usr/local/ssl/include -I/usr/local/ssl/include/openssl -c ./Modules/_ssl.c -o Modules/_ssl.o

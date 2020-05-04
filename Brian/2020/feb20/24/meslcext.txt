@@ -1,0 +1,109 @@
+on feature rateitem id : 129142 
+ feature_name : User_Dashboard 
+ vote_size : 10
+cookie_value Array
+(
+    [129142] => Array
+        (
+            [User_Dashboard] => 10
+            [Responsive_design] => 8
+        )
+
+)
+cur_feature_score : Array
+(
+    [User_Dashboard] => Array
+        (
+            [total_score] => 26
+            [votes] => 3
+            [average] => 8.6666666666667
+        )
+
+    [Responsive_design] => Array
+        (
+            [total_score] => 24
+            [votes] => 4
+            [average] => 6
+        )
+
+    [Multiple_layouts] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [User_Dashboard] => Array
+        (
+            [total_score] => 16
+            [votes] => 2
+            [average] => 8
+        )
+
+    [Responsive_design] => Array
+        (
+            [total_score] => 24
+            [votes] => 4
+            [average] => 6
+        )
+
+    [Multiple_layouts] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+)
+: old_vote_Size : 10
+cur_feature_score : Array
+(
+    [User_Dashboard] => Array
+        (
+            [total_score] => 16
+            [votes] => 2
+            [average] => 8
+        )
+
+    [Responsive_design] => Array
+        (
+            [total_score] => 24
+            [votes] => 4
+            [average] => 6
+        )
+
+    [Multiple_layouts] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [User_Dashboard] => Array
+        (
+            [total_score] => 26
+            [votes] => 3
+            [average] => 8.6666666666667
+        )
+
+    [Responsive_design] => Array
+        (
+            [total_score] => 24
+            [votes] => 4
+            [average] => 6
+        )
+
+    [Multiple_layouts] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+)

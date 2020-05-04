@@ -1,0 +1,6 @@
+page get is : 3
+page get is : 3
+page get is : 3
+page get is : 3
+page get is : 3
+page get in viewdetail is : 3
