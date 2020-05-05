@@ -20,6 +20,11 @@ class Mv_List_Comparision
     private $all_support_score_avg;
     private $datapoints;
     private $industry_items;
+  /*   private $pricing_model_check;
+    private $item_coupon_all;
+    private $free_trial_all;
+    private $all_price_trim; */
+    // private $all_support_score;
     public function __construct($compareId = null, $ajax = false)
     {
         
@@ -152,6 +157,8 @@ class Mv_List_Comparision
         $all_item_id = array_unique($all_item_id);
 
         $this->industry_items = $all_item_id;
+
+        
         }
         
         /* echo "industry items ";
@@ -400,8 +407,8 @@ if ($compCount < 4) {
                 <div class="comparison_columns">
                     <div class="column-head">
                         <?php
-$post_id = $this->compareditems[item1];
-        $post_id2 = $this->compareditems[item2];
+$post_id = $this->compareditems['item1'];
+        $post_id2 = $this->compareditems['item2'];
         $item_one = get_the_title($post_id);
         $item_two = get_the_title($post_id2);
         $ovr_all_rat1 = get_overall_combined_rating($post_id);
@@ -1012,7 +1019,7 @@ print_r($all_item_id); */
                     foreach ($all_item_id as $all_items) {
 
                         $all_support = get_overall_combined_rating($all_items);
-                        $all_support_score[$all_items] = $all_support['list'][$upper_key][score];
+                        $all_support_score[$all_items] = $all_support['list'][$upper_key]['score'];
                     }
                     $customArray[$upper_key] = round(array_sum($all_support_score) / count($all_item_id), 1);
                 }
@@ -1599,7 +1606,7 @@ if ($stillaboveindavg) {
                 foreach ($all_item_id as $all_items) {
 
                     $all_support = get_overall_combined_rating($all_items);
-                    $all_support_score[$all_items] = $all_support['list'][customersupport][score] * 20;
+                    $all_support_score[$all_items] = $all_support['list']['customersupport']['score'] * 20;
                     /*     echo "<br>item id ".$all_items;
                 echo "<br>customer support score ".$all_support['list'][customersupport][score]*20;
                  */
@@ -1972,12 +1979,20 @@ $compareditemnew = array();
             elseif ($it == "pricing") {
 
                 $all_item_id = $this->industry_items;
+                $all_support_score = array();
                 foreach ($all_item_id as $all_items) {
                     $pricing_model_check[$all_items] = get_field('pricing_model', $all_items);
                     $item_coupon_all[$all_items] = get_post_meta($all_items, 'coupons_list', true);
                     $free_trial_all[$all_items] = get_field('free_trial', $all_items);
 					$all_price = get_field('price_starting_from', $all_items);
-					$all_price_trim["_" . $all_items] = intval($all_price);
+                    $all_price_trim["_" . $all_items] = intval($all_price);
+                    $all_support = get_overall_combined_rating($all_items);
+                   /*  echo "all support";
+                    print_r($all_support); */
+                    if(isset($all_support['list']['customersupport']['score'])){
+                        $all_support_score[$all_items] = $all_support['list']['customersupport']['score'];
+                    }
+                    
 				}
 				/* echo "free trial all";
 				print_r($free_trial_all); */
@@ -2015,6 +2030,7 @@ $compareditemnew = array();
 								<?php
 
                 $this->all_support_score_per = array_sum($all_support_score) * 100 / count($all_item_id);
+                $free=0;
                 foreach ($free_trial_all as $key => $free_trial) {
                     if ($free_trial == 1) {
                         $free += $free_trial;
@@ -2968,7 +2984,7 @@ $content = ob_get_contents();
             if ($count == 1) {
                 $overallRatContnet .= get_the_title($post) . " dominates with an overall user/editors rating of $rat/5 stars with $ratOverallvotes[$post] reviews";
             } else {
-                if ($count == count($overallRatContnet)) {
+                if ($count > 1) {
                     $add = ' and ';
                 } else {
                     $add = ', ';
@@ -3110,12 +3126,23 @@ $con = ob_get_contents();
                 print_r($integrate_item_2); */
                 if (($integrate_item_1 !== null && !empty($integrate_item_1)) || ($integrate_item_2 !== null && !empty($integrate_item_2))) {
                     $val = trim($val);
-                    $order[$val] = $maps[$val];
+                    if(isset($maps[$val])){
+                        $order[$val] = $maps[$val];
+                    }
+                    else{
+                        $order[$val]='';
+                    }
+                    
                 }
 
             } else {
                 $val = trim($val);
-                $order[$val] = $maps[$val];
+                if(isset($maps[$val])){
+                    $order[$val] = $maps[$val];
+                }
+                else{
+                    $order[$val]='';
+                }
             }
 
         }
@@ -3534,46 +3561,7 @@ $i++;
         return $con;
     }
 
-    public function get_left_column_details($type = '')
-    {
-        $labels = $this->get_sections();
-        $data = array('title' => '', 'labels' => array());
-        switch ($type) {
-            case "pricing":
-                $data = array('title' => $labels['pricing'], 'labels' => array("Pricing Model", "Starting Price", "Free Trial"));
-                break;
-            case "ratings":
-                $criteria = $this->reviewClass->template_field('template_criterias', true);
-                $order = $this->reviewClass->template_field('template_criteria_order', true);
-                $order = ($order == null) ? array_keys($criteria) : $order;
-                $lab = array();
-                foreach ($order as $i) {
-                    $lab[] = $criteria[$i];
-                }
-                $lab[] = 'Overall Rating';
-                $data = array('title' => $labels['ratings'], 'labels' => $lab);
-                break;
-            case "support":
-                $data['title'] = $labels['support'];
-                break;
-            case "screenshots":
-                $data['title'] = $labels['screenshots'];
-                break;
-            case "reviews":
-                $data['title'] = $labels['reviews'];
-                break;
-            case "video":
-                $data['title'] = $labels['video'];
-                break;
-            case "download":
-                $data['title'] = $labels['download'];
-                break;
-            case "ranking":
-                $data['title'] = $labels['ranking'];
-                break;
-        }
-        return $data;
-    }
+    
 
     public function get_compare_dropdown($key = '', $onlyoptions = false)
     {

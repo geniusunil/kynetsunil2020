@@ -112,52 +112,63 @@ $tableArr = array();
 ?>
 <?php 
                      $get_list_data =  get_item_ranks($post->ID);
-                    //  $item_feature_rating = get_feature_ratings($post->ID); 
-                     $item_feature_rating = get_field('features_list_ratings',$post->ID);
+                     foreach ($get_list_data as $id => $rank) { 
+                        $all_items = get_field("list_items", $id, false); //count( $listrankord );
 
-                    var_dump($item_feature_rating);
+                   
 
-                     foreach ($item_feature_rating as $key => $item_rat) {
-                        $item_feature_individual_avg[$key] = $item_rat[votes];
+                        
 
-                        // echo "feature";
-                      
-
-                    }
-                     foreach($get_list_data as $id=>$item){
-                        $all_items = get_field("list_items", $id, false);
-                        //  print_r($all_items);
                         $all_item_count = count($all_items);
-                       
-                        $all_award_list[$id][$all_item_count] = $item;
-                        $ranked_list = ($item / $all_item_count) * 100;
-                       
-                     }
-                    //  print_R($all_award_list);
-                     foreach ($all_award_list as $key => $item_ind_list) {   
-                        // $award_items[] = '<a href =' . get_permalink($key) . '><h4 style=\'color: #fff;\'>' . get_the_title($key) . '</h4></a>';
+                        $all_award_list[$id][$all_item_count] = $rank;
+                        $ranked_list = ($rank / $all_item_count) * 100;
+                   
+                        // print_r($all_items);
+                        // echo "<br>";
+        
+                    }
+                    $lists_sort =  arsort($all_award_list);
+                   
+                  
+                     foreach ($lists_sort as $key => $item_ind_list) { 
+                        //  echo $key;
+                        //  print_r($all_award_list);
+                        // echo "<br>"; 
+                        $voters = do_shortcode("[total_votes id=$key]");                         
                         foreach ($item_ind_list as $p => $list) {
                             $title_plural = get_field('list_content_title_plural', $key);
                             $title_singular = get_field('list_content_title_singular', $key);
-
-                                if($list <= 10){
-                                  
-                            $award_items = "<p >".get_the_title()."  is one of the best ".$title_plural." on the market 
-                            according to [voters on that list] and when you take into account its ease of use and responsiveness,
-                             it beats most of the competition. There are certain flaws that might send you on a long journey, looking for its alternative.</p>";
-                                }
+                               
+                            echo "list";
+                            echo $list;
+                            echo "key";
+                            echo $key;
+                      
+                                          
+                                $award_items =   "<p >".$list." checkkkk ".get_the_title()."  is one of the best ".$title_plural." on the market 
+                                according to ".$voters." and when you take into account its ease of use and responsiveness,
+                                 it beats most of the competition. </p>";
+                            
+                                 
 
                                
                         }
-
-                        // print_R($award_items);
-        
-                        //  $i++;
-                        //  if($i>=20)
-                        //    break;
+                       
+                        
                     }
-                    
-                   
+                   $item_id = get_the_id();
+                   echo  $item_id;
+                    $rnr2b=get_pros_cons( $item_id);
+                    $r2b = $rnr2b['r2b'];
+                    $rn2b = $rnr2b['rn2b'];
+                    echo "conds";
+                    print_r($rn2b);
+                    $htmlrn2b = "<ul>";
+                        foreach ($rn2b as $r) {
+                            $htmlrn2b .= '<li>' . $r . '</li>';
+                        }
+                        $htmlrn2b .= "</ul>";
+
                     ?>
 <div id='loader-animate' style='display: none;'><span>Loading...</span></div>
 <div class="content-area mv-alternative" id="primary">
@@ -205,25 +216,26 @@ $tableArr = array();
                             
                             <?php 
 
-                            $listId = get_the_id();
-                            echo "list Id";
-                            echo $listId;
-                            $title_plural = get_field('list_content_title_plural', $listId);
-                            $title_singular = get_field('list_content_title_singular', $listId);
+//                             $listId = get_the_id();
+//                             echo "list Id";
+//                             echo $listId;
+//                             $title_plural = get_field('list_content_title_plural', $listId);
+//                             $title_singular = get_field('list_content_title_singular', $listId);
                     
                  
 
                             
 
 
-echo $award_items;
-
+                        echo $award_items;
+                        echo "<p>There are certain flaws that might send you on a long journey, looking for its alternative.</p>";
                              
+                     
 
                             
 
                             ?>
-                             <p>   Luckily, <?php echo $post->post_title;?> is not your only choice for [singular list title]. These days, you have plenty of options on the market. that might even be a better fit for you, [is item with a higher FindrScore than item being compared}some of the best item alternatives are actually free!] </p>
+                             <p>   Luckily, <?php echo $post->post_title;?> is not your only choice for <?php echo $title_singular ; ?>. These days, you have plenty of options on the market. that might even be a better fit for you, [is item with a higher FindrScore than item being compared}some of the best item alternatives are actually free!] </p>
 
                              <p>   Before we get to the list of similar solutions, looking at the data gathered on our platform our users love item for:
 
@@ -234,7 +246,8 @@ echo $award_items;
 
                                 Now let's have a look at a few of their lowest-rated features:
                                 List three reason not to buy
-                                1
+                                <?php echo  $htmlrn2b ;?>
+                                 1
                                 2
                                 3 </p>
 
