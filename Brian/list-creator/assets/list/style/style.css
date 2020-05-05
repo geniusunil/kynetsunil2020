@@ -1307,7 +1307,7 @@ box-shadow:none;
 margin:0
 }
 
-.commentbtn .zf-item-vote.zf-loading .spinner-list {
+.commentbtn .zf-item-vote.zf-loading .spinner-list,.cp-loading .spinner-list {
 display:inline-block
 }
 

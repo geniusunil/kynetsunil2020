@@ -521,7 +521,10 @@ $post_id = $this->compareditems[item1];
 									</div>
 								</div>
 
-								<div id="regions_div" style="width: 900px; height: 500px;"></div>
+								<div id="regions_div" style="width: 100%; height: 500px;"></div>
+                                <?php /* echo "pass to maps";
+                                print_r($passToMaps); */
+                                ?>
 								<script>
 									google.charts.load('current',
 									{
@@ -552,7 +555,7 @@ $post_id = $this->compareditems[item1];
 										chart.draw(data, options);
 									}
 								</script>
-								<div class='row'>
+								<div class='row' style="display:contents;">
 									<div class="col-md-12 py-5 text-center">
 										<p>In order to give you more personalized recommendations, we tailor the
 										ranking of a product to reflect what users are currently using in your geographical area.</p>
@@ -1673,10 +1676,10 @@ $sliceStyle = 'style="
 																																			</div><br>
 																																		</div>';
                 if ($item_score > $this->all_support_score_avg) {
-                    echo 'Continue to seek out vendors after Good Experiance';
+                    echo 'Continue to seek out vendors after Good Experience';
 
                 } else {
-                    echo 'Continue to avoid vendors after Bad Experiance.';
+                    echo 'Continue to avoid vendors after Bad Experience.';
                 }
                 ?>
 												</div>
@@ -1757,9 +1760,9 @@ $sliceStyle = 'style="
 																				 </div><br>
 																			 </div>';
                 if ($item_score_2 > $this->all_support_score_avg) {
-                    echo 'Continue to seek out vendors after Good Experiance';
+                    echo 'Continue to seek out vendors after Good Experience';
                 } else {
-                    echo 'Continue to avoid vendors after Bad Experiance.';
+                    echo 'Continue to avoid vendors after Bad Experience.';
                 }
                 ?>
 												</div>
@@ -1835,7 +1838,11 @@ $compareditemnew = array();
                     $cit2 = $compareditemnew[1 - $i][1];
                     $methodName = 'get_column_' . $it;
                     $data = '';
-
+                 /*    if(function_exists($this,$methodName)){
+                        echo $methodName." exists";
+                    }else{
+                        echo $methodName." does not exists";
+                    } */
                     if (!empty($cit)) {
                         $data = $this->{$methodName}($cit, $key, $cit2);
                     } else {

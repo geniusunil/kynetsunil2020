@@ -1,3 +1,0 @@
-inside do+not traks
-DO NOT TRAKS : folder, date and filename : email_files/ceobusac_2041_NowSolarGroup_Business_Admin_crm/nowsolar.bac@gmail.com/, trashed_ and   uYNoiM1rpp1568960123.txt
-DO NOT TRAKS : olddir and newdir : email_files/ceobusac_2041_NowSolarGroup_Business_Admin_crm/nowsolar.bac@gmail.com/uYNoiM1rpp1568960123.txt and email_files/ceobusac_2041_NowSolarGroup_Business_Admin_crm/nowsolar.bac@gmail.com/trashed_uYNoiM1rpp1568960123.txt

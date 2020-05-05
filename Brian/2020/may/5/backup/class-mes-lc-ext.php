@@ -498,7 +498,7 @@ if (!class_exists('Mes_Lc_Ext')){
 			else if ($score_a > $score_b) return -1;
 			else return $a->ID - $b->ID;
 		}
-		static function sort($post_id, &$items,$location){
+		static function sort($post_id, &$items,$location=''){
 			// $location = $_GET['lang'];
 			// file_put_contents("meslcext.txt","location : ".$location,FILE_APPEND);
 

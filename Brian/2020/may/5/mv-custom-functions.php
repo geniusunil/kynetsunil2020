@@ -1610,10 +1610,7 @@
         $index = ( ( $current_page - 1 ) * $items_per_page )+1;
 
         //usort( $attached_items, array( $this, "cmp" ) ); ?>
-        <script>
-                           // console.log("isocode"+isoCode);
-
-        </script> 
+      
         <?php
         $location = $_SESSION['lang'];
         $itmes_with_promoted = $attached_items;
@@ -1936,7 +1933,7 @@
 				$alllistitems = '';
 				$videoItems = '';
 				$compareItems = array();
-				echo "<div id=\"app$current_page\"> <v-app id=\"inspire\">";
+				echo "<div id=\"app$current_page\"> <v-app>";
 				foreach ($static_val as $key => $score): // variable must be called $post (IMPORTANT)
 					//setup_postdata( $post );
 					/*if((isset($sorts) && $sorts =="free") || (isset($sorts) && $sorts =="affordable_price") || (isset($sorts) && $sorts =="User_friendly")){
@@ -2020,10 +2017,7 @@
 					}
 							
 							?>
-							<script>
-
-								
-           </script>
+			
 							
 							<div class="container-fluid section5 list-item-row pos-relative" id="<?php echo $kk == 3 ? 'show_comprison_footer' : ''; ?>">
 						   
@@ -2316,7 +2310,9 @@
 			$f_ = validate_var_name($f).$key;
 		  
 	 
-	  echo '<span>'.$f.'</span><v-slider
+	  echo '<div style="
+	  margin-bottom: 15px;
+  "><span>'.$f.'</span><v-slider
 	  				v-on:click="greet"
 					v-model="' . $f_ . '.val"
 					:color="' . $f_ . '.color"
@@ -2331,7 +2327,7 @@
 					min=1
 					max=10
 					></v-slider>
-					<span class="status">{{ ' . $f_ . '.status}}</span> <br>
+					<span class="status">{{ ' . $f_ . '.status}}</span> </div>
 					';
 		  }
 
@@ -2378,7 +2374,7 @@
     padding-right: 0;
 ">
 	<div class="mr-5 col-md-6-inner">
-	<h3 class="mygreen"> <i class="fa fa-check-circle mh10" aria-hidden="true"></i>' . $countr2b . ' Reasons to buy</h3>' . $htmlr2b . '
+	<b class="mygreen"> <i class="fa fa-check-circle mh10" aria-hidden="true"></i>' . $countr2b . ' Reasons to buy</b>' . $htmlr2b . '
 
 	</div>'.$see_more_r2b.'</div>
 	<div class="col-md-6 cons" style="
@@ -2386,7 +2382,7 @@
     padding-right: 0;
 ">
 	<div class="ml-5 col-md-6-inner">
-	<h3 class="myred"><i class="fa fa-times-circle mh10" aria-hidden="true"></i>' . $countrn2b . ' Reasons not to buy</h3>
+	<b class="myred"><i class="fa fa-times-circle mh10" aria-hidden="true"></i>' . $countrn2b . ' Reasons not to buy</b>
 	' . $htmlrn2b . '
 	</div>'.$see_more_rn2b.'
 	</div>
@@ -2450,9 +2446,7 @@ $this_price_starting_from = get_field('price_starting_from', $key);
 	  </v-card-text>
     </v-card>
   </v-tab-item>  
-  <?php    $ratings_arr = get_item_ind_ratings($key);
-
-  ?>
+ 
   <v-tab-item>
     <v-card flat>
       <v-card-text>
@@ -3828,7 +3822,7 @@ if(count($this_integrations) > 4){
 
 		file_put_contents("mvcf.txt", "inside add_datapoints_databse", FILE_APPEND);
 		// $user_id = get_field('real_author');
-		file_put_contents("mvcf.txt", "user id :" . $user_id, FILE_APPEND);
+		// file_put_contents("mvcf.txt", "user id :" . $user_id, FILE_APPEND);
 		
 			global $wpdb;
 			$table_name = $wpdb->prefix . "datapoints";
@@ -4457,11 +4451,20 @@ if(count($this_integrations) > 4){
 		//5
 		$integrations_1 = get_field('integrate_with_item', $post_id);
 		$integrations_2 = get_field('integrate_with_item', $post_id2);
-		$highest_integrate = count($integrations_1);
-		if (count($integrations_2) > count($integrations_1))
-		{
+		if(is_array($integrations_1) && is_array($integrations_2)){	
+			if (count($integrations_2) > count($integrations_1))
+			{
+				$highest_integrate = count($integrations_2);
+			}
+			
+		}elseif(is_array($integrations_1)){
+			$highest_integrate = count($integrations_1);
+		}elseif(is_array($integrations_2)){
 			$highest_integrate = count($integrations_2);
+		}else{
+			$highest_integrate=0;
 		}
+		
 		//file_put_contents("mvcf.txt"," highest integrate ".$highest_integrate.PHP_EOL,FILE_APPEND);
 		$dp += $highest_integrate * count($customeArrayForTask);
 		//file_put_contents("mvcf.txt"," dp fourth step ".$dp.PHP_EOL,FILE_APPEND);
@@ -4490,14 +4493,14 @@ if(count($this_integrations) > 4){
 					$total_score = 0;
 					$votes = 0;
 					$average = 0;
-					$f_ = str_replace(" ", "_", $mbv);
-					$features_list_ratings[$f_] = array(
+					// $f_ = str_replace(" ", "_", $mbv);
+					$features_list_ratings[$mbv] = array(
 						'total_score' => $total_score,
 						'votes' => $votes,
 						'average' => $average
 					);
 				}
-				//update_post_meta($post_id, 'features_list_ratings', $features_list_ratings);
+				update_post_meta($post_id, 'features_list_ratings', $features_list_ratings);
 				return $features_list_ratings;
 			}
 		}
@@ -4716,10 +4719,6 @@ if(count($this_integrations) > 4){
         }
 
 		return array('r2b'=>$r2b,'rn2b'=>$rn2b);
-	}
-
-	function get_item_ind_ratings($post_id){
-		return array("hi");
 	}
 
 

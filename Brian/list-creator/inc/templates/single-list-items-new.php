@@ -2,7 +2,7 @@
 get_header();
 
 ?>
-<div id='loader-animate' style='display: none;'><span>Loading...</span></div><div class="content-area mv-single-lists" id="primary" itemscope itemtype="http://schema.org/Product">
+<div id='loader-animate' style='display: none;'><span>Loading...</span></div><div class="content-area mv-single-lists_item" id="primary" itemscope itemtype="http://schema.org/Product">
 
 	<?php
 		// Start the loop.
@@ -11,7 +11,7 @@ get_header();
 			<div class="site-content" id="content" role="main">
 
 				 <?php echo the_content( ); ?>
-
+					
 			</div>
 
 

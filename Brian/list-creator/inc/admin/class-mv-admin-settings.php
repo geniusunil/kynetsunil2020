@@ -1,11 +1,6 @@
 <?php
 
 class Mv_List_Item_Settings {
-
-
-
-
-
 	function __construct() {
 
 
@@ -334,8 +329,6 @@ function mv_list_items_reports_callback(){
 
 
 
-
-
 		add_settings_field(
 
 			'alternative_page_title',
@@ -383,7 +376,114 @@ function mv_list_items_reports_callback(){
 
 
 		);
+/* coupon ------------------------------------------------*/
+		add_settings_section(
 
+			'mv_coupon_page_settings_section',         // ID used to identify this section and with which to register options
+
+			'',                  // Title to be displayed on the administration page
+
+			array( $this, 'coupon_settings_callback' ), // Callback used to render the description of the section
+
+			'mv_list_items_settings'                           // Page on which to add this section of options
+
+		);
+
+add_settings_field(
+
+			'coupon_page_title',
+
+			'Page Title',
+
+			array( $this, 'coupon_page_title_callback' ),
+
+			'mv_list_items_settings',
+
+			'mv_coupon_page_settings_section'
+
+
+
+		);
+
+		add_settings_field(
+
+			'coupon_page_description',
+
+			'Page Meta Description',
+
+			array( $this, 'coupon_page_desc_callback' ),
+
+			'mv_list_items_settings',
+
+			'mv_coupon_page_settings_section'
+
+
+
+		);
+		
+	add_settings_field(
+
+			'coupon_page_subscription_form',
+
+			'Subscription form for coupon page',
+
+			array( $this, 'coupon_page_subscription_form_callback' ),
+
+			'mv_list_items_settings',
+
+			'mv_coupon_page_settings_section'
+
+
+
+		);
+			add_settings_field(
+
+			'coupon_subscription_form',
+
+			'Subscription form for Coupon Page popup',
+
+			array( $this, 'coupon_subscription_form_callback' ),
+
+			'mv_list_items_settings',
+
+			'mv_coupon_page_settings_section'
+
+
+
+		);
+		add_settings_field(
+
+			'deal_subscription_form',
+
+			'Deal Page Subscription form',
+
+			array( $this, 'deal_subscription_form_callback' ),
+
+			'mv_list_items_settings',
+
+			'mv_coupon_page_settings_section'
+
+
+
+		);
+		
+		add_settings_field(
+
+			'coupon_page_btn_text',
+
+			'Button Text',
+
+			array( $this, 'coupon_page_btn_text' ),
+
+			'mv_list_items_settings',
+
+			'mv_coupon_page_settings_section'
+
+
+
+		);
+
+/* coupon ------------------------------------------------*/
 		
 		add_settings_section(
 
@@ -433,6 +533,22 @@ function mv_list_items_reports_callback(){
 
 		);
 
+		# List order
+
+		add_settings_field(
+
+			'comparison_page_order',
+
+			'sections Order',
+
+			array( $this, 'comparison_page_list_order_callback' ),
+
+			'mv_list_items_settings',
+
+			'mv_comparison_page_settings_section'
+
+
+		);
 
 
         add_settings_section(
@@ -454,6 +570,22 @@ function mv_list_items_reports_callback(){
             'Google Advertisement',
 
             array( $this, 'list_page_google_add_callback' ),
+
+            'mv_list_items_settings',
+
+            'mv_list_page_page_settings_section'
+
+
+
+		);
+		
+		add_settings_field(
+
+            'list_page_target_countries',
+
+            'Targetted Countries',
+
+            array( $this, 'list_page_targetted_countries_callback' ),
 
             'mv_list_items_settings',
 
@@ -508,7 +640,17 @@ function mv_list_items_reports_callback(){
 
 	}
 
+/* coupon ------------------------------------------------*/
+	function coupon_settings_callback() {
 
+
+
+		echo '<h2>Coupon Page</h2>';
+
+	}
+	
+	
+	/* coupon ------------------------------------------------*/
 
 	function alternative_settings_callback() {
 
@@ -622,7 +764,26 @@ function mv_list_items_reports_callback(){
 
 	}
 
+/* coupon callback ------------------------------------------------*/
+	
+	function coupon_page_title_callback() {
 
+		$options = get_option( 'mv_list_items_settings' );
+
+
+
+		$app_id = !empty( $options['coupon_page_title'] )?$options['coupon_page_title']:'';
+
+
+
+		// Render the output
+
+		echo '<input type="text" class="large-text" id="app_id" name="mv_list_items_settings[coupon_page_title]" value="' . $app_id. '" />';
+
+		echo '<p class="description">Page Title to show on Coupon Page. [Item name] will be replaced with review title </a></p>';
+
+	}
+	/* coupon callback ------------------------------------------------*/
 
 	function alternative_page_title_callback() {
 
@@ -659,7 +820,30 @@ function mv_list_items_reports_callback(){
 		echo '<p class="description">Page Title to show on Comparison Page. </a></p>';
 
 	}
+/* coupon coupon_page_desc_callback ------------------------------------------------*/
+	function coupon_page_desc_callback() {
 
+		$options = get_option( 'mv_list_items_settings' );
+
+
+
+		$app_id = !empty( $options['coupon_page_description'] )?$options['coupon_page_description']:'';
+
+
+
+		// Render the output
+
+		echo '<textarea class="large-text" id="app_id" name="mv_list_items_settings[coupon_page_description]"  >'.$app_id.'</textarea>';
+
+		echo '<p class="description">Page meta description to show on Coupon Page. [Item name] will be replaced with review title </a></p>';
+
+	}
+
+	
+	
+	
+	
+	/* coupon coupon_page_desc_callback ------------------------------------------------*/
 function alternative_page_desc_callback() {
 
 		$options = get_option( 'mv_list_items_settings' );
@@ -696,8 +880,95 @@ function alternative_page_desc_callback() {
 
 	}
 
+	function comparison_page_list_order_callback() {
+
+		$options = get_option( 'mv_list_items_settings' );
+
+		$app_id = !empty( $options['comparison_page_order'] )?$options['comparison_page_order']:'';
 
 
+		// Render the output
+
+		echo '<input type="text" class="large-text" id="app_id" name="mv_list_items_settings[comparison_page_order]" value="' . $app_id. '" />';
+
+		echo '<p class="order">Order of sections to show on Comparison Page. Use lowercase only eg. video, pricing, overview, ratings, features, hidden, betterthan, support, reviews, screenshots, download, ranking </a></p>';
+
+	}
+
+
+/* coupon coupon_page_btn_text  and subscription------------------------------------------------*/
+	function coupon_page_subscription_form_callback() {
+
+		$options = get_option( 'mv_list_items_settings' );
+
+
+
+		$app_id = !empty( $options['coupon_page_subscription_form'] )?$options['coupon_page_subscription_form']:'';
+
+
+
+		// Render the output
+
+		echo '<textarea class="large-text" id="app_id" name="mv_list_items_settings[coupon_page_subscription_form]"  >'.$app_id.'</textarea>';
+
+		echo '<p class="description">Subscription form  </a></p>';
+
+	}
+	function coupon_subscription_form_callback() {
+
+		$options = get_option( 'mv_list_items_settings' );
+
+
+
+		$app_id = !empty( $options['coupon_subscription_form'] )?$options['coupon_subscription_form']:'';
+
+
+
+		// Render the output
+
+		echo '<textarea class="large-text" id="app_id" name="mv_list_items_settings[coupon_subscription_form]"  >'.$app_id.'</textarea>';
+
+		echo '<p class="description"> Coupon page Subscription form  </a></p>';
+
+	}
+	function deal_subscription_form_callback() {
+
+		$options = get_option( 'mv_list_items_settings' );
+
+
+
+		$app_id = !empty( $options['deal_subscription_form'] )?$options['deal_subscription_form']:'';
+
+
+
+		// Render the output
+
+		echo '<textarea class="large-text" id="app_id" name="mv_list_items_settings[deal_subscription_form]"  >'.$app_id.'</textarea>';
+
+		echo '<p class="description"> Deal Page Subscription form  </a></p>';
+
+	}
+	
+
+	function coupon_page_btn_text() {
+
+		$options = get_option( 'mv_list_items_settings' );
+
+
+
+		$app_id = !empty( $options['coupon_page_btn_text'] )?$options['coupon_page_btn_text']:'';
+
+
+
+		// Render the output
+
+		echo '<input type="text" class="normal-text" id="app_id" name="mv_list_items_settings[coupon_page_btn_text]" value="' . $app_id. '" />';
+
+		//echo '<p class="description">Button T </a></p>';
+
+	}
+
+	/* coupon coupon_page_btn_text ------------------------------------------------*/
 
 
 
@@ -739,6 +1010,24 @@ function alternative_page_desc_callback() {
 		//echo '<p class="description">Button T </a></p>';
 
 	}
+
+	function list_page_targetted_countries_callback(){
+		$options = get_option( 'mv_list_items_settings' );
+
+		$app_id = !empty( $options['list_page_target_countries'] )?$options['list_page_target_countries']:'';
+
+
+		// Render the output
+		echo '<textarea id="app_id" name="mv_list_items_settings[list_page_target_countries]" style="width: 100%;
+
+    height: 200px;">' . $app_id. '</textarea>';
+		// echo '<input type="text" class="large-text" id="app_id" name="mv_list_items_settings[list_page_target_countries]" value="' . $app_id. '" />';
+
+		echo '<p class="order">Alpha 2 codes of targetted countries. Use UPPERCASE, separated by => (no spaces between = and >) , single quotes at appropriate places eg. "\'IN\' => \'India\',     \'US\' => \'United States\',     \'GB\' => \'United Kingdom\', " refer to : <a href="https://www.nationsonline.org/oneworld/country_code_list.htm">nationsonline.org</a> <a href="https://raw.githubusercontent.com/blazeworx/flagstrap/master/src/jquery.flagstrap.js">Flagstrap</a></a></p>';
+
+	}
+
+
 	function list_scroll_setting_callback(){ 
 		$options = get_option( 'mv_list_items_settings' );
 		$scroll = !empty( $options['scroll_setting'] )?$options['scroll_setting']:'';

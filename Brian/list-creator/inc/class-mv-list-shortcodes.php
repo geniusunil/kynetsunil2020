@@ -48,10 +48,16 @@ class Mv_List_Shortcodes {
     }
 
     function get_bubbles() {		
-		$list_id = $_POST['list_id'];
+      if(isset($_POST['list_id'])){
+        $list_id = $_POST['list_id'];
+      }
+		
 //		file_put_contents("debugbubbles.txt","list_id is   ".print_r($list_id,true ) );
 		
-		$popularityArray = array();
+    $popularityArray = array();
+    if(is_array($list_id)){
+
+    
 		foreach($list_id as $li){
 //			file_put_contents("debugbubbles.txt","list_id11 is   ".print_r($list_id,true ));
 		 	$items_in_list = get_field("list_items",$li);
@@ -70,7 +76,8 @@ class Mv_List_Shortcodes {
 							}
 						$i++;
 					}
-			}
+      }
+    }
 		// echo "bubbles";
 		arsort($popularityArray);
 		$popularityArray = array_slice($popularityArray,0,20);

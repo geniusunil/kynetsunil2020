@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: List Creator 17sep2019
+Plugin Name: List Creator
 Description: Create Lists & List Items
 Version: 1.7
 Plugin URI: https://www.softwarefindr.com
@@ -186,11 +186,14 @@ function namespace_yoast_metadesc( $str ) {
 function multiverse_name_scripts() {
     wp_enqueue_style( 'tags-input', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/jquery.tagsinput.css' );
     wp_enqueue_style( 'flagstrapcss', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/flags.css' );
-    wp_enqueue_style( 'ui-css', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/themes/start/jquery-ui.css' );
+    wp_enqueue_style( 'ui-css', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/themes/start/jquery-ui.css' );
     wp_enqueue_style( 'flexslider-css', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/flexslider.css' );
     wp_enqueue_style( 'fancybox-css', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/jquery.fancybox.min.css' );
     wp_enqueue_style( 'list-creator', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/list-creator.css',array(),time() );
-	//wp_enqueue_style( 'list-fontawsm', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/fontawsm.css' );
+    wp_enqueue_style( 'vuetify', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/vuetify.css' );
+    wp_enqueue_style( 'materialdesignicons', 'https://cdn.materialdesignicons.com/1.1.34/css/materialdesignicons.min.css' );
+
+        //wp_enqueue_style( 'list-fontawsm', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/fontawsm.css' );
 	//wp_enqueue_script( 'list-fontawsm' );
     wp_enqueue_script( 'jquery-ui-core' );
     wp_enqueue_script( 'jquery-ui-autocomplete' );
@@ -210,7 +213,15 @@ function multiverse_name_scripts() {
     wp_enqueue_script( 'list-creator');
 
     //sunil
+    wp_register_script( 'google_charts_loader', 'https://www.gstatic.com/charts/loader.js', array( 'jquery' ), time(), false );
+    wp_enqueue_script( 'google_charts_loader');
 
+    
+    wp_register_script( 'vuejs', 'https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js', array( 'jquery' ), time(), false );
+    wp_enqueue_script( 'vuejs');
+
+    wp_register_script( 'vuetifyjs', 'https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js', array( 'jquery' ), time(), false );
+    wp_enqueue_script( 'vuetifyjs');
     //end sunil
 	
 	wp_enqueue_script( 'morris-min-js', plugins_url()."/".basename( dirname( __FILE__ ) ).'/js/morris.min.js', array( 'jquery' ), false );
@@ -236,7 +247,10 @@ function multiverse_name_scripts() {
       wp_register_script( 'flagstrap', plugins_url()."/".basename( dirname( __FILE__ ) ).'/js/jquery.flagstrap.min.js', array( 'jquery' ), false, true );
       wp_enqueue_script( 'flagstrap');
       wp_register_script( 'popper', plugins_url()."/".basename( dirname( __FILE__ ) ).'/js/popper.min.js', array( 'jquery' ), false, true );
-	  wp_enqueue_script( 'popper');
+      wp_enqueue_script( 'popper');
+      
+      //vue.js
+
 	  
 }
 
@@ -249,34 +263,6 @@ function multiverse_admin_scripts() {
 }
 
 add_action( 'admin_enqueue_scripts', 'multiverse_admin_scripts' );
-
-//add_action('init','multiverse_get_all_tags');
-
-// function multiverse_get_all_tags(){
-//  $terms = get_terms( array(
-//      'taxonomy' => 'item_tags',
-//      'hide_empty' => true,
-//  ) );
-//  $tags =array();
-
-//  if($terms){
-//   foreach ($terms as  $term) {
-//    $tags[]=array('id'=>$term->term_id,'label'=>$term->name, 'value'=>$term->term_id);
-//   }
-
-//  }
-//  set_transient( 'all_item_tags', $tags );
-
-// }
-
-
-// add_action('wp_ajax_get_filter_tags','multiverse_get_filter_tags' );
-// add_action('wp_ajax_nopriv_get_filter_tags','multiverse_get_filter_tags' );
-// function multiverse_get_filter_tags(){
-
-//  $tags = get_transient( 'all_item_tags', $tags );
-//  echo json_encode($tags); die;
-// }
 
 add_shortcode( 'total_votes','func_total_votes' );
 
@@ -804,7 +790,7 @@ function add_admin_scripts( $hook ) {
 
     global $post,$pagenow, $typenow, $taxnow ;;
     if ( $hook == 'post-new.php' || $hook == 'post.php' || $hook == 'edit-tags.php' || $hook == 'term.php'  ) {
-        if ( 'list_items' === $post->post_type || $taxnow === 'list_comp_categories' ) {
+        if ( 'list_items' === $post->post_type || 'lists' === $post->post_type || $taxnow === 'list_comp_categories' ) {
             wp_enqueue_style( 'list_admin', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/admin.css',array(),time() );
             wp_enqueue_script(  'list.min.js', plugins_url()."/".basename( dirname( __FILE__ ) ).'/js/list.min.js', array( 'jquery' ), false, false  );
             wp_enqueue_script(  'jquery.matchHeight.js', plugins_url()."/".basename( dirname( __FILE__ ) ).'/js/jquery.matchHeight.js', array( 'jquery' ), false, false  );
@@ -933,3 +919,31 @@ return apply_filters( 'wpb_get_ip', $ip );
 }
  
 add_shortcode('show_ip', 'get_the_user_ip');
+
+
+function call_generate_compare_link($posts = array())
+	{
+
+        $postId = $_POST['sel_arr'];
+        $title1 = get_the_title($postId[0]);
+        $title2 = get_the_title($postId[1]);
+
+        $item_image1 = get_thumbnail_small($postId[0], array(50, 50));//get_the_post_thumbnail_url($postId[0], array(100, 100));
+        $item_image2 = get_thumbnail_small($postId[1], array(50, 50));//get_the_post_thumbnail_url($postId[1], array(100, 100));
+
+        file_put_contents("list_creater.txt","title: ".print_r( $title,true),FILE_APPEND);
+        file_put_contents("list_creater.txt","postarroriginal is: ".print_r( $postId,true),FILE_APPEND);
+       
+      /*   echo "posts in call gcl";
+        print_r($posts); */
+        $link = generate_compare_link($postId  );
+        $resp = array("link" => $link, "title1" => $title1, "title2" => $title2,"item_image1" => $item_image1,"item_image2" => $item_image2);
+echo json_encode($resp);
+        // echo $link;
+        wp_die();
+		
+		
+	}
+	
+	add_action('wp_ajax_generate_url', 'call_generate_compare_link'); // for logged in user
+	add_action('wp_ajax_nopriv_generate_url', 'call_generate_compare_link'); // if user not logged in

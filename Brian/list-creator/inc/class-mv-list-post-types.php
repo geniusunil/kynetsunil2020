@@ -59,7 +59,7 @@ class Mv_List_Post_Types {
 		$labels = array(
 			'name'               => _x( 'List Items', 'post type general name', 'your-plugin-textdomain' ),
 			'singular_name'      => _x( 'List Item', 'post type singular name', 'your-plugin-textdomain' ),
-			'menu_name'          => _x( 'List Items New', 'admin menu', 'your-plugin-textdomain' ),
+			'menu_name'          => _x( 'List Items', 'admin menu', 'your-plugin-textdomain' ),
 			'name_admin_bar'     => _x( 'List Item', 'add new on admin bar', 'your-plugin-textdomain' ),
 			'add_new'            => _x( 'Add New', 'list item', 'your-plugin-textdomain' ),
 			'add_new_item'       => __( 'Add New List Item', 'your-plugin-textdomain' ),
@@ -91,6 +91,8 @@ class Mv_List_Post_Types {
 		);
 
 		register_post_type( 'list_items', $args );
+		
+
 
 		// Add new taxonomy, make it hierarchical (like categories)
 		$labels = array(

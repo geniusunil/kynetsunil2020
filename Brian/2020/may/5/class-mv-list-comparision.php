@@ -22,26 +22,30 @@ class Mv_List_Comparision
     private $industry_items;
     public function __construct($compareId = null, $ajax = false)
     {
-        $user_ip = do_shortcode('[show_ip]');
-        $_SESSION['user_ip'] = $user_ip;
+        
 
-        $this->setup_variables($compareId);
-        if (!$ajax) {
-            add_action('custom_comparison_content', array($this, 'show_comparison_contnet'));
-            add_action('wp_head', array($this, 'add_javascript'));
-            // add_action('wp_enqueue_scripts', array($this, 'add_javascript_files'));
-            if (is_page('compare')) {
-                add_filter("wpseo_canonical", array($this, 'compare_canonical'));
-                add_filter('wpseo_title', array($this, 'add_to_page_titles'));
-                $settings = get_option('mv_list_items_settings');
-                $description = $settings['comparison_page_description'];
-                if ($description == "") {
-                    add_filter('wpseo_metadesc', array($this, 'get_compare_title_desc'));
-                } else {
-                    add_filter('wpseo_metadesc', array($this, 'compare_title_desc'));
+       
+            $user_ip = do_shortcode('[show_ip]');
+            $_SESSION['user_ip'] = $user_ip;
+
+            $this->setup_variables($compareId);
+            if (!$ajax) {
+                add_action('custom_comparison_content', array($this, 'show_comparison_contnet'));
+                add_action('wp_head', array($this, 'add_javascript'));
+                // add_action('wp_enqueue_scripts', array($this, 'add_javascript_files'));
+                if (is_page('compare')) {
+                    add_filter("wpseo_canonical", array($this, 'compare_canonical'));
+                    add_filter('wpseo_title', array($this, 'add_to_page_titles'));
+                    $settings = get_option('mv_list_items_settings');
+                    $description = $settings['comparison_page_description'];
+                    if ($description == "") {
+                        add_filter('wpseo_metadesc', array($this, 'get_compare_title_desc'));
+                    } else {
+                        add_filter('wpseo_metadesc', array($this, 'compare_title_desc'));
+                    }
                 }
             }
-        }
+        
     }
 
     public function add_javascript()
@@ -112,9 +116,10 @@ class Mv_List_Comparision
             $this->comp_categories = $campobj;
             $this->category = $campobj[0]->term_id;
         }
-
-        $post_id = $this->compareditems[item1];
-        $post_id2 = $this->compareditems[item2];
+        if(count($this->compareditems) > 1){
+            $post_id = $this->compareditems['item1'];
+            $post_id2 = $this->compareditems['item2'];
+            
         if (sizeof($this->findrScoreArr) == 0) {
             $this->calculate_fs($post_id, $post_id2);
             $this->calculate_fs($post_id2, $post_id);
@@ -147,6 +152,8 @@ class Mv_List_Comparision
         $all_item_id = array_unique($all_item_id);
 
         $this->industry_items = $all_item_id;
+        }
+        
         /* echo "industry items ";
     print_r($this->industry_items); */
 
@@ -521,7 +528,10 @@ $post_id = $this->compareditems[item1];
 									</div>
 								</div>
 
-								<div id="regions_div" style="width: 900px; height: 500px;"></div>
+								<div id="regions_div" style="width: 100%; height: 500px;"></div>
+                                <?php /* echo "pass to maps";
+                                print_r($passToMaps); */
+                                ?>
 								<script>
 									google.charts.load('current',
 									{
@@ -552,7 +562,7 @@ $post_id = $this->compareditems[item1];
 										chart.draw(data, options);
 									}
 								</script>
-								<div class='row'>
+								<div class='row' style="display:contents;">
 									<div class="col-md-12 py-5 text-center">
 										<p>In order to give you more personalized recommendations, we tailor the
 										ranking of a product to reflect what users are currently using in your geographical area.</p>
@@ -1079,6 +1089,7 @@ print_r($all_item_id); */
                 foreach ($all_item_id as $single_all_item_id) {
                     $item_features = get_or_create_feature_ratings($single_all_item_id);
                     foreach ($attributes_of_charts as $single_attributes_of_charts) {
+                        if(is_array($item_features)){
                         if (array_key_exists($single_attributes_of_charts, $item_features)) {
                             if ($item_features[$single_attributes_of_charts]['average'] == 0) {
                                 continue;
@@ -1086,6 +1097,7 @@ print_r($all_item_id); */
                             $features_ind_avg[$single_attributes_of_charts]['total_score'] += $item_features[$single_attributes_of_charts]['average'];
                             $features_ind_avg[$single_attributes_of_charts]['count'] += 1;
                         }
+                    }
                     }
                 }
 
@@ -1673,10 +1685,10 @@ $sliceStyle = 'style="
 																																			</div><br>
 																																		</div>';
                 if ($item_score > $this->all_support_score_avg) {
-                    echo 'Continue to seek out vendors after Good Experiance';
+                    echo 'Continue to seek out vendors after Good Experience';
 
                 } else {
-                    echo 'Continue to avoid vendors after Bad Experiance.';
+                    echo 'Continue to avoid vendors after Bad Experience.';
                 }
                 ?>
 												</div>
@@ -1757,9 +1769,9 @@ $sliceStyle = 'style="
 																				 </div><br>
 																			 </div>';
                 if ($item_score_2 > $this->all_support_score_avg) {
-                    echo 'Continue to seek out vendors after Good Experiance';
+                    echo 'Continue to seek out vendors after Good Experience';
                 } else {
-                    echo 'Continue to avoid vendors after Bad Experiance.';
+                    echo 'Continue to avoid vendors after Bad Experience.';
                 }
                 ?>
 												</div>
@@ -1835,7 +1847,11 @@ $compareditemnew = array();
                     $cit2 = $compareditemnew[1 - $i][1];
                     $methodName = 'get_column_' . $it;
                     $data = '';
-
+                 /*    if(function_exists($this,$methodName)){
+                        echo $methodName." exists";
+                    }else{
+                        echo $methodName." does not exists";
+                    } */
                     if (!empty($cit)) {
                         $data = $this->{$methodName}($cit, $key, $cit2);
                     } else {
@@ -2671,6 +2687,9 @@ $content = ob_get_contents();
         }
         if ($outcurrent) {
             $unique = $this->otheritems;
+           /*  echo "unique";
+            print_r($unique); */
+            file_put_contents("comparison.txt","post id $post_id number $number outcurrent $outcurrent unique ".print_r($unique,true).PHP_EOL,FILE_APPEND);
             if (!empty($unique)) {
                 $in = implode(',', $unique);
                 $sql = "SELECT CASE WHEN item1 = '$post_id' THEN item2 ELSE item1 END AS items
@@ -3073,6 +3092,8 @@ $con = ob_get_contents();
             'verdict' => 'Which Should You Choose',
             'ranking' => 'Ranked in these collections',
             'map' => 'map',
+            'overview' => 'Overview',
+            'integrations' => 'Integrations',
         );
         $order = array();
         //loop on custorder
@@ -3767,12 +3788,12 @@ $heplerVar = 1;
     }
 
     # *************  FAQ section  *************
-    public function get_column_faq($post_id, $item, $post_id2)
+    public function get_column_faq()
     {
 
         $x = 6;
-        $post_id = $this->compareditems[item1];
-        $post_id2 = $this->compareditems[item2];
+        $post_id = $this->compareditems['item1'];
+        $post_id2 = $this->compareditems['item2'];
         # Finder Scores
         $score_1 = $this->findrScoreArr[$post_id];
         $score_2 = $this->findrScoreArr[$post_id2];
@@ -3965,7 +3986,10 @@ $heplerVar = 1;
     public function calculate_fs($post_id, $post_id2)
     {
         //findrScore
+        
         $reviews = get_overall_combined_rating($post_id);
+      /*   echo "get overall combined rating";
+        print_r($reviews); */
         $findrScore = 0;
         $findrScore += $reviews['list']['featuresfunctionality']['score'] * 4;
         $findrScore += $reviews['list']['easeofuse']['score'] * 2;
@@ -4191,7 +4215,7 @@ $heplerVar = 1;
                             width: "100%",
                             height:500,
 							title: '',
-							hAxis: {title: 'Research Frequency', gridlines: {color: 'transparent'}, textPosition: 'out',ticks: [{v:0, f:'Weak'}, {v: 0.99*rangeX.max, f:'Strong'}]},
+							hAxis: {title: 'Research Frequency', gridlines: {color: 'transparent'}, textPosition: 'out',ticks: [{v:0, f:'Weak'}, {v: 0.9*rangeX.max, f:'Strong'}]},
 							vAxis: {title: 'Findscore', gridlines: {color: 'transparent'}, textPosition: 'out', ticks: [{v:0, f:'Weak'}, {v:100, f:'Strong'}]},
 							bubble: {textStyle: {fontSize: 10}},
 							sizeAxis: {

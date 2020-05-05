@@ -130,23 +130,33 @@ class Mv_List_Comparision
         echo "post id 2 ".$post_id2; */
 
         $list_item = get_field('add_to_list', $post_id);
-        foreach ($list_item as $key => $post_id_item) {
-            $post_ids = get_field('list_items', $post_id_item->ID);
-            foreach ($post_ids as $post_id_item2) {
-                $all_item_id[] = $post_id_item2->ID;
-            }
-        }
-        $all_item_id = array_unique($all_item_id);
-        $list_item = get_field('add_to_list', $post_id2);
-        foreach ($list_item as $key => $post_id_item) {
-            $post_ids = get_field('list_items', $post_id_item->ID);
-            foreach ($post_ids as $post_id_item2) {
-                $all_item_id[] = $post_id_item2->ID;
-            }
-        }
-        $all_item_id = array_unique($all_item_id);
+        if(is_array($list_item) && !empty($list_item)){
 
+        
+        foreach ($list_item as $key => $post_id_item) {
+            $post_ids = get_field('list_items', $post_id_item->ID);
+            foreach ($post_ids as $post_id_item2) {
+                $all_item_id[] = $post_id_item2->ID;
+            }
+        }
+   
+        $all_item_id = array_unique($all_item_id);
+    }
+        $list_item = get_field('add_to_list', $post_id2);
+        if(is_array($list_item) && !empty($list_item)){
+        foreach ($list_item as $key => $post_id_item) {
+            $post_ids = get_field('list_items', $post_id_item->ID);
+            foreach ($post_ids as $post_id_item2) {
+                $all_item_id[] = $post_id_item2->ID;
+            }
+        }
+        $all_item_id = array_unique($all_item_id);
+    }
+    if(is_array($all_item_id)){
         $this->industry_items = $all_item_id;
+    }else{
+        $this->industry_items = array();
+    }
         /* echo "industry items ";
     print_r($this->industry_items); */
 
@@ -521,7 +531,10 @@ $post_id = $this->compareditems[item1];
 									</div>
 								</div>
 
-								<div id="regions_div" style="width: 900px; height: 500px;"></div>
+								<div id="regions_div" style="width: 100%; height: 500px;"></div>
+                                <?php /* echo "pass to maps";
+                                print_r($passToMaps); */
+                                ?>
 								<script>
 									google.charts.load('current',
 									{
@@ -552,7 +565,7 @@ $post_id = $this->compareditems[item1];
 										chart.draw(data, options);
 									}
 								</script>
-								<div class='row'>
+								<div class='row' style="display:contents;">
 									<div class="col-md-12 py-5 text-center">
 										<p>In order to give you more personalized recommendations, we tailor the
 										ranking of a product to reflect what users are currently using in your geographical area.</p>
@@ -1673,10 +1686,10 @@ $sliceStyle = 'style="
 																																			</div><br>
 																																		</div>';
                 if ($item_score > $this->all_support_score_avg) {
-                    echo 'Continue to seek out vendors after Good Experiance';
+                    echo 'Continue to seek out vendors after Good Experience';
 
                 } else {
-                    echo 'Continue to avoid vendors after Bad Experiance.';
+                    echo 'Continue to avoid vendors after Bad Experience.';
                 }
                 ?>
 												</div>
@@ -1757,9 +1770,9 @@ $sliceStyle = 'style="
 																				 </div><br>
 																			 </div>';
                 if ($item_score_2 > $this->all_support_score_avg) {
-                    echo 'Continue to seek out vendors after Good Experiance';
+                    echo 'Continue to seek out vendors after Good Experience';
                 } else {
-                    echo 'Continue to avoid vendors after Bad Experiance.';
+                    echo 'Continue to avoid vendors after Bad Experience.';
                 }
                 ?>
 												</div>
@@ -3062,7 +3075,7 @@ $con = ob_get_contents();
         $custorder = explode(",", $custorderstring);
         $maps = array(
             'hidden' => '',
-            'betterthan' => '',
+            'betterthan' => 'Pros & Cons',
             'ratings' => 'Ratings',
             'pricing' => 'Pricing',
             'features' => 'Features',

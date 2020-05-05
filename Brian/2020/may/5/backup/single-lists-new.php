@@ -180,7 +180,7 @@ foreach($countryPair as $cp){
 	            <div class="container2">
 	            <?php
                 // wp_infinitepaginate();
-                $_SESSION['gen_list'][$list_id]=$generated_list = generate_list();
+                $_SESSION['gen_list'][$list_id]=$generated_list = generate_list($list_id);
                 
                 // print_r($generated_list);
                 $posts = get_field('list_items',$list_id);
@@ -612,7 +612,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
 // print_r($qalist);
     foreach($qalist as $faq_ls){
         $custfaq = "<div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q. ".$faq_ls['question']."</h3>
+                        <b itemprop='name'> Q. ".$faq_ls['question']."</b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans.".$faq_ls[answer]."
@@ -627,7 +627,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
 
 
           $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  What is the best free ".$faq1."?</h3>
+                        <b itemprop='name'> Q.  What is the best free ".$faq1."?</b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans. $faq1_ans
@@ -636,7 +636,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
                     </div>
           ";
         $faq.= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Which is commonly used for ".$_SESSION['top3features'][0]." ? </h3>
+                        <b itemprop='name'> Q.  Which is commonly used for ".$_SESSION['top3features'][0]." ? </b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans.Over $overall_software_votes_percentage% over users surveyed recommended $overall_software_title.     </div>
@@ -644,7 +644,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
                     </div>
           "; 
           $faq.= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  How much does a $faq1 cost? </h3>
+                        <b itemprop='name'> Q.  How much does a $faq1 cost? </b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans. Looking at the data collected on our platform the average starting price is $total_price USD billed per $plan_field_total as a  $model_post_result.
@@ -665,7 +665,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
             }   
             
             $faq.= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-            <h3 itemprop='name'> Q.  What is the ".$faq1_best." with $t3f? </h3>
+            <b itemprop='name'> Q.  What is the ".$faq1_best." with $t3f? </b>
             <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                 <div itemprop='text'>
                     Ans. The results are in and over a ".$GLOBALS['finalVotes']." as cast their votes and ".get_the_title($topProductWithFeature)." is the recommended choice.
@@ -679,7 +679,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
 
 
           $faq.= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  What is the ".$faq1." in $top_loc_key? </h3>
+                        <b itemprop='name'> Q.  What is the ".$faq1." in $top_loc_key? </b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. After analyzing the data from users in  $top_loc_key, the result show that $down_max_item  is the popular choice locally.                               
@@ -688,7 +688,7 @@ $qalist  = get_post_meta($list_id, 'qas_list', true);
                     </div>
           ";
           $faq.= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Which are the best ".$faq1." for a beginner? </h3>
+                        <b itemprop='name'> Q.  Which are the best ".$faq1." for a beginner? </b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. $faq_ans6
@@ -743,8 +743,8 @@ foreach($_SESSION['top3features'] as $t3f){
       
     
     $faq.= " <div  itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.   Does ".$item1."  or ".$item2." have  ".$t3f."?
-                        </h3>
+                        <b itemprop='name'> Q.   Does ".$item1."  or ".$item2." have  ".$t3f."?
+                        </b>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans. $ans6
@@ -761,7 +761,7 @@ foreach($_SESSION['top3features'] as $t3f){
              return $faq;
 
 }
-$faqs = '<div class="item-overview-content"><div id="overview"> <h3>Frequently Asked Questions</h3> <div><span itemprop="description">'.get_list_faq().'</span>
+$faqs = '<div class="item-overview-content"><div id="overview"> <h4>Frequently Asked Questions</h4> <div><span itemprop="description">'.get_list_faq().'</span>
  </div>
 </div></div>
 ';

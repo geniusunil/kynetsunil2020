@@ -135,7 +135,8 @@ jQuery(function() {
 
         // measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
         $ps.each(function() {
-            totalHeight += jQuery(this).outerHeight();
+            totalHeight += jQuery(this).outerHeight(true);
+            // console.log({totalHeight});
             // FAIL totalHeight += $(this).css("margin-bottom");
         });
 
@@ -157,10 +158,15 @@ jQuery(function() {
 
     });
     var footer  = jQuery('.comparison_fix_footer');
-    var reference  = jQuery('#show_comprison_footer');
-    var sticky = reference.offset().top ;
+    
+    
     jQuery(window).scroll(function () {
+        var reference  = jQuery('#show_comprison_footer');
+        var sticky = reference.offset().top ;
         var top = jQuery(window).scrollTop();
+       /*  console.log({footer,reference,sticky});
+        console.log({top}); */
+
         if (top >= sticky) {
             footer.addClass("stickyshow")
         } else {

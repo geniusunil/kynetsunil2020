@@ -1,1 +1,0 @@
-cd /home/kynetuweb/public_html/hotel-proj

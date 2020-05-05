@@ -9,7 +9,7 @@ class Mv_Acf_Hooks {
 		//after save
 		add_action( 'acf/save_post', array( $this, 'save_add_remove_list_attachment' ), 20 );
 		add_action('acf/save_post',  array( $this, 'my_save_post'),20);
-		add_filter('acf/fields/relationship/query', array( $this, 'my_relationship_query'), 10, 3);
+		add_filter('acf/fields/relationship/query/name=add_to_list', array( $this, 'my_relationship_query'), 10, 3);
 		add_filter( 'acf/get_valid_field', array( $this,'change_input_labels'), 10, 3);
 		// populate promoted items chekboxes in backend.
 		add_filter('acf/load_field/name=promoted_list_items',array( $this, 'acf_load_promoted_item_choices'));
@@ -56,10 +56,11 @@ function change_input_labels($field) {
 
 	
 function my_relationship_query( $args, $field, $post_id ) {
-	// file_put_contents("functions.txt",print_r($args,true));
-	
-		$value = get_field( "cat", $post_id );
+	file_put_contents("functions.txt",print_r($args,true));
+	file_put_contents("pluginhooks.txt",print_r($args,true),FILE_APPEND);
 
+		$value = get_field( "cat", $post_id );
+		
 	if(!empty($value) ){
 		
 	/* 	$args = array(
@@ -115,7 +116,12 @@ function my_relationship_query( $args, $field, $post_id ) {
 				$previous_attached_lists = get_post_meta( $post_id, 'previous_attached_lists', true );
 				if ( $previous_attached_lists ) {
 					$removed_lists = array_diff( $previous_attached_lists, $posts );
-					$this->remove_attached( $removed_lists, $post_id, $meta_key );
+					
+					file_put_contents("pluginhooks.txt","array diff\n".print_r($removed_lists,true).PHP_EOL,FILE_APPEND);
+					if(!empty($removed_lists)){
+						$this->remove_attached( $removed_lists, $post_id, $meta_key );
+					}
+					
 				}
 			} else {
 				file_put_contents("pluginhooks.txt","posts is empty\n",FILE_APPEND);
@@ -253,48 +259,17 @@ function my_relationship_query( $args, $field, $post_id ) {
 	//		file_put_contents("mysavepost2.txt",print_r($cats,true),FILE_APPEND);
 			wp_set_post_terms( $post_id, $cats, 'list_categories', false );
 			
-			//---------------------------------postcategory------------------------------------------------	
-	
-			$meta_box_value =array();
-				if(isset($_POST['features_list']))  
-				{  
-					$meta_box_value = $_POST['features_list'];
-	  
-				  }
-	  
-	//		file_put_contents("upadted_value.txt",print_r($meta_box_value),FILE_APPEND);
-		  if(isset($_POST['new_features_list']) && is_array($_POST['new_features_list']) && !empty($_POST['new_features_list'])){
-				  $newArr = $_POST['new_features_list'];  
-				  $newArr = array_filter($newArr);  
-						  if(!empty($newArr) ){  
-			//				  $term_meta = get_option( "taxonomy_$catValue" );
-							  $items = array();
-								if(!empty($term_meta) && is_array($term_meta)){  
-										if(isset($term_meta['features_list'])) {  
-											$items = $term_meta['features_list'];
-	//					  					file_put_contents("upadted_value.txt",print_r($items),FILE_APPEND);
-	
-											  }
-	  
-										  } else{  
-											  $term_meta = array();
-	  
-										  }
-	  
-				  $newFat = array_merge($items,$newArr);
-	  
-				  $term_meta['features_list']=$newFat;
-	 
-				  $meta_box_value = array_merge($meta_box_value,$newArr);
-	  
-			  }
-	  
-			  
-			  
-		  }
+			//---------------------------------end of postcategory------------------------------------------------	
+			
+			$update = "";
+			$data =	get_post( $post_id );
+			re_save_item_feature_meta_boxes($post_id, $data, $update);
+
+			
+			/* There is no re_save function for videos yet*/
 		  $abc = get_field("new_video_list[]", $post_id);
 	//  file_put_contents("mysavepost212.txt","videoArr is: ".print_r($abc,true),FILE_APPEND);
-		$newArr  = $_POST['new_features_list']; 
+		// $newArr  = $_POST['new_features_list']; 
 	//		file_put_contents("mysavepost2.txt","newArr is: ".print_r($newArr,true),FILE_APPEND);
 			
 			foreach($newArr as $key=>$list_new_item){
@@ -306,17 +281,41 @@ function my_relationship_query( $args, $field, $post_id ) {
 	//			file_put_contents("new_list.txt","newArr is: ".print_r($result,true),FILE_APPEND);
 			
 			}
-				$result = array_unique($newArr);
-		  update_post_meta($post_id, 'features_list', $result);
+				// $result = array_unique($newArr);
+		//   update_post_meta($post_id, 'features_list', $result);
 	//	  update_post_meta($post_id, 'features_list2', $newArr);		
 		  $videoArr  = array_unique($_POST['new_video_list']); 
-	//		file_put_contents("mysavepost2.txt","videoArr is: ".print_r($_POST,true),FILE_APPEND);
+			file_put_contents("mysavepost2.txt","videoArr is before: ".print_r($videoArr,true),FILE_APPEND);
 			foreach($videoArr as $key=> $video){
 				if(trim($video) == ''){
 					unset($videoArr[$key]);
 				}
 			}
+			file_put_contents("mysavepost2.txt","$post_id is post id, videoArr is after: ".print_r($videoArr,true),FILE_APPEND);
+			// $videoArr []= 'last from acf hooks';
 			update_post_meta($post_id, 'video_list', $videoArr);
+
+
+			//coupons 
+			
+			$update = "";
+		$data =	get_post( $post_id );
+		    file_put_contents("hooks_file.txt","wp_object ".print_r($data,true),FILE_APPEND);
+			re_save_coupon_meta_boxes($post_id,$data,$update);
+			
+
+			// end of coupons
+
+			
+			//qa 
+			
+			$update_qa = "";
+		$data_qa =	get_post( $post_id );
+		    // file_put_contents("hooks_file.txt","wp_object ".print_r($data,true),FILE_APPEND);
+			re_save_qa_meta_boxes($post_id,$data_qa,$update_qa);
+			
+
+			// end of qa
 			
 		
 	  }

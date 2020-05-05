@@ -166,11 +166,11 @@ var freemothers     = 100- freem;
 
 		window.onload = function() {
 			
-			var ctx = document.getElementById('chart-area').getContext('2d');
+		/* 	var ctx = document.getElementById('chart-area').getContext('2d');
 			window.myDoughnut = new Chart(ctx, subscription);
 			window.myDoughnut.options.circumference = Math.PI;
 				window.myDoughnut.options.rotation = -Math.PI;
-			window.myDoughnut.update();
+			window.myDoughnut.update(); 
 			var ctx1 = document.getElementById('chart-area1').getContext('2d');
 			window.myDoughnut = new Chart(ctx1, freetrial);
 			window.myDoughnut.options.circumference = Math.PI;
@@ -181,6 +181,7 @@ var freemothers     = 100- freem;
 			window.myDoughnut.options.circumference = Math.PI;
 				window.myDoughnut.options.rotation = -Math.PI;
 			window.myDoughnut.update();
+			*/
 			///////////scater/////////////////
 			//jQuery("#canvas_bar").CanvasJSChart(scatterChartData);
 			var ctx4 = document.getElementById('chart3').getContext('2d');

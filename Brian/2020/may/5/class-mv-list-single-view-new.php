@@ -60,11 +60,11 @@ class Mv_List_Single_View_New
             if (!has_shortcode($post->post_content, 'show_list')) {
                 $content = $this->list_contnet(get_the_ID());
 
-                $content .= '<div class="map-div">' . $this->list_geo_map() . ' </div></div>';
+                $content .= '<div class="map-div">' . $this->list_geo_map(get_the_ID()) . ' </div></div>';
 
                 $content .= $this->get_list_html(get_the_ID());
                 // $content .= $this->item_content_value(get_the_ID());
-
+                $content .= '<div class="container item-overview-content">' . $this->list_market_radar_chart(get_the_ID()) . '</div>';
                 $content .= '<div class="container item-overview-content">' . $this->list_price_performance_chart(get_the_ID()) . '</div>';
                 $content .='<div class="container item-overview-content">' .$this->list_avg_cat_fndrscore($post_id). '</div>';
                 $content .= '<div class="container item-overview-content">' . $this->list_comparion_data_show($post_id) . '</div>';
@@ -81,7 +81,7 @@ class Mv_List_Single_View_New
             $this->ranklist = get_item_ranks($currentId);
             // echo "before full content".time();
             // $this->ranklist($currentId);
-            $content = $this->full_content($post_id);
+            $content = $this->full_content($currentId);
             // echo "after full content".time();
             // $content = $this->get_single_list_item_content( get_the_ID(), $content );
 
@@ -98,14 +98,14 @@ class Mv_List_Single_View_New
         $post_id = get_the_id();
         $lists = get_field('list_items', $post_id, false);
         $i = 0;
-        $list_comparion_data .= '<h1 style=" font-size: 1.75rem; font-family: ProximaNova !important;">
+        $list_comparion_data .= '<p style=" font-size: 1.75rem; font-family: ProximaNova !important;">
        The ' . get_the_title($post_id) . ' Summed Up
-        </h1>';
+        </p>';
         // $list_comparion_data .= ' <div class="row-1">';
         // $list_comparion_data .= '<p align="center"> When evaluating '.get_the_title($post_id).' our users also give serious thoughts to these other solutions:- </p>';
 
         ?>
-
+<!--
         <div class="container">
         <div class="row">
             <div class="col-md-12" style="
@@ -134,7 +134,7 @@ $k = 0;
 
             $item_price[$item_id] = intval($price_data);
             $per_user = get_field('per_user',$item_id,false);
-            var_dump($per_user);
+            // var_dump($per_user);
             $pu=null;
             if($per_user == "1"){
                 $pu = '/per user';
@@ -218,7 +218,7 @@ foreach ($fs_list as $key => $fs) {
 
                     echo "<td><i class='fa fa-check' aria-hidden='true' style='color: green;' ></i></td>";
                 } else {
-                    echo "<td><i class='fa fa-times' aria-hidden='true' style='color: red;' ></i></td>";
+                    echo "<td><i class='fa fa-minus' aria-hidden='true' style='color: grey;' ></i></td>";
 
                 }
 
@@ -245,7 +245,7 @@ foreach ($fs_list as $key => $fs) {
 
 </div>
                 </div>
-            </div>
+            </div> -->
 
 
 
@@ -407,7 +407,7 @@ foreach ($fs_list as $key => $fs) {
         }
         /******************************************** * faq-5 & faq-7 end ******************************************/
         /******************************************** * faq-8start *************************************************/
-        $compObj = new Mv_List_Comparision();
+        $compObj = new Mv_List_Comparision(null,true);
         $lists = $compObj->most_compared($post_id, 20, true);
 
         $pricing_model = get_field('pricing_model', $post_id);
@@ -421,7 +421,7 @@ foreach ($fs_list as $key => $fs) {
                 $plan = get_field('plan', $pid);
                 foreach ($pricing_model as $pricing) {
                     if ($pricing == 'freemium') {
-                        $overalrating_comp[] = $rating_comp['list'][overallrating][score];
+                        $overalrating_comp[] = $rating_comp['list']['overallrating']['score'];
                         $rat_alternte = max($overalrating_comp);
                         $alternate_title = get_the_title($pid);
                         $altr_link = generate_compare_link(array($post_id, $pid));
@@ -488,7 +488,7 @@ foreach ($fs_list as $key => $fs) {
         // print_r($qalist);
         foreach ($qalist as $faq_ls) {
             $custfaq = "<div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                            <h3 itemprop='name'> Q. " . $faq_ls['question'] . "</h3>
+                            <h4 itemprop='name'> Q. " . $faq_ls['question'] . "</h4>
                             <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                                 <div itemprop='text'>
                                     Ans." . $faq_ls['answer'] . "
@@ -498,7 +498,7 @@ foreach ($fs_list as $key => $fs) {
             $faq .= $custfaq;
         }
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Is $iem_name good for beginners?</h3>
+                        <h4 itemprop='name'> Q.  Is $iem_name good for beginners?</h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans. $beginners
@@ -508,7 +508,7 @@ foreach ($fs_list as $key => $fs) {
           ";
         if (!empty($county)) {
             $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  How good is $iem_name in $county? </h3>
+                        <h4 itemprop='name'> Q.  How good is $iem_name in $county? </h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans.$faqans       </div>
@@ -517,7 +517,7 @@ foreach ($fs_list as $key => $fs) {
           ";
         }
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  How much does $iem_name cost? </h3>
+                        <h4 itemprop='name'> Q.  How much does $iem_name cost? </h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans. $pric
@@ -526,7 +526,7 @@ foreach ($fs_list as $key => $fs) {
                     </div>
           ";
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  What type of support can I expect with $iem_name? </h3>
+                        <h4 itemprop='name'> Q.  What type of support can I expect with $iem_name? </h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. $itm_support_ans
@@ -535,7 +535,7 @@ foreach ($fs_list as $key => $fs) {
                     </div>
           ";
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Are there any coupons for $iem_name? </h3>
+                        <h4 itemprop='name'> Q.  Are there any coupons for $iem_name? </h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. $link_coupon_not
@@ -546,7 +546,7 @@ foreach ($fs_list as $key => $fs) {
 
         if (!empty($topfeature_score)) {
             $faq .= " <div  itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Is $iem_name any good for $three? </h3>
+                        <h4 itemprop='name'> Q.  Is $iem_name any good for $three? </h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. $iem_name as a  $hig_low_data rating when it comes to  $three, scoring  $topfeature_score with a category average of $top_ind_avg .
@@ -557,7 +557,7 @@ foreach ($fs_list as $key => $fs) {
           ";
         }
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.   Can I try $iem_name for free? </h3>
+                        <h4 itemprop='name'> Q.   Can I try $iem_name for free? </h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                             Ans. $free
@@ -568,7 +568,7 @@ foreach ($fs_list as $key => $fs) {
         if (!empty($alternate_ans)) {
             $faq .= "
           <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Are there any Free alternative to $iem_name?</h3>
+                        <h4 itemprop='name'> Q.  Are there any Free alternative to $iem_name?</h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. $alternate_ans
@@ -579,7 +579,7 @@ foreach ($fs_list as $key => $fs) {
           ";
         }
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q.  Is $iem_name the best $faq9 ?</h3>
+                        <h4 itemprop='name'> Q.  Is $iem_name the best $faq9 ?</h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans.  $ans_faq9.
@@ -588,7 +588,7 @@ foreach ($fs_list as $key => $fs) {
                     </div>
           ";
         $faq .= " <div itemscope itemprop='mainEntity' itemtype='https://schema.org/Question'>
-                        <h3 itemprop='name'> Q. Which is better $iem_name or $top_alternative_title?</h3>
+                        <h4 itemprop='name'> Q. Which is better $iem_name or $top_alternative_title?</h4>
                         <div itemscope itemprop='acceptedAnswer' itemtype='https://schema.org/Answer'>
                             <div itemprop='text'>
                                 Ans. $better_item
@@ -674,7 +674,9 @@ foreach ($fs_list as $key => $fs) {
             }
             
         }
-        $htm = '<div class="container headr_Sec_div" style="margin: 0 auto;"><div class="list_overview_sec">
+        $htm = '<div class="container headr_Sec_div" style="margin: 0 auto;"><divstyle="
+        min-height: 358px;
+    "><div class="list_overview_sec">
             <div class="abc">
                 <div class="row">
                     <div class="col-md-10 col-sm-12 contenttext"><div id="list_main_contnet">' . $contentP . '
@@ -716,7 +718,7 @@ foreach ($fs_list as $key => $fs) {
                                 </div> 
 
                                 <div class="table_content">  <p class="toc_container">[toc]</p></div> ' . $adddata .'
-                 </div>';
+                 </div></div>';
 
         return $htm;
     }
@@ -872,7 +874,7 @@ $sub_heading = get_field('sub_heading', $main_list_id);
         }?>
             <div class=" container">
             <div class="row" >
-            <div class="col-sm-12"> <h3 align="center">    <?php echo $list_title; ?>  </h3>
+            <div class="col-sm-12"> <h2 align="center">    <?php echo $list_title;?>  </h2>
 
 
 
@@ -1114,11 +1116,11 @@ $big = 999999999; // need an unlikely integer
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col-md-7 center">
-                            <h4 style="color: #fff; font-size: 1.75rem; font-family: ProximaNova !important;">
+                            <b style="color: #fff; font-size: 1.75rem; font-family: ProximaNova !important;">
                             DON'T SEE YOUR PRODUCT
-                            </h4>
-                            <p align="center" style="color: #fff;">Suggest it for testing.</p>
-                          <a href="<?php echo get_home_url() . '/wp-admin'; ?>">  <button style="background: #00a1e4;padding: 2%;border-radius: 30px;width: 47%;color: #fff;">Submit your suggestion</button>
+                            </b>
+                            <p align="center" style="color: #fff;">Submit it, to show up here.</p>
+                          <a href="<?php echo get_home_url() . '/login'; ?>">  <button style="background: #00a1e4;padding: 2%;border-radius: 30px;width: 47%;color: #fff;">Submit your suggestion</button>
                           </a>
                             <!-- <ul class="addrec">
                                 <li class="photocam">
@@ -1142,12 +1144,16 @@ $big = 999999999; // need an unlikely integer
                         <div class="col-md-10 center">
                             <?php if (!empty($postarr) && count($postarr) > 0) {?>
                                 <p class="center greycol">
-                                    <strong><?php echo get_the_title() . " Pricing Guide and Cost Comparison"; ?></strong>
+                                    <h4><?php     $plural_title = get_field('list_content_title_plural', $main_list_id);
+        if ($plural_title == ''){
+            $plural_title = get_the_title($main_list_id);
+        }
+        echo $plural_title . " Pricing Guide and Cost Comparison"; ?></h4>
 									<br><br>
 									<span>The table below should help you gain an understanding of how the top voted solutions are priced. Click on the solution name to get read the full review and get the full list of features offered, user reviews, and product videos.</span>
                                 </p>
-                                <div class="top-list_item_table">
-                                    <?php
+                                <div class="top-list_item_table" style="overflow: scroll;">
+                                  <!--  <?php
 
                 $index = 1;
                 echo "<table class='list-tab'><thead><th>Rank</th><th>Name</th><th>Rating</th><th>Price</th><th>Pricing Model</th></thead>";
@@ -1175,7 +1181,134 @@ $big = 999999999; // need an unlikely integer
                 endforeach;
                 echo "</table>";
 
-                ?>
+                ?> -->
+				
+				
+			<span><?php echo $list_comparion_data; ?></span>
+
+			  <table class="table table-striped" style="box-shadow: 0 0 22px rgba(0,0,0,0.20);margin-top: 1rem;">
+			  <thead>
+				<tr>
+				  <th scope="col">Features</th>
+					<?php
+			$k = 0;
+					foreach ($postarr as $item_id=>$score) {
+
+						$item_title = get_the_title($item_id);
+						$item_link_title = "<a href='".get_the_permalink($item_id)."'>$item_title</a>";
+						?>
+									<th scope="col"><?php echo $item_link_title; ?></th>
+								  <?php $price_data = get_field('price_starting_from', $item_id, false);
+
+						$item_price[$item_id] = intval($price_data);
+						$per_user = get_field('per_user',$item_id,false);
+						// var_dump($per_user);
+						$pu=null;
+						if($per_user == "1"){
+							$pu = '/per user';
+						}
+						$frequencies[$item_id] = get_field('plan',$item_id,false).$pu;
+						$fs_list[$item_id] = get_or_calc_fs_individual($item_id);
+
+						$feature_list[$item_id] = get_field('features_list', $item_id);
+						//   $features =    get_field( 'features_list', $post_id );
+
+						$k++;
+
+						if ($k == 10) {
+							break;
+						}
+
+					}
+
+					//    $item_price_data = implode(" " , $item_price);
+
+					?>
+
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">price</th>
+				 <?php foreach ($item_price as $key => $price) {
+						echo '<td> ' . $price . '</td> ';
+
+					}
+
+					?>
+
+
+				</tr>
+				<tr>
+				  <th scope="row">frequency</th>
+				 <?php foreach ($frequencies as $key => $f) {
+						echo '<td> ' . $f . '</td> ';
+
+					}
+
+					?>
+
+
+				</tr>
+				<tr>
+				  <th scope="row">Findrscore</th>
+				  <?php
+			foreach ($fs_list as $key => $fs) {
+						echo ' <td>' . $fs . '</td>';
+
+					}
+					?>
+				</tr>
+				<tr>
+				<?php
+
+					foreach ($feature_list as $key => $features_list) {
+
+						foreach ($features_list as $list) {
+
+							$all_feature_list[] = $list;
+
+						}
+					}
+
+					$frequent_used = array_count_values($all_feature_list);
+					arsort($frequent_used);
+
+					$ab = 0;
+					// foreach($feature_list as $key =>$features_list){
+
+					foreach ($frequent_used as $k => $list) {
+						// foreach($list as $k =>$list_11){
+						// echo $list;
+						echo '<tr><th>' . $k . '</th>';
+						foreach ($feature_list as $j => $items) {
+							if (in_array($k, $items)) {
+
+								echo "<td><i class='fa fa-check' aria-hidden='true' style='color: green;' ></i></td>";
+							} else {
+								echo "<td><i class='fa fa-minus' aria-hidden='true' style='color: grey;' ></i></td>";
+
+							}
+
+						}
+
+						echo "</tr>";
+
+						$ab++;
+						if ($ab == 10) {
+							break;
+						}
+
+						// }
+					}
+
+					// }
+					?>
+
+
+				</tr>
+			  </tbody>
+			</table>
                                 </div>
                             <?php }?>
                            
@@ -1233,10 +1366,10 @@ if (!empty($compareItems) && count($compareItems) > 1) {
                 <form method="post" id="report-submit">
                     <input type="hidden" name="list_id" value="<?php echo $main_list_id; ?>">
                     <input type="hidden" name="list_item" id="report_list_item" value="">
-                    <h3 class="report-head">
+                    <p class="report-head">
                         Report <span id="item_name"></span>
 
-                    </h3>
+                    </p>
                     <div id="report-success"></div>
                     <div class="report-field">
                         <label>Reason</label>
@@ -1393,7 +1526,7 @@ $html .= ob_get_contents();
     {
         $review_id = get_the_ID();
         $html = '';
-        $compObj = new Mv_List_Comparision();
+        $compObj = new Mv_List_Comparision(null,true);
         $lists = $compObj->most_compared($review_id, 20, true);
 
         // echo '<pre>';
@@ -1707,7 +1840,7 @@ $html = ob_get_contents();
         $key_feature_result .= '<div class = "item-overview-content">';
         $key_feature_result .= '<div class = "item-key-feature item-sec-div" id="key-feature">';
         $key_feature_result .= '<h3>Key Features </h3>';
-        $item_rating_feature = get_field('features_list_ratings', $post_id);
+        $item_rating_feature = get_or_create_feature_ratings($post_id);//get_field('features_list_ratings', $post_id);
         // echo "item rating feature";
         // var_dump($item_rating_feature);
         // echo "end item rating feature";
@@ -2323,7 +2456,7 @@ echo "all item id pricing chart end"; */
                
         }
         $post_id = get_the_id();
-        // $compObj = new Mv_List_Comparision();
+        // $compObj = new Mv_List_Comparision(null,true);
         $comared_data = $this->industry_items;
         $item_price = get_field('price_starting_from', $post_id);
         $itemfs = get_or_calc_fs_individual($post_id);
@@ -2447,7 +2580,7 @@ echo "all item id pricing chart end"; */
 
         //for price vs perforamnce
         $post_id = get_the_id();
-        $compObj = new Mv_List_Comparision();
+        $compObj = new Mv_List_Comparision(null,true);
         $comared_data = $compObj->most_compared($post_id, 40);
         $item_price = get_field('price_starting_from', $post_id);
         $itemfs = get_or_calc_fs_individual($post_id);
@@ -2519,6 +2652,141 @@ $performance_chart_result .= ' <div class ="graph_text" ><div class="textgraph" 
         return $performance_chart_result;
     }
 
+    public function list_market_radar_chart($post_id){
+        $compObj = new Mv_List_Comparision(null,true);
+        $returns = $compObj->most_compared($post_id, 10, false);
+        $returns = get_field('list_items', $post_id);
+       /*  echo "post id $post_id";
+        print_r($returns); */
+        // foreach ($returns as $id){
+        //     $compared_item_fs[$id] =  get_or_calc_fs_individual($id);
+        //     }
+        // $item_result .= '<p style="width: 800px; top: 118px; text-align:  center; position:  relative; word-spacing: 110px;">Contenders Strong-Performers Leaders</p>';
+
+        $radar_data[] = array('Name', 'Research Frequency', 'Findscore');
+        foreach ($returns as $single_compared) {
+            $radar_data[] = array(get_the_title($single_compared->ID), calc_frequency($single_compared->ID), get_or_calc_fs_individual($single_compared->ID));
+            $find_avg_findscore[$single_compared->ID] = get_or_calc_fs_individual($single_compared->ID);
+        }
+        $fs_average = array_sum($find_avg_findscore) / count($returns);
+             
+            
+             $item_result .='  <div class="row chart-padding " id="softwareFinderRadarList">            
+            </div> ';
+            ?>
+        <script type="text/javascript">
+        // console.log("here2");
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(list_radar);
+
+            function list_radar()
+            {
+                var data = google.visualization.arrayToDataTable( <?php echo json_encode($radar_data) ?>  );
+                var rangeX = data.getColumnRange(1);
+                console.log({rangeX});
+                var options = {
+                    chartArea: {
+                        left: 80,
+                        width: "100%"
+                        },
+                        width: "100%",
+                        height:600,
+                    title: '',
+                    hAxis: {title: 'Research Frequency', gridlines: {color: 'transparent'}, textPosition: 'out', ticks: [{v:0, f:'Weak'}, {v: 0.9*rangeX.max, f:'Strong'}]},
+                    vAxis: {title: 'Findscore', gridlines: {color: 'transparent'}, textPosition: 'out', ticks: [{v:0, f:'Weak'}, {v:100, f:'Strong'}]},
+                    bubble: {textStyle: {fontSize: 10}},
+                    sizeAxis: {
+                        maxSize: 10
+                    },
+                    legend: {position: 'none'},
+                    backgroundColor: 'none'
+                };
+
+                var chart = new google.visualization.BubbleChart(document.getElementById('softwareFinderRadarList'));
+                google.visualization.events.addListener(chart, "ready", addBG);
+
+                chart.draw(data, options);
+            }
+
+            function addBG(){
+                console.log("all done");
+                var svg = document.querySelector("#softwareFinderRadarList svg");
+                console.log({svg});
+                var attsRect = svg.children[1].children[0];
+                console.log({attsRect});
+                var parentElement = svg.children[1];
+                console.log("here");
+                console.log({parentElement});
+                x = attsRect.getAttribute("x");
+                y = attsRect.getAttribute("y");
+                height = attsRect.getAttribute("height");
+                width = attsRect.getAttribute("width");
+
+                var svgimg = document.createElementNS("http://www.w3.org/2000/svg","image");
+                svgimg.setAttributeNS(null,"preserveAspectRatio","none");
+                svgimg.setAttributeNS(null,"height",height);
+                svgimg.setAttributeNS(null,"width",width);
+                svgimg.setAttributeNS("http://www.w3.org/1999/xlink","href", "https://area52.softwarefindr.com/wp-content/uploads/2020/03/mouseover_chart_transparent.png");
+                svgimg.setAttributeNS(null,"x",x);
+                svgimg.setAttributeNS(null,"y",y);
+                svgimg.setAttributeNS(null, "visibility", "visible");
+
+
+                var svgNS = "http://www.w3.org/2000/svg";
+                var newText = document.createElementNS(svgNS,"text");
+                newText.setAttributeNS(null,"x",x);     
+                newText.setAttributeNS(null,"y",86); 
+                newText.setAttributeNS(null,"font-size","12");
+          
+                var textNode = document.createTextNode("Contenders");
+                newText.appendChild(textNode);
+                text1Pos=parseInt(x)+parseInt(width)/3;
+                var newText1 = document.createElementNS(svgNS,"text");
+                newText1.setAttributeNS(null,"x",text1Pos);     
+                newText1.setAttributeNS(null,"y",72); 
+                newText1.setAttributeNS(null,"font-size","12");
+          
+                var textNode = document.createTextNode("Strong");
+                newText1.appendChild(textNode);
+
+                text3Pos=parseInt(x)+parseInt(width)/3;
+                var newText3 = document.createElementNS(svgNS,"text");
+                newText3.setAttributeNS(null,"x",text1Pos);     
+                newText3.setAttributeNS(null,"y",86); 
+                newText3.setAttributeNS(null,"font-size","12");
+          
+                var textNode = document.createTextNode("Performers");
+                newText3.appendChild(textNode);
+
+                text2Pos=parseInt(x)+parseInt(width)*2/3;
+                var newText2 = document.createElementNS(svgNS,"text");
+                newText2.setAttributeNS(null,"x",text2Pos);     
+                newText2.setAttributeNS(null,"y",86); 
+                newText2.setAttributeNS(null,"font-size","12");
+          
+                var textNode = document.createTextNode("Leaders");
+                newText2.appendChild(textNode);
+
+                parentElement.insertBefore(svgimg, parentElement.children[1]);
+                parentElement.insertBefore(newText, parentElement.children[1]);
+                parentElement.insertBefore(newText1, parentElement.children[1]);
+                parentElement.insertBefore(newText2, parentElement.children[1]);
+                parentElement.insertBefore(newText3, parentElement.children[1]);
+            }
+        </script>
+
+<?php
+        $item_result .= '<div>
+        The SoftwareFindr Market Radar compares all solutions on our platform in your chosen category and tries to segment them to give you a visual representation of the market. All the solutions are compared two-dimensionally which takes into account their FindrScore which is given based on numerous data points and research frequency. The average FindrScore for users looking at a '.get_field('list_content_title_singular',$post_id).' is ' . round($fs_average) . ' which we’ve used as a threshold to only show the top 10 solutions.
+
+
+</div>
+        ';
+
+        $item_result .= '</div>'; //item-softwarefindr-radar
+        return $item_result;
+
+    }
     public function list_price_performance_chart($post_id)
     {
 
@@ -2596,12 +2864,12 @@ $performance_chart_result .= ' <div class ="graph_text" ><div class="textgraph" 
         if ($plural_title == ''){
             $plural_title = get_the_title($main_list_id);
         }
-        $list_comparion_data .= '<h3 style=" font-size: 1.75rem; font-family: ProximaNova !important;">
-              Compare ' . $plural_title . ' to Similar Solutions
-              </h3>';
+        $list_comparion_data .= '<h4 style=" font-size: 1.75rem; font-family: ProximaNova !important;">
+              Compare Popular' . $plural_title . ' 
+              </h4>';
 
         $list_comparion_data .= ' <div class="row-1" style=" overflow: hidden;">';
-        $list_comparion_data .= '<p align="center"> When evaluating ' . $plural_title . ' our users also give serious thoughts to these other solutions:- </p>';
+        $list_comparion_data .= '<p> When evaluating ' . $plural_title . ' our users also give serious thoughts to these other solutions:- </p>';
         foreach ($lists as $post_idss) {
             // echo " four post id";
             $listfour_id[] = $post_idss;
@@ -2864,7 +3132,7 @@ $performance_chart_result .= ' <div class ="graph_text" ><div class="textgraph" 
 <!-- $software_finder_arr -->
 
 <?php
-$compObj = new Mv_List_Comparision();
+$compObj = new Mv_List_Comparision(null,true);
         $returns = $compObj->most_compared($post_id, 10, false);
 
         // foreach ($returns as $id){
@@ -2905,7 +3173,7 @@ $compObj = new Mv_List_Comparision();
                         width: "100%",
                         height:500,
                     title: \'\',
-                    hAxis: {title: \'Research Frequency\', gridlines: {color: \'transparent\'}, textPosition: \'out\', ticks: [{v:0, f:\'Weak\'}, {v: 0.99*rangeX.max, f:\'Strong\'}]},
+                    hAxis: {title: \'Research Frequency\', gridlines: {color: \'transparent\'}, textPosition: \'out\', ticks: [{v:0, f:\'Weak\'}, {v: 0.9*rangeX.max, f:\'Strong\'}]},
                     vAxis: {title: \'Findscore\', gridlines: {color: \'transparent\'}, textPosition: \'out\', ticks: [{v:0, f:\'Weak\'}, {v:100, f:\'Strong\'}]},
                     bubble: {textStyle: {fontSize: 10}},
                     sizeAxis: {
@@ -2925,9 +3193,9 @@ $compObj = new Mv_List_Comparision();
                 console.log("all done");
                 var svg = document.querySelector(".background_softwareFinderRadar svg");
                 console.log({svg});
-                var attsRect = document.querySelector(".background_softwareFinderRadar svg").children[1].children[0];
+                var attsRect = svg.children[1].children[0];
                 console.log({attsRect});
-                var parentElement = document.querySelector(".background_softwareFinderRadar svg").children[1];
+                var parentElement = svg.children[1];
                 console.log("here");
                 console.log({parentElement});
                 x = attsRect.getAttribute("x");
@@ -3001,56 +3269,9 @@ account their FindrScore which is given based on numerous data points and resear
         $item_result .= '<div class = "item-alternative-compare item-sec-div" id="compare">';
         $item_result .= '<h3>Compare ' . get_the_title($post_id) . ' to Similar Solutions</h3>';
         $item_result .= 'When evaluating ' . get_the_title($post_id) . ' our users also give serious thoughts to these other solutions';
-        $list_fs = $this->fs_list;
-        $list_fs = array_merge(array(array('Post_id', 'fs')), $list_fs);
-
-        ?>
-            <script>
-
-            google.charts.load('current', {'packages':['corechart']});
-            google.charts.setOnLoadCallback(drawSeriesChart);
-
-            function drawSeriesChart() {
-
-            var data = google.visualization.arrayToDataTable(
-               <?php echo json_encode($list_fs) ?>
-            );
-
-            var options = {
-                title: 'Correlation between life expectancy, fertility rate ' +
-                        'and population of some world countries (2010)',
-                hAxis: {title: 'Research Frequency', ticks: [{v:40, f:'weak'},  {v:100, f:'strong'}]},
-                vAxis: {title: 'Findrscore',
-                    viewWindow : {
-                      min : "weak",
-                      max : "strong",
-                    },
-            ticks: [ {v:10, f:'strong'}]
-                },
-
-
-                bubble: {textStyle: {fontSize: 11}}      };
-
-            var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
-            chart.draw(data, options);
-            }
-
-            console.log("askdjgk");
-                    var svg = document.getElementById('series_chart_div');
-            console.log(svg);
-
-
-            window.addEventListener("load", function() {
-    // var svgObject = document.getElementById('svg-object').contentDocument;
-    var svg1 = document.getElementById('series_chart_div');
-    console.log("svg1");
-    console.log(svg1);
-  });
-
-            </script>
-
-            <?php
-$compObj = new Mv_List_Comparision();
+       
+            
+        $compObj = new Mv_List_Comparision(null,true);
         $returns = $compObj->most_compared($post_id);
 
         if (!empty($returns) && is_array($returns)) {
@@ -3371,7 +3592,7 @@ $compObj = new Mv_List_Comparision();
         // echo "item scoure";
         // print_r($item_support_score);
 
-        $item_score = $item_support_score['list'][customersupport][score] * 20;
+        $item_score = $item_support_score['list']['customersupport']['score'] * 20;
 
         $map = array("comments" => "Live Chat", "envelope" => "Mail", "phone" => "Phone", "wpforms" => "Forum");
         $mapped_support = array();
@@ -3504,7 +3725,7 @@ $compObj = new Mv_List_Comparision();
             <h3>Frequently Asked Questions</h3>
 
             <div>
-            <span itemprop="description"> ' . $this->get_faqs() . '</span>
+            <span itemprop="description"> ' . $this->get_faqs($post_id) . '</span>
             </div>
             </div>
             ';
@@ -3554,12 +3775,12 @@ $compObj = new Mv_List_Comparision();
         $proscons = '<div id="pros-cons" class="row">
         <div class="col-md-6 pros">
         <div class="mr-5 pr-5 col-md-6-inner">
-        <h3 class="mygreen"> <i class="fa fa-check-circle mh10" aria-hidden="true"></i>' . count($r2b) . ' Reasons to buy</h3>' . $htmlr2b . '
+        <h4 class="mygreen"> <i class="fa fa-check-circle mh10" aria-hidden="true"></i>' . count($r2b) . ' Reasons to buy</h4>' . $htmlr2b . '
 
         </div></div>
         <div class="col-md-6 cons">
         <div class="ml-5 pl-5 col-md-6-inner">
-        <h3 class="myred"><i class="fa fa-times-circle mh10" aria-hidden="true"></i>' . count($rn2b) . ' Reasons not to buy</h3>
+        <h4 class="myred"><i class="fa fa-times-circle mh10" aria-hidden="true"></i>' . count($rn2b) . ' Reasons not to buy</h4>
         ' . $htmlrn2b . '
         </div>
         </div>
@@ -3590,7 +3811,7 @@ $compObj = new Mv_List_Comparision();
         //echo "cp11";
         $review_id = get_the_ID(); //alternative grid
         $html = '';
-        $compObj = new Mv_List_Comparision();
+        $compObj = new Mv_List_Comparision(null,true);
         $lists = $compObj->most_compared($review_id, 20, true);
 
         /**********************************************alternative informatoion ************************************************************************** */
@@ -3655,7 +3876,7 @@ $compObj = new Mv_List_Comparision();
          <div class="overview-content item">' . $contentP . '</div></div><a href="javascript:;" class="readbutton">Read More >>></a>
       ';
 
-        $item_result .= $this->adaptation_of_geo_map();
+        $item_result .= $this->adaptation_of_geo_map($post_id);
      
         $item_result .= '<div class = "item-feature item-sec-div">';
         $item_result .= '<div class="list-main-content left-content-box" id="pros-cons">';
@@ -4037,7 +4258,7 @@ foreach ($reviews['list'] as $kk => $rev) {
         <div class="compare-detail-col sidebar-column">
             <div class="it-ot-title-new">Compare <?php echo get_the_title($post_id); ?> to Similar Solutions</div>
             <?php
-$compObj = new Mv_List_Comparision();
+$compObj = new Mv_List_Comparision(null,true);
         $returns = $compObj->most_compared($post_id);
 
         if (!empty($returns) && is_array($returns)) {
@@ -4156,7 +4377,7 @@ $compObj = new Mv_List_Comparision();
 
         /******************************************FOr NEW LAYOUT end******************************* */
         //    $video_List  = get_post_meta($post_id, 'video_list', true);
-        $compObj = new Mv_List_Comparision();
+        $compObj = new Mv_List_Comparision(null,true);
         ////////////////////////////Graphs_start/////////////////////////////////////////////////////////
         $lists = $compObj->most_compared($post_id, 1000, true);
         $onetime = 0;
@@ -4414,16 +4635,19 @@ $compObj = new Mv_List_Comparision();
         $credit = $this->credit_text;
         $details = $revHeader;
         $home_url = get_home_url();
+        
+        $current_user = wp_get_current_user();
+        $user_id_mv = $current_user->ID;
         $details .= '
         <div class="breadcrum">
             
                 <div style="
                 padding-left: 6%;
-            "><span><a href="$home_url">Home</a> > <span class="breadcrumb_last" aria-current="page">' . get_the_title($post_id) . '</span></span></div>
+            "><span><a href="'.$home_url.'">Home</a> > <span class="breadcrumb_last" aria-current="page">' . get_the_title($post_id) . '</span></span></div>
                 <div style="
                 padding-right: 6%;
                 text-align: right;
-            ">Do you work for this company? <a href="#">Manage this listing</a></div>
+            ">Do you work for this company? <a class="claim-listing-button" onclick="claim_listing_func(1,' . $post_id . ',' . $user_id_mv . ')" href="#">Manage this listing</a></div>
                 </div>';
 
         $details .= '<div class="full-width-full item-container">';
