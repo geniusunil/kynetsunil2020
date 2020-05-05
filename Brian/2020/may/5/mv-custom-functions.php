@@ -4573,7 +4573,7 @@ if(count($this_integrations) > 4){
                 if($wpdb->num_rows > 0)
 				{
 					foreach($db_data1 as $datas1){
-						$votes += $datas1->votes;
+						$votes += (int)$datas1->votes;
 					}
 				}
             }

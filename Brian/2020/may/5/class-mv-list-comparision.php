@@ -261,8 +261,11 @@ $r2b = array();
         }
         $sum = 0;
         for ($i = 0; $i < sizeof($alternateinfo); $i++) {
-            $nof = sizeof(get_field('features_list', $alternateinfo[$i]['id']));
-            $sum += $nof;
+            $fl = get_field('features_list', $alternateinfo[$i]['id']);
+            if(is_array($fl)){
+                $nof = count($fl);
+                $sum += $nof;
+            }
         }
         $avgnof = $sum / sizeof($alternateinfo);
         if (sizeof(get_field('features_list', $post_id)) > $avgnof) {
@@ -2054,7 +2057,7 @@ $compareditemnew = array();
                     }
                 }
 
-                $i = 0;
+/*                 $i = 0;
                 foreach ($total_integrate_list as $intergate_single_item) {
                     $items_names[] = get_the_title($intergate_single_item);
                     $i++;
@@ -2072,7 +2075,7 @@ $compareditemnew = array();
                     $integrate_text = "This item is not integrate with anyone";
 
                 }
-                $item_result .= $integrate_text;
+                $item_result .= $integrate_text; */
                 $list_item_count = array_count_values($list_price);
                 // $one_time_lince = $list_item_count['one_time_license'];
                 $freemium = $list_item_count['freemium'];
