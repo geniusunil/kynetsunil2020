@@ -2294,7 +2294,15 @@
 		  $this_top3_features = array();
 		  $j=0;
 		  foreach($sorted_features_array as $arr){
-			  $this_top3_features[$arr['feature']]=$item_rating_feature[$arr['feature']]['average'];
+
+			  if(isset($item_rating_feature[$arr['feature']]['average'])){
+				$this_top3_features[$arr['feature']]=$item_rating_feature[$arr['feature']]['average'];
+			  }
+			  else{
+				  echo "x in feature name problem.";
+				  get_or_create_feature_ratings($key,true);
+			  }
+			  
 			  if($j>=2){
 				  break;
 			  }
@@ -4495,10 +4503,10 @@ if(count($this_integrations) > 4){
 		return $dp;
 		
 	}
-	function get_or_create_feature_ratings($post_id)
+	function get_or_create_feature_ratings($post_id,$reset=false)
 	{
 		$features_ratings = get_field('features_list_ratings', $post_id);
-		if ($features_ratings === NULL || empty($features_ratings))
+		if ($features_ratings === NULL || empty($features_ratings) || $reset)
 		{
 			$features = get_field('features_list', $post_id);
 			if ($features !== NULL && !empty($features))

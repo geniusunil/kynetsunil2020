@@ -41,11 +41,7 @@ foreach( $pricing as $p){
    
     
     $title_singular_list ='';
-    // echo "highest";
-    // // echo $key;
-    // echo $highestfs[0];
-    // echo "abcs11 <br>";
-    // echo $key;
+    
 if ($key == $highestfs[0]){
     // echo "abcs";
     //  echo $p;
@@ -55,26 +51,14 @@ if ($key == $highestfs[0]){
 
           $free_fs =  get_the_title($key);
           $title_singular_list = get_field('list_content_title_singular', $key);
-        //   echo $free_fs;
-        //   echo "abc11<br>";
-        //   echo  get_the_title($key);
-      
+          
+        if($title_singular_list == ""){
+      		 $title_singular_list =  get_the_title($key);
+        }
          
        
 
-       if(!empty($title_singular_list)){
-    //   echo "empty";
-        $freefs_text =  'These days, you have plenty of options on the market. that might even be a better fit for you, some of the best alternatives '.$title_singular_list.'  are actually free!';
-
-
-
-    }else{
-    //    echo "not working";
-
-     $freefs_text = 'These days, you have plenty of options on the market. that might even be a better fit for you some of the best alternatives '. $free_fs.'  are actually free!';
-
-
-    }
+       
 
           }
         }
@@ -196,31 +180,41 @@ $tableArr = array();
                         // print_r($all_items);
                         // echo "<br>";
                         $award_items = '';
+                       $title_plural ='';
+                        $title_singular ='';
+                        $voters ='';
+                         $title_singular = get_field('list_content_title_singular', $id);
+                            if($title_singular == ''){ 
+                                 
+                                   $title_singular = get_the_title($id);
+                                   
+                                     
+                                  }
                         if($ranked_list <= 10){
 
                             $voters = do_shortcode("[total_votes id=$id]");   
                             $title_plural = get_field('list_content_title_plural', $id);
-                            $title_singular = get_field('list_content_title_singular', $id);
-                                       
-                            if (!empty($title_plural)){                               
                             
-                            $award_items =   "".get_the_title()."  is one of the best ".$title_plural." on the market 
-                            according to ".$voters." voters and when you take into account its ease of use and responsiveness,
-                             it beats most of the competition. ";
 
-                            }
-                            else{
-                                $award_items =   "".get_the_title()."  is one of the best ".get_the_title($id)." on the market 
+                           
+                        
+                                  if($title_plural == ''){ 
+                                 
+                                   $title_plural = get_the_title($id);
+                                   
+                                     
+                                  }
+                                   $award_items =   "".get_the_title()."  is one of the best ".$title_plural." on the market 
                                 according to ".$voters." voters and when you take into account its ease of use and responsiveness,
-                                 it beats most of the competition. "; 
-                            }
+                                 it beats most of the competition. ";
+                                                                
+                           
                         break;
                         }
                        
         
                     }
-                
-                  
+               
                   
 
 
@@ -271,8 +265,10 @@ $tableArr = array();
 
                                 <p>   Whilst <?php echo $post->post_title;?> as a track record on our system of having great support the same can not be said about the certain features on offer according to our users. </p>
                             <p>
-                            <?php 
-                        echo $award_items;
+                            <?php                      
+                        
+
+                            echo $award_items;
  
                       
 
@@ -280,7 +276,7 @@ $tableArr = array();
                             There are certain flaws that might send you on a long journey, looking for its alternative.
                             </p>
                                     
-                            <p>  Luckily,  <?php echo $post->post_title; ?> is not your only choice for <?php echo $title_singular; ?>. <?php echo $freefs_text; ?></p>
+                            <p>  Luckily,  <?php echo $post->post_title; ?> is not your only choice for <?php echo $title_singular; ?>. These days, you have plenty of options on the market. that might even be a better fit for you, some of the best alternatives <?php echo get_the_title($mainId);?>  are actually free!</p>
                              <p>   Before we get to the list of similar solutions, looking at the data gathered on our platform our users love item for:<br>
                             <?php
                             $item_feature_lists = get_field('features_list', $post->ID);
@@ -302,9 +298,9 @@ $tableArr = array();
                             
                             ?>
                               
-                             For their top-notch customer support.
-
-                                Now let's have a look at a few of their lowest-rated features:
+                             For their top-notch customer support.</p>
+<p>
+                                
                                 
                                 <?php
                                  $rnr2b=get_pros_cons($mainId);
@@ -326,7 +322,12 @@ $tableArr = array();
 
                                 ?>
                                <p> 
-                                   <?php echo $htmlrn2b;?>
+								   <?php 
+								   
+								 if(!empty($rn2b)){
+									echo 'Now let\'s have a look at a few of their lowest-rated features: '.$htmlrn2b;
+								 }  
+								   ?>
                                  </p>
 
                             <p>
@@ -339,20 +340,23 @@ $tableArr = array();
                             
                             foreach ($item_model as $pricing) {
 
-                                $pricing_model = $pricing;
+                                $pricing_model_list = $pricing;
 
                             } 
                             //echo $pricing_model;
                            // $item_model_list = implode(',',$pricing_model);
-                            
+						   $item_model_list = str_replace( '_', ' ', implode( ', ', array_map( 'ucfirst', $item_model ) ) );
                           
-                            $item_trial =  get_field('free_trial', $mainId);
-                            if($item_trial == 1){
-                                $trial = "Available (No Credit Card required)";
+							$item_trial =  get_field('free_trial', $mainId);
+							$credit = get_field('card_required', $mainId);
+                            if(($item_trial == 1) && ($credit == 1)){
+                                $trial = " Available (Credit Card required)";
                             }
-                            else{
-                                $trial = "Not Available ";
-                            }
+                            elseif($item_trial == ""){
+                                $trial = " Not Available ";
+                            }else{
+								$trial = " Available (No Credit Card required) ";
+							}
 
                             $item_couponlist = get_post_meta($mainId, 'coupons_list', true);
                              $finally_selected_categories ="";
@@ -378,7 +382,7 @@ $tableArr = array();
 
                                 ?>
                                 <p>   <strong>Starting From: </strong> $<?php echo $item_price; ?>/<?php echo $plan;?> </p>
-                                <p> <strong>Pricing Model:</strong><?php echo $pricing_model; ?>  </p>
+                                <p> <strong>Pricing Model:</strong> <?php echo $item_model_list; ?>  </p>
                                 <p>  <strong> Free Trial:</strong><?php echo $trial; ?>  </p>
                                 <p>  <strong> Promotional Offer:</strong> <?php echo $list_coupon; ?> </p>
                                 <?php 
@@ -402,17 +406,18 @@ $tableArr = array();
                            // print_r($all_price_frequent);
                                 $i =0;
                                 foreach ($all_price_frequent as $k => $list) {
-                                $frequent_model = $k;
+                                $frequent_model[] = $k;
                                 $i++;
                                  if($i == 1)
                                 break;
                                 
                                 }
-                                
+								$frequent_modellist = str_replace( '_', ' ', implode( ', ', array_map( 'ucfirst', $frequent_model ) ) );
+
                                 $max_price = max($all_price);                                
                                 $min_price = min($all_price);
                                 ?>
-                                     <p>  When looking for a solution like <?php echo $post->post_title;?>, you can expect to pay anywhere from $<?php echo $min_price;?> - $<?php echo $max_price;?> ( <?php echo $frequent_model;?> model)
+                                     <p>  When looking for a solution like <?php echo $post->post_title;?>, you can expect to pay anywhere from $<?php echo $min_price;?> - $<?php echo $max_price;?> ( <?php echo $frequent_modellist;?>)
                                 </p>
 
                         </div>
