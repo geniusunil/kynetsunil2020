@@ -1765,7 +1765,11 @@
 								$reviews1223 = get_overall_combined_rating($list_post->ID);
 								// print_r($reviews1223);
                                 // foreach($reviews1223 as $key=>$value){
-                                $postarrUser_friendly[$list_post->ID] = $reviews1223['list']['easeofuse']['score'];
+									
+									if(isset($reviews1223['list']['easeofuse']['score'])){
+										$postarrUser_friendly[$list_post->ID] = $reviews1223['list']['easeofuse']['score'];
+									}
+                                
 								// }
 							
 							// end user friendly}
@@ -1850,7 +1854,6 @@
     
 	function generate_list_html($ajax,$sort,$current_page){
 		// var_dump($ajax);
-		echo "hello";
 		ob_start();
 		$pageID = $main_list_id = $list_id = get_the_ID();
 		// var_dump($list_id);
@@ -2338,10 +2341,12 @@
 					<span class="status">{{ ' . $f_ . '.status}}</span> </div>
 					';
 		  }
-
-		  if(count($features) > 3){
-			  echo "<a href='".get_permalink($key)."#features'>+ ".(count($features)-3)." others</a>";
+		  if(is_array($features)){
+			if(count($features) > 3){
+				echo "<a href='".get_permalink($key)."#features'>+ ".(count($features)-3)." others</a>";
+			}
 		  }
+		  
 	  ?>
 	  </v-card-text>
     </v-card>
@@ -2478,10 +2483,18 @@ $this_price_starting_from = get_field('price_starting_from', $key);
 	  $easeofuse = $functionality_feature = $value_money = $customersupport = array();
 	  foreach ($all_item_id as $all_items) {
 		$rat = get_overall_combined_rating($all_items); //Overall combined rating
-		$easeofuse[] = $rat['list']['easeofuse']['score'];
-		$functionality_feature[] = $rat['list']['featuresfunctionality']['score'];
-		$value_money[] = $rat['list']['valueformoney']['score'];
-		$customersupport[] = $rat['list']['customersupport']['score'];
+		if(isset( $rat['list']['easeofuse']['score'])){
+			$easeofuse[] = $rat['list']['easeofuse']['score'];
+		}
+		if(isset($rat['list']['featuresfunctionality']['score'])){
+			$functionality_feature[] = $rat['list']['featuresfunctionality']['score'];
+		}
+		if(isset($rat['list']['valueformoney']['score'])){
+			$value_money[] = $rat['list']['valueformoney']['score'];
+		}
+		if(isset($rat['list']['customersupport']['score'])){
+			$customersupport[] = $rat['list']['customersupport']['score'];
+		}
 		
 	}	
 	$ease_count = array_sum($easeofuse);
@@ -2494,14 +2507,14 @@ $this_price_starting_from = get_field('price_starting_from', $key);
 	$valueformoney_feature_average = round($valueformoney_count / count($all_item_id) * 2, 2); // valueformoney average
 	$customersupport_count = array_sum($customersupport);
 	$customersupport_feature_average = round($customersupport_count / count($all_item_id) * 2, 2); // customersupport  average
-	$item_rat = $item_overall['list'][overallrating][score]; //item rating
+	// $item_rat = $item_overall['list']['overallrating']['score']; //item rating
 
 	 // For Accounting featture
 
-	$this_ease_of_use = $reviews['list'][easeofuse][score];
-	$this_value_for_money = $reviews['list'][valueformoney][score];
-	$this_customer_support = $reviews['list'][customersupport][score];
-	$this_features_functionality = $reviews['list'][featuresfunctionality][score];
+	$this_ease_of_use = $reviews['list']['easeofuse']['score'];
+	$this_value_for_money = $reviews['list']['valueformoney']['score'];
+	$this_customer_support = $reviews['list']['customersupport']['score'];
+	$this_features_functionality = $reviews['list']['featuresfunctionality']['score'];
 	$this_features_functionality *= 2;
 	$this_features_functionality_percentage = $this_features_functionality * 10;
 	$this_ease_of_use *= 2;
@@ -2886,73 +2899,73 @@ if(count($this_integrations) > 4){
 				echo $alllistitems;
 				
 				echo " </div> </v-app>";
-				// echo "<script>
-				// var vm$current_page = new Vue({
-				//   el: '#app$current_page',
-				//   vuetify: new Vuetify(),
-				//   data () {
-				// 	return {
-				// 	  tab: null,
-				// 	  ";
-				// 	  foreach($arrToPassRatings as $key=>$t3f){
+				echo "<script>
+				var vm$current_page = new Vue({
+				  el: '#app$current_page',
+				  vuetify: new Vuetify(),
+				  data () {
+					return {
+					  tab: null,
+					  ";
+					  foreach($arrToPassRatings as $key=>$t3f){
 
 					  
-				// 	  foreach($t3f as $feature=>$score){
-				// 		  if(!is_numeric($score)){
-				// 			  $score = 0;
-				// 		  }
-				// 			$f_ = validate_var_name($feature).$key;
-				// 			echo "$f_ :{label : '$feature', val : $score, color: 'green' ,status:''},";
+					  foreach($t3f as $feature=>$score){
+						  if(!is_numeric($score)){
+							  $score = 0;
+						  }
+							$f_ = validate_var_name($feature).$key;
+							echo "$f_ :{label : '$feature', val : $score, color: 'green' ,status:''},";
 					 
-				// 		}
+						}
 						 
-				// 	}	 
+					}	 
 						 
 					  
 					 
-				// 	   echo "}},
-				// 	   methods: 
-				// 	   {
-				// 		   greet: function (event) 
-				// 		   {
-				// 			   console.log(event.target.closest('.v-input__control'));
-				// 			   var input = event.target.closest('.v-input__control').querySelectorAll('input')[0];
-				// 			   var feature_name = input.getAttribute(\"data-obj\");//(jQuery(event.target).find('input')[0]).getAttribute(\"data-obj\");
-				// 			   var feature_name_validated = input.getAttribute(\"data-validated-obj\");
-				// 			   if(feature_name_validated === null || feature_name ===null){
-				// 				   (vm$current_page._data[feature_name_validated]).status = 'Failed! Please try again';
-				// 			   }
-				// 			   // var feature_label = (vm$current_page._data[feature_name]).label;
-				// 			   (vm$current_page._data[feature_name_validated]).color = 'yellow';
-				// 			   (vm$current_page._data[feature_name_validated]).status = 'Please wait....';
-				// 			   console.log(feature_name);
-				// 			   var vote= (vm$current_page._data[feature_name_validated]).val;
-				// 			   var zf_post_id = input.getAttribute(\"data-postid\");//document.querySelectorAll('.zf-item-vote')[0].getAttribute(\"data-zf-post-id\");
-				// 			   console.log({zf_post_id},{feature_name},{vote});
+					   echo "}},
+					   methods: 
+					   {
+						   greet: function (event) 
+						   {
+							   console.log(event.target.closest('.v-input__control'));
+							   var input = event.target.closest('.v-input__control').querySelectorAll('input')[0];
+							   var feature_name = input.getAttribute(\"data-obj\");//(jQuery(event.target).find('input')[0]).getAttribute(\"data-obj\");
+							   var feature_name_validated = input.getAttribute(\"data-validated-obj\");
+							   if(feature_name_validated === null || feature_name ===null){
+								   (vm$current_page._data[feature_name_validated]).status = 'Failed! Please try again';
+							   }
+							   // var feature_label = (vm$current_page._data[feature_name]).label;
+							   (vm$current_page._data[feature_name_validated]).color = 'yellow';
+							   (vm$current_page._data[feature_name_validated]).status = 'Please wait....';
+							   console.log(feature_name);
+							   var vote= (vm$current_page._data[feature_name_validated]).val;
+							   var zf_post_id = input.getAttribute(\"data-postid\");//document.querySelectorAll('.zf-item-vote')[0].getAttribute(\"data-zf-post-id\");
+							   console.log({zf_post_id},{feature_name},{vote});
 
-				// 			   jQuery.ajax(
-				// 			   {
-				// 				   url: '". admin_url('admin-ajax.php') ."',
-				// 				   type: 'POST',
-				// 				   data: {post_id: zf_post_id, feature_name : feature_name, vote_size : vote, action: 'mes-lc-feature-rate'},
-				// 				   dataType: 'json',
+							   jQuery.ajax(
+							   {
+								   url: '". admin_url('admin-ajax.php') ."',
+								   type: 'POST',
+								   data: {post_id: zf_post_id, feature_name : feature_name, vote_size : vote, action: 'mes-lc-feature-rate'},
+								   dataType: 'json',
 
-				// 				   success: function (data) 
-				// 				   {
-				// 					   console.log(data);
-				// 					   (vm$current_page._data[feature_name_validated]).val = data['rating'];
-				// 					   (vm$current_page._data[feature_name_validated]).color = 'green';
-				// 					   (vm$current_page._data[feature_name_validated]).status = 'Thanks for voting!';
-				// 					   console.log(\"success vote up\");
-				// 				   }
+								   success: function (data) 
+								   {
+									   console.log(data);
+									   (vm$current_page._data[feature_name_validated]).val = data['rating'];
+									   (vm$current_page._data[feature_name_validated]).color = 'green';
+									   (vm$current_page._data[feature_name_validated]).status = 'Thanks for voting!';
+									   console.log(\"success vote up\");
+								   }
 
-				// 			   });
-				// 		   }
-				// 	   }
+							   });
+						   }
+					   }
 					   
 					 	  
-				// })
-				// </script>";
+				})
+				</script>";
 				echo "</div>
 				";
 			/* 	echo "arrtopassratings";
@@ -4160,21 +4173,21 @@ if(count($this_integrations) > 4){
 	function list_item_title($atts)
 	{
 		// print_r($atts);
-		if (!isset($atts[sop]))
+		if (!isset($atts['sop']))
 		{
-			$atts[sop] = 'plural';
+			$atts['sop'] = 'plural';
 		}
-		if (!isset($atts[id]))
+		if (!isset($atts['id']))
 		{
-			$atts[id] = get_the_ID();
+			$atts['id'] = get_the_ID();
 		}
 		$atts = shortcode_atts(array(
-			'id' => $atts[id],
-			'sop' => $atts[sop]
+			'id' => $atts['id'],
+			'sop' => $atts['sop']
 		) , $atts, 'list_number');
 		$list_id = $atts['id'];
 		//    print_r($atts);
-		if ($atts[sop] == 'singular')
+		if ($atts['sop'] == 'singular')
 		{
 			$list_item = get_field('list_content_title_singular', $list_id, true);
 			if ($list_item == '')

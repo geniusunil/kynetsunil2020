@@ -1850,7 +1850,6 @@
     
 	function generate_list_html($ajax,$sort,$current_page){
 		// var_dump($ajax);
-		echo "hello";
 		ob_start();
 		$pageID = $main_list_id = $list_id = get_the_ID();
 		// var_dump($list_id);
