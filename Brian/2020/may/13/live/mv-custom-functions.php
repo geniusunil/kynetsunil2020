@@ -1765,7 +1765,11 @@
 								$reviews1223 = get_overall_combined_rating($list_post->ID);
 								// print_r($reviews1223);
                                 // foreach($reviews1223 as $key=>$value){
-                                $postarrUser_friendly[$list_post->ID] = $reviews1223['list']['easeofuse']['score'];
+									
+									if(isset($reviews1223['list']['easeofuse']['score'])){
+										$postarrUser_friendly[$list_post->ID] = $reviews1223['list']['easeofuse']['score'];
+									}
+                                
 								// }
 							
 							// end user friendly}
@@ -1848,9 +1852,8 @@
 
 
     
-	function generate_list_html($ajax,$sort,$current_page){
+	function generate_list_html($ajax=true,$sort='',$current_page=1){
 		// var_dump($ajax);
-		// echo "hello";
 		ob_start();
 		$pageID = $main_list_id = $list_id = get_the_ID();
 		// var_dump($list_id);
@@ -1914,6 +1917,7 @@
 		
 		
 			#--------------------------*************************----------------------------------
+			// echo "items per page $items_per_page current page $current_page";
 		   	if($ajax===false){
 				$static_val = array_slice( $postarr, 0 , $items_per_page*$current_page , true);
 		
@@ -2208,9 +2212,16 @@
 												<div class="reviewbox">
 													<?php $rating = get_overall_combined_rating($key);
 														if(!empty($rating))
+														$overall=0;
+														$votes=0;
 														{
-															$overall = $rating['list']['overallrating']['score'];
-															$votes = $rating['count'];
+															if(isset($rating['list']['overallrating']['score'])){
+																$overall = $rating['list']['overallrating']['score'];
+															}
+															if(isset($rating['count'])){
+																$votes = $rating['count'];
+															}
+															
 														}
 														$reviewClass = new RWP_Rating_Stars_Shortcode();
 														$rating_item = $reviewClass->get_stars( $overall, 20, 5 );
@@ -2254,19 +2265,6 @@
     Rating
   </v-tab>
   <?php
-	 /* $list_item = get_field('add_to_list', $key, false);
-					$all_item_id = array();
-	 foreach ($list_item as $key2 => $lists) {
-
-		 $post_ids = get_field('list_items', $lists);
-		 // echo "post_idss";
-		 // print_r($post_ids);
-		 foreach ($post_ids as $post_id_item) {
-			 $all_item_id[] = $post_id_item->ID;
-		 }
-
-	 }
-	 $this_industry_items = array_unique($all_item_id); */
 
 
   $this_integrations = get_field('integrate_with_item', $key, false);
@@ -2280,7 +2278,9 @@
     <v-card flat>
       <v-card-text>
 	  <?php
-	  	$features = get_field('features_list', $key);
+		  $features = get_field('features_list', $key);
+		 /*  echo "features";
+		  print_r($features); */
 		  $feature_ids = array('id0'=>$key);
 		  if(is_array($features)){
 			$sorted_features_array= sort_features($features,$feature_ids);
@@ -2297,7 +2297,11 @@
 		  foreach($sorted_features_array as $arr){
 
 			  if(isset($item_rating_feature[$arr['feature']]['average'])){
-				$this_top3_features[$arr['feature']]=$item_rating_feature[$arr['feature']]['average'];
+				  if(trim($arr['feature'])!=''){
+					$this_top3_features[$arr['feature']]=$item_rating_feature[$arr['feature']]['average'];
+				  }
+				  
+				
 			  }
 			  else{
 				  echo "x in feature name problem.";
@@ -2313,6 +2317,8 @@
 		  if(empty($this_top3_features)){
 			  echo "this item has no features mentioned!";
 		  }
+		 /*  echo "this top 3";
+		  print_r($this_top3_features); */
 		  foreach($this_top3_features as $feature=>$score){
 			$f = $feature;
 			$f_ = validate_var_name($f).$key;
@@ -2338,10 +2344,12 @@
 					<span class="status">{{ ' . $f_ . '.status}}</span> </div>
 					';
 		  }
-
-		  if(count($features) > 3){
-			  echo "<a href='".get_permalink($key)."#features'>+ ".(count($features)-3)." others</a>";
+		  if(is_array($features)){
+			if(count($features) > 3){
+				echo "<a href='".get_permalink($key)."#features'>+ ".(count($features)-3)." others</a>";
+			}
 		  }
+		  
 	  ?>
 	  </v-card-text>
     </v-card>
@@ -2478,10 +2486,18 @@ $this_price_starting_from = get_field('price_starting_from', $key);
 	  $easeofuse = $functionality_feature = $value_money = $customersupport = array();
 	  foreach ($all_item_id as $all_items) {
 		$rat = get_overall_combined_rating($all_items); //Overall combined rating
-		$easeofuse[] = $rat['list']['easeofuse']['score'];
-		$functionality_feature[] = $rat['list']['featuresfunctionality']['score'];
-		$value_money[] = $rat['list']['valueformoney']['score'];
-		$customersupport[] = $rat['list']['customersupport']['score'];
+		if(isset( $rat['list']['easeofuse']['score'])){
+			$easeofuse[] = $rat['list']['easeofuse']['score'];
+		}
+		if(isset($rat['list']['featuresfunctionality']['score'])){
+			$functionality_feature[] = $rat['list']['featuresfunctionality']['score'];
+		}
+		if(isset($rat['list']['valueformoney']['score'])){
+			$value_money[] = $rat['list']['valueformoney']['score'];
+		}
+		if(isset($rat['list']['customersupport']['score'])){
+			$customersupport[] = $rat['list']['customersupport']['score'];
+		}
 		
 	}	
 	$ease_count = array_sum($easeofuse);
@@ -2494,14 +2510,14 @@ $this_price_starting_from = get_field('price_starting_from', $key);
 	$valueformoney_feature_average = round($valueformoney_count / count($all_item_id) * 2, 2); // valueformoney average
 	$customersupport_count = array_sum($customersupport);
 	$customersupport_feature_average = round($customersupport_count / count($all_item_id) * 2, 2); // customersupport  average
-	$item_rat = $item_overall['list'][overallrating][score]; //item rating
+	// $item_rat = $item_overall['list']['overallrating']['score']; //item rating
 
 	 // For Accounting featture
 
-	$this_ease_of_use = $reviews['list'][easeofuse][score];
-	$this_value_for_money = $reviews['list'][valueformoney][score];
-	$this_customer_support = $reviews['list'][customersupport][score];
-	$this_features_functionality = $reviews['list'][featuresfunctionality][score];
+	$this_ease_of_use = $reviews['list']['easeofuse']['score'];
+	$this_value_for_money = $reviews['list']['valueformoney']['score'];
+	$this_customer_support = $reviews['list']['customersupport']['score'];
+	$this_features_functionality = $reviews['list']['featuresfunctionality']['score'];
 	$this_features_functionality *= 2;
 	$this_features_functionality_percentage = $this_features_functionality * 10;
 	$this_ease_of_use *= 2;
@@ -2587,45 +2603,6 @@ $this_price_starting_from = get_field('price_starting_from', $key);
 	$integrations_result = '<div class = "item-integrateswell-with item-sec-div">';
 	$integrations_result .= '<h3> Integrates well with  </h3>';
 
-	// $this_integrations =   $this->all_integrateddata;
-	// echo "integrate data";
-	// print_r( $this_integrations);
-
-	// foreach ($this_integrations as $integrated_item11) {
-
-
-		// $all_integrateddata = get_field('integrate_with_item', $integrated_item, false);
-	//     $total_integrate_list[] = $integrated_item11;
-	// }
-	// $i = 0;
-/* 	$all_ind_int = $this_industry_items;
-	foreach ($all_ind_int as $intergate_single_item=>$count) {
-		// echo "int single item";
-		// echo $intergate_single_item;
-		// echo get_the_title($intergate_single_item);
-		$items_names[] = get_the_title($intergate_single_item);
-		// echo "item names in the ways";
-		// print_r($item_names);
-		$i++;
-		if ($i == 3) {
-			break;
-		}
-
-	} */
-
-	// echo "item names";
-	// print_r($item_names);
-
-
-	// $items_names_3 = implode(", ", $items_names);
-	// $integrate_Avg = round($countIndInt / count($this_industry_items), 2);
-	/*  if (!empty($this_integrations)) {
-		 $integrate_text = "Looking at the data collected on our platform, the average amount of integrations confirmed by similar solutions is $integrate_Avg.
-	 The top 3 integrations are $items_names_3 .  ";
-	 } else {
-		 $integrate_text = "This item is not integrate with anyone";
-
-	 } */
 	 
 	 $integrations_result .= '<div class="col-sm-12">'.$integrate_text.'</div>';
 
@@ -2731,11 +2708,20 @@ if(count($this_integrations) > 4){
 												$findr_scoreList = 0;  // to be show on the list
                                                 $reviews = get_overall_combined_rating($list_id);
                                                 // print_r($reviews);
-                                                $i=0;
-                                                $findr_scoreList += $reviews['list']['featuresfunctionality']['score']*3;
-                                                $findr_scoreList += $reviews['list']['easeofuse']['score']*2;
-                                                $findr_scoreList += $reviews['list']['customersupport']['score']*2;
-                                                $findr_scoreList += $reviews['list']['valueformoney']['score']*3;
+												$i=0;
+												if(isset($reviews['list']['featuresfunctionality']['score'])){
+													$findr_scoreList += $reviews['list']['featuresfunctionality']['score']*3;
+												}
+												if(isset($reviews['list']['easeofuse']['score'])){
+													$findr_scoreList += $reviews['list']['easeofuse']['score']*2;
+												}
+												if(isset($reviews['list']['customersupport']['score'])){
+													$findr_scoreList += $reviews['list']['customersupport']['score']*2;
+												}
+												if(isset($reviews['list']['valueformoney']['score'])){
+													$findr_scoreList += $reviews['list']['valueformoney']['score']*3;
+												}
+                                                
                                                 $findr_scoreList += (50/($this_list[''][$list_id]['rank']));
                                                 $findr_scoreList = round($findr_scoreList);
                                                 $degree = $findr_scoreList*3.6;
@@ -2886,73 +2872,73 @@ if(count($this_integrations) > 4){
 				echo $alllistitems;
 				
 				echo " </div> </v-app>";
-				// echo "<script>
-				// var vm$current_page = new Vue({
-				//   el: '#app$current_page',
-				//   vuetify: new Vuetify(),
-				//   data () {
-				// 	return {
-				// 	  tab: null,
-				// 	  ";
-				// 	  foreach($arrToPassRatings as $key=>$t3f){
+				echo "<script>
+				var vm$current_page = new Vue({
+				  el: '#app$current_page',
+				  vuetify: new Vuetify(),
+				  data () {
+					return {
+					  tab: null,
+					  ";
+					  foreach($arrToPassRatings as $key=>$t3f){
 
 					  
-				// 	  foreach($t3f as $feature=>$score){
-				// 		  if(!is_numeric($score)){
-				// 			  $score = 0;
-				// 		  }
-				// 			$f_ = validate_var_name($feature).$key;
-				// 			echo "$f_ :{label : '$feature', val : $score, color: 'green' ,status:''},";
+					  foreach($t3f as $feature=>$score){
+						  if(!is_numeric($score)){
+							  $score = 0;
+						  }
+							$f_ = validate_var_name($feature).$key;
+							echo "$f_ :{label : '$feature', val : $score, color: 'green' ,status:''},";
 					 
-				// 		}
+						}
 						 
-				// 	}	 
+					}	 
 						 
 					  
 					 
-				// 	   echo "}},
-				// 	   methods: 
-				// 	   {
-				// 		   greet: function (event) 
-				// 		   {
-				// 			   console.log(event.target.closest('.v-input__control'));
-				// 			   var input = event.target.closest('.v-input__control').querySelectorAll('input')[0];
-				// 			   var feature_name = input.getAttribute(\"data-obj\");//(jQuery(event.target).find('input')[0]).getAttribute(\"data-obj\");
-				// 			   var feature_name_validated = input.getAttribute(\"data-validated-obj\");
-				// 			   if(feature_name_validated === null || feature_name ===null){
-				// 				   (vm$current_page._data[feature_name_validated]).status = 'Failed! Please try again';
-				// 			   }
-				// 			   // var feature_label = (vm$current_page._data[feature_name]).label;
-				// 			   (vm$current_page._data[feature_name_validated]).color = 'yellow';
-				// 			   (vm$current_page._data[feature_name_validated]).status = 'Please wait....';
-				// 			   console.log(feature_name);
-				// 			   var vote= (vm$current_page._data[feature_name_validated]).val;
-				// 			   var zf_post_id = input.getAttribute(\"data-postid\");//document.querySelectorAll('.zf-item-vote')[0].getAttribute(\"data-zf-post-id\");
-				// 			   console.log({zf_post_id},{feature_name},{vote});
+					   echo "}},
+					   methods: 
+					   {
+						   greet: function (event) 
+						   {
+							   console.log(event.target.closest('.v-input__control'));
+							   var input = event.target.closest('.v-input__control').querySelectorAll('input')[0];
+							   var feature_name = input.getAttribute(\"data-obj\");//(jQuery(event.target).find('input')[0]).getAttribute(\"data-obj\");
+							   var feature_name_validated = input.getAttribute(\"data-validated-obj\");
+							   if(feature_name_validated === null || feature_name ===null){
+								   (vm$current_page._data[feature_name_validated]).status = 'Failed! Please try again';
+							   }
+							   // var feature_label = (vm$current_page._data[feature_name]).label;
+							   (vm$current_page._data[feature_name_validated]).color = 'yellow';
+							   (vm$current_page._data[feature_name_validated]).status = 'Please wait....';
+							   console.log(feature_name);
+							   var vote= (vm$current_page._data[feature_name_validated]).val;
+							   var zf_post_id = input.getAttribute(\"data-postid\");//document.querySelectorAll('.zf-item-vote')[0].getAttribute(\"data-zf-post-id\");
+							   console.log({zf_post_id},{feature_name},{vote});
 
-				// 			   jQuery.ajax(
-				// 			   {
-				// 				   url: '". admin_url('admin-ajax.php') ."',
-				// 				   type: 'POST',
-				// 				   data: {post_id: zf_post_id, feature_name : feature_name, vote_size : vote, action: 'mes-lc-feature-rate'},
-				// 				   dataType: 'json',
+							   jQuery.ajax(
+							   {
+								   url: '". admin_url('admin-ajax.php') ."',
+								   type: 'POST',
+								   data: {post_id: zf_post_id, feature_name : feature_name, vote_size : vote, action: 'mes-lc-feature-rate'},
+								   dataType: 'json',
 
-				// 				   success: function (data) 
-				// 				   {
-				// 					   console.log(data);
-				// 					   (vm$current_page._data[feature_name_validated]).val = data['rating'];
-				// 					   (vm$current_page._data[feature_name_validated]).color = 'green';
-				// 					   (vm$current_page._data[feature_name_validated]).status = 'Thanks for voting!';
-				// 					   console.log(\"success vote up\");
-				// 				   }
+								   success: function (data) 
+								   {
+									   console.log(data);
+									   (vm$current_page._data[feature_name_validated]).val = data['rating'];
+									   (vm$current_page._data[feature_name_validated]).color = 'green';
+									   (vm$current_page._data[feature_name_validated]).status = 'Thanks for voting!';
+									   console.log(\"success vote up\");
+								   }
 
-				// 			   });
-				// 		   }
-				// 	   }
+							   });
+						   }
+					   }
 					   
 					 	  
-				// })
-				// </script>";
+				})
+				</script>";
 				echo "</div>
 				";
 			/* 	echo "arrtopassratings";
@@ -4160,21 +4146,21 @@ if(count($this_integrations) > 4){
 	function list_item_title($atts)
 	{
 		// print_r($atts);
-		if (!isset($atts[sop]))
+		if (!isset($atts['sop']))
 		{
-			$atts[sop] = 'plural';
+			$atts['sop'] = 'plural';
 		}
-		if (!isset($atts[id]))
+		if (!isset($atts['id']))
 		{
-			$atts[id] = get_the_ID();
+			$atts['id'] = get_the_ID();
 		}
 		$atts = shortcode_atts(array(
-			'id' => $atts[id],
-			'sop' => $atts[sop]
+			'id' => $atts['id'],
+			'sop' => $atts['sop']
 		) , $atts, 'list_number');
 		$list_id = $atts['id'];
 		//    print_r($atts);
-		if ($atts[sop] == 'singular')
+		if ($atts['sop'] == 'singular')
 		{
 			$list_item = get_field('list_content_title_singular', $list_id, true);
 			if ($list_item == '')
@@ -4310,7 +4296,10 @@ if(count($this_integrations) > 4){
 		/* echo "postid $postid";
 		echo "reviews";
 		print_r($reviews); */
-		$findrScore = $reviews['list']['overallrating']['score'] * 10;
+		if(isset($reviews['list']['overallrating']['score'])){
+			$findrScore = $reviews['list']['overallrating']['score'] * 10;
+		}
+		
 		$listrankord = $ranklist;
 		$percentileSum = 0;
 		foreach ($listrankord as $listid => $rank)
@@ -4637,15 +4626,19 @@ if(count($this_integrations) > 4){
 		$r2b=array();
 		$rn2b=array();
 		$support = get_field('support', $post_id);
-		foreach ($support as $cit) {
-            if ($cit == '24/7') {
-                $r2b[] = "24/7 support options available";
-            }
-
-        }
-        if (sizeof($support) == 1 && $support[0] == 'envelope') {
-            $rn2b[] = "Support only includes emails";
-        }
+		if(is_array($support)){
+			foreach ($support as $cit) {
+				if ($cit == '24/7') {
+					$r2b[] = "24/7 support options available";
+				}
+	
+			}
+			if (sizeof($support) == 1 && $support[0] == 'envelope') {
+				$rn2b[] = "Support only includes emails";
+			}
+		}
+		
+        
         $freeTrial = get_field('free_trial', $post_id);
         if ($freeTrial) {
             $r2b[] = "Free Trial is offered to perform testing";
@@ -4751,9 +4744,11 @@ if(count($this_integrations) > 4){
 				
 			}
           
-       // }
-        $avgnof = $sum / sizeof($alternateinfo);
-		
+	   // }
+	   if(count($alternateinfo)>0)
+	        $avgnof = $sum / sizeof($alternateinfo);
+		else
+			$avgnof=$sum;
 		$sizeofFeatures = 0;
 		$features = get_field('features_list', $post_id);
 		if(is_array($features)){
