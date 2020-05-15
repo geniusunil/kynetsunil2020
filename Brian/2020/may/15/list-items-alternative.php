@@ -787,8 +787,8 @@ foreach ($item_free as  $q => $abc) {
 
         }
         $all_item_result = array_unique($all_item_id);
-        print_r($all_item_result);
-        echo "count ".count($all_item_result);
+        // print_r($all_item_result);
+        // echo "count ".count($all_item_result);
         foreach($all_item_result as $ii)
         {
             $fs_list[$ii] = get_or_calc_fs_individual($ii);
@@ -796,10 +796,10 @@ foreach ($item_free as  $q => $abc) {
         }
         arsort($fs_list);
         $all_fs_sum = array_sum($fs_list);
-        echo "all fs sum".$all_fs_sum;
+        // echo "all fs sum".$all_fs_sum;
         $ind_fs = $all_fs_sum / count($all_item_result);
         $industry_fs = round($ind_fs,2);
-        echo "item fs $item_fs industry fs $industry_fs";
+        // echo "item fs $item_fs industry fs $industry_fs";
         if($item_fs > $industry_fs){
             $fs_text = "good";
         }

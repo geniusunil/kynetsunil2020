@@ -4431,11 +4431,11 @@ $compObj = new Mv_List_Comparision(null,true);
         //calculating fs for whole list
         
         $all_item_id = $this->industry_items;
-        print_r($this->industry_items);
+       /*  print_r($this->industry_items);
         echo "all item id printed";
         echo "count of all item id is : ".count($all_item_id);
         echo "count of all item id distinct : ".count(array_unique($all_item_id));
-        print_r($all_item_id); 
+        print_r($all_item_id);  */
 
         foreach ($all_item_id as $all_items) {
             $rat = get_overall_combined_rating($all_items); //Overall combined rating
@@ -4470,7 +4470,7 @@ $compObj = new Mv_List_Comparision(null,true);
         $this->highest_fs = max($all_item_findrscore);
         $min_fs_list = $this->min_fs_list = min($all_item_findrscore);
         $all_fs_sum = array_sum($all_item_findrscore);
-        echo "all fs sum".$all_fs_sum;
+        // echo "all fs sum".$all_fs_sum;
         $this->all_fs_avg = $all_fs_sum / count($all_item_id);
        
         foreach ($all_item_findrscore as $key => $findrscore) {
