@@ -377,7 +377,7 @@ if (!class_exists('Mes_Lc_Ext')){
 		}
 
 		function on_list_item_view(){
-			file_put_contents("meslcext.txt","location is on list item view ".$_GET['lang'],FILE_APPEND);
+			// file_put_contents("meslcext.txt","location is on list item view ".$_GET['lang'],FILE_APPEND);
 
 			if (is_singular(self::LIST_ITEM_POST_TYPE)){
 				if(isset($_GET['listid'])) { 
@@ -475,9 +475,17 @@ if (!class_exists('Mes_Lc_Ext')){
 		static function sort_cmp($a, $b){
 			// file_put_contents("meslcext.txt","\ntotal downloads : ".self::$totalDownloads,FILE_APPEND);
 			$fixFor0 = 0.01;
-			$downloads_a_percent = get_post_meta($a->ID,'downloads_in_'.self::$location,true)/self::$totalDownloads+$fixFor0;
+			$downloads_a = get_post_meta($a->ID,'downloads_in_'.self::$location,true);
+			$downloads_b= get_post_meta($b->ID,'downloads_in_'.self::$location,true);
+			if(!is_numeric($downloads_a) ){
+				$downloads_a=0;
+			}
+			if(!is_numeric($downloads_b)){
+				$downloads_b=0;
+			}
+			$downloads_a_percent = $downloads_a/self::$totalDownloads+$fixFor0;
 			
-			$downloads_b_percent = get_post_meta($b->ID,'downloads_in_'.self::$location,true)/self::$totalDownloads+$fixFor0;
+			$downloads_b_percent = $downloads_b/self::$totalDownloads+$fixFor0;
 
 			// file_put_contents("meslcext.txt","\n".$a->post_title. " percent: ".$downloads_a_percent,FILE_APPEND);
 			// file_put_contents("meslcext.txt","\n".$b->post_title. " percent: ".$downloads_b_percent,FILE_APPEND);
@@ -498,15 +506,19 @@ if (!class_exists('Mes_Lc_Ext')){
 			else if ($score_a > $score_b) return -1;
 			else return $a->ID - $b->ID;
 		}
-		static function sort($post_id, &$items,$location){
+		static function sort($post_id, &$items,$location=''){
 			// $location = $_GET['lang'];
 			// file_put_contents("meslcext.txt","location : ".$location,FILE_APPEND);
 
 			$memberships = get_post_meta($post_id, self::MEMBERSHIP_META_KEY, true);
 			if (!is_array($memberships)) $memberships = array();
-			self::$totalDownloads = 0;
+			self::$totalDownloads = 1;
 			foreach($items as $k => $v){
-				self::$totalDownloads += get_post_meta($v->ID,'downloads_in_'.$location,true); 
+				$downloads_in_this_loc = get_post_meta($v->ID,'downloads_in_'.$location,true);
+				if(!is_numeric($downloads_in_this_loc)){
+					$downloads_in_this_loc=0;
+				}
+				self::$totalDownloads += $downloads_in_this_loc; 
 				self::$location = $location;
 				$id = $v->ID;
 				if (isset($memberships[$id]))

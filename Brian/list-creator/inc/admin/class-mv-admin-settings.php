@@ -891,7 +891,7 @@ function alternative_page_desc_callback() {
 
 		echo '<input type="text" class="large-text" id="app_id" name="mv_list_items_settings[comparison_page_order]" value="' . $app_id. '" />';
 
-		echo '<p class="order">Order of sections to show on Comparison Page. Use lowercase only eg. video, pricing, overview, ratings, features, hidden, betterthan, support, reviews, screenshots, download, ranking </a></p>';
+		echo '<p class="order">Order of sections to show on Comparison Page. Use lowercase only eg. overview,pricing,betterthan, map,ratings,features,integrations,support, video,  ranking, reviews,hidden, screenshots, verdict,  </a></p>';
 
 	}
 

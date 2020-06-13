@@ -190,7 +190,7 @@ function multiverse_name_scripts() {
     wp_enqueue_style( 'flexslider-css', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/flexslider.css' );
     wp_enqueue_style( 'fancybox-css', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/jquery.fancybox.min.css' );
     wp_enqueue_style( 'list-creator', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/list-creator.css',array(),time() );
-    wp_enqueue_style( 'vuetify', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/vuetify.css' );
+    // wp_enqueue_style( 'vuetify', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/vuetify.css' );
     wp_enqueue_style( 'materialdesignicons', 'https://cdn.materialdesignicons.com/1.1.34/css/materialdesignicons.min.css' );
 
         //wp_enqueue_style( 'list-fontawsm', plugins_url()."/".basename( dirname( __FILE__ ) ).'/css/fontawsm.css' );
@@ -218,10 +218,10 @@ function multiverse_name_scripts() {
 
     
     wp_register_script( 'vuejs', 'https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js', array( 'jquery' ), time(), false );
-    wp_enqueue_script( 'vuejs');
+    // wp_enqueue_script( 'vuejs');
 
     wp_register_script( 'vuetifyjs', 'https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js', array( 'jquery' ), time(), false );
-    wp_enqueue_script( 'vuetifyjs');
+    // wp_enqueue_script( 'vuetifyjs');
     //end sunil
 	
 	wp_enqueue_script( 'morris-min-js', plugins_url()."/".basename( dirname( __FILE__ ) ).'/js/morris.min.js', array( 'jquery' ), false );
@@ -358,13 +358,17 @@ function suppress_if_blurb( $atts ) {
 		 $sorts = $_GET['sort'];
 		}
 		if(isset($sorts) && $sorts =="free"){
+            $postarr = array();
+            $totalVotes = 0;
 		foreach($attached_items as $key=>$list_post){
-			if ($list_post->votes > 0) {
-				    $totalActVOtes = "";
-					$totalVotes = "";
-                    $totalActVOtes  += $list_post->votes;
-                    $totalVotes += Mes_Lc_Ext::calculate_score($list_post->votes, $list_post->age);
-					$score = Mes_Lc_Ext::calculate_score($list_post->votes, $list_post->age);
+            // var_dump($list_post->votes);
+            $list_post_votes = floatval($list_post->votes);
+			if ($list_post_votes > 0) {
+				    // $totalActVOtes = "";
+					
+                    // $totalActVOtes  += $list_post_votes;
+                    $totalVotes += Mes_Lc_Ext::calculate_score($list_post_votes, $list_post->age);
+					$score = Mes_Lc_Ext::calculate_score($list_post_votes, $list_post->age);
                     $score = ($score / $totalVotes) * 100;
                     $score = number_format($score, 2);
                 }else{
@@ -379,7 +383,11 @@ function suppress_if_blurb( $atts ) {
 	if(in_array('freemium', $postarr12[$list_post->ID]) || in_array('open_source', $postarr12[$list_post->ID]) || $freetrial == 1) {
 				     $postarr[$list_post->ID] = $score;
 				  }	
-	 }
+     }
+     $freeCount=0;
+     if(is_array($postarr)){
+         $freeCount = count($postarr);
+     }
 	 $count = count( $postarr )." Free";
 		}elseif(isset($sorts) && $sorts =="affordable_price"){
 		$count = "The Cheapest";	
@@ -391,88 +399,6 @@ function suppress_if_blurb( $atts ) {
     return $count;
 }
 add_shortcode( 'list_number', 'suppress_if_blurb' );
-
-/* add_shortcode( 'ip_to_location', 'ip_to_location' ); replaced by geoip plugin wordpress
-function ip_to_location(){
-    // file_put_contents("list-creator.txt","ip IN IP_to_location is :".$_SERVER['REMOTE_ADDR'],FILE_APPEND);
-
-    $locationObj = ip_info($_SERVER['REMOTE_ADDR'], "Country");
-    return $locationObj->name;
-} */
-/* add_filter( 'post_type_link', 'append_query_string', 10, 2 );
-function append_query_string( $url, $post ) 
-{
-    $locationObj = ip_info($_SERVER['REMOTE_ADDR'], "Country");
-    return $url.'?lang='.($locationObj->gec);
-} */
-/* function ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
-    file_put_contents("list-creator.txt","ip is :".$ip,FILE_APPEND);
-    $output = NULL;
-    if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {
-        $ip = $_SERVER["REMOTE_ADDR"];
-        if ($deep_detect) {
-            if (filter_var(@$_SERVER['HTTP_X_FORWARDED_FOR'], FILTER_VALIDATE_IP))
-                $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-            if (filter_var(@$_SERVER['HTTP_CLIENT_IP'], FILTER_VALIDATE_IP))
-                $ip = $_SERVER['HTTP_CLIENT_IP'];
-        }
-    }
-    $purpose    = str_replace(array("name", "\n", "\t", " ", "-", "_"), NULL, strtolower(trim($purpose)));
-    $support    = array("country", "countrycode", "state", "region", "city", "location", "address");
-    $continents = array(
-        "AF" => "Africa",
-        "AN" => "Antarctica",
-        "AS" => "Asia",
-        "EU" => "Europe",
-        "OC" => "Australia (Oceania)",
-        "NA" => "North America",
-        "SA" => "South America"
-    );
-    if (filter_var($ip, FILTER_VALIDATE_IP) && in_array($purpose, $support)) {
-        $ipdat = @json_decode(file_get_contents("https://api.ipgeolocationapi.com/geolocate/" . $ip));
-        // file_put_contents("list-creator.txt","ipdat is :".print_r($ipdat,true),FILE_APPEND);
-
-       /*  if (@strlen(trim($ipdat->geoplugin_countryCode)) == 2) {
-            switch ($purpose) {
-                case "location":
-                    $output = array(
-                        "city"           => @$ipdat->geoplugin_city,
-                        "state"          => @$ipdat->geoplugin_regionName,
-                        "country"        => @$ipdat->geoplugin_countryName,
-                        "country_code"   => @$ipdat->geoplugin_countryCode,
-                        "continent"      => @$continents[strtoupper($ipdat->geoplugin_continentCode)],
-                        "continent_code" => @$ipdat->geoplugin_continentCode
-                    );
-                    break;
-                case "address":
-                    $address = array($ipdat->geoplugin_countryName);
-                    if (@strlen($ipdat->geoplugin_regionName) >= 1)
-                        $address[] = $ipdat->geoplugin_regionName;
-                    if (@strlen($ipdat->geoplugin_city) >= 1)
-                        $address[] = $ipdat->geoplugin_city;
-                    $output = implode(", ", array_reverse($address));
-                    break;
-                case "city":
-                    $output = @$ipdat->geoplugin_city;
-                    break;
-                case "state":
-                    $output = @$ipdat->geoplugin_regionName;
-                    break;
-                case "region":
-                    $output = @$ipdat->geoplugin_regionName;
-                    break;
-                case "country":
-                    $output = @$ipdat->geoplugin_countryName;
-                    break;
-                case "countrycode":
-                    $output = @$ipdat->geoplugin_countryCode;
-                    break;
-            }
-        } */
-    /*}
-    $output = $ipdat;
-    return $output;
-} */
 
 function mv_enable_shortcode_in_title( $title ) {
     //if ( !is_admin() ) {
@@ -541,7 +467,7 @@ function get_item_rank($list_id,$list_itemid){
     $posts =  $attached_items;
 
     $graphData = array();
-    $totalVotes = 0;
+    $totalVotes = 1;
     $totalActVOtes = 0;
     $postarr = array();
     $postarrOBJ = array();
@@ -653,7 +579,8 @@ function graph_get_graph_data()
     $index = ( ( $current_page - 1 ) * $items_per_page )+1;
 
     //usort( $attached_items, array( $this, "cmp" ) );
-    Mes_Lc_Ext::sort($list_id, $attached_items);
+    $location = $_GET['lang'];
+    Mes_Lc_Ext::sort($list_id, $attached_items,$location);
 
     $itmes_with_promoted = $attached_items;
     $temp_array=array();

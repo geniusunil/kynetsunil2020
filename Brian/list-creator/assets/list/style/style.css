@@ -900,7 +900,7 @@ transition:.3s all
 box-shadow:none!important
 }
 
-.sectionexplore .item h4 {
+.sectionexplore .item p {
 font-weight:700;
 font-size:16px;
 max-height:54px;

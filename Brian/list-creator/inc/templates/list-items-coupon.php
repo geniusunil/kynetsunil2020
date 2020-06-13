@@ -471,7 +471,7 @@ $ratingLabel = array(
 $title = str_replace( '[Year]', date('Y'), $title );
 $heading = do_shortcode( $title );
 
-$description = do_shortcode( $coupon_desc );
+// $description = do_shortcode( $coupon_desc );
 
 $item_title = $post->post_title;
 $tableArr = array();
@@ -575,8 +575,8 @@ $post_12 = get_post($my_posts[0]->ID);
                     <div class="item_heading_inner ttt coupon_subheading" >
 						<?php foreach($couponlist as $couponlist_new)
 							{
-								$coupon_vote_list[] = $couponlist_new[votes];
-								$coupon_id_list[] = $couponlist_new[id];
+								$coupon_vote_list[] = $couponlist_new['votes'];
+								$coupon_id_list[] = $couponlist_new['id'];
 							}
 									$copnid = $coupon_id_list;
 									$value_max = max($coupon_vote_list); 
@@ -797,7 +797,7 @@ $post_12 = get_post($my_posts[0]->ID);
 			<?php 
 				foreach($couponlist as $key=> $coupon_item )
 						{ 
-						$cpn_id = $coupon_item[id]; ?>
+						$cpn_id = $coupon_item['id']; ?>
 		<div class="copon<?php echo $cpn_id; ?>  popupbtn" style="display: none;">
 				<button class="closecpon" style="float: right;" data-id="<?php echo $cpn_id; ?>">X</button>
 			<div class="deal_desc">
@@ -883,17 +883,17 @@ $post_12 = get_post($my_posts[0]->ID);
 						
 								
 							<?php	
-							$coupon_deal = $coupon_item[type];
+							$coupon_deal = $coupon_item['type'];
 	//							echo "<tr class=data><th>".$coupon_item[title]."</th>";
-								echo "<td>".$coupon_item[description]."</th>";
-								echo "<td>".$coupon_item[expdate]."</th>";
+								echo "<td>".$coupon_item['description']."</th>";
+								echo "<td>".$coupon_item['expdate']."</th>";
 								if ($coupon_deal === 'coupon'){
 //								echo "<td>".$coupon_item[code]."</th>";
-									echo  "<td>".substr($coupon_item[code], 0, 3) . '****'."</th>";
+									echo  "<td>".substr($coupon_item['code'], 0, 3) . '****'."</th>";
 								}else{
 									echo "<td>Not Required</th>";
 								}
-								 $coupon_id = $coupon_item[id];
+								 $coupon_id = $coupon_item['id'];
 		//							echo $coupon_id;
 								?>				
 							<td>
@@ -1040,16 +1040,22 @@ $deal_id = get_posts($args);
 				
 				$allDealPosts = get_post_meta($deal_id[0]->ID,'all_posts_with_coupon');
 				$allDealPost =$allDealPosts[0];
-				$post_idd =  get_the_id();				
-				$list_cpn =	get_the_terms( $post_idd, 'list_categories' );
-				$all_terms = array();					
-				foreach($list_cpn as $lists)
-				{
-					
-					 $list_termid = $lists->term_id;
-					 $all_terms[] = $list_termid;
-					
-				}	
+                $post_idd =  get_the_id();			
+                // echo "post idd ".$post_idd;	
+                $list_cpn =	get_the_terms( $post_idd, 'list_categories' );
+               /*  echo "list cpn";
+                print_r($list_cpn); */
+                $all_terms = array();	
+                if(is_array($list_cpn)){
+                    foreach($list_cpn as $lists)
+                    {
+                        
+                         $list_termid = $lists->term_id;
+                         $all_terms[] = $list_termid;
+                        
+                    }	
+                }				
+			
 				echo "<div class= 'all_cat_list'>";
 				foreach($allDealPost as $allcoupon){
 			
@@ -1166,7 +1172,7 @@ echo "</div>";
 						<span class="rating_label">Ranked in these Collections</span>
 						</div>
 						<div class="rank_list">
-                            <?php echo $compareClass->get_column_ranking($id);
+                            <?php echo $compareClass->get_column_ranking($id,'');
                             
                             ?>
 							</div>

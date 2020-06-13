@@ -4,8 +4,8 @@ global $post;
 
     $post_slug = $post->post_name;
 	
-	$page = get_page_by_path( $post_slug );
-    $post_id_deal = get_the_id( $page );
+	$pageAlt = get_page_by_path( $post_slug );
+    $post_id_deal = get_the_id( $pageAlt );
 ?>
 
 <style>
@@ -39,7 +39,7 @@ global $post;
     overflow: hidden;
     display: block;
     width: 100%;
-	background: url(https://area51.softwarefindr.com/wp-content/uploads/2019/11/imag.jpg);
+	background: url(<?php echo home_url(); ?>/wp-content/uploads/2019/11/imag.jpg);
 		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 		background-size:100%;
 }
@@ -241,8 +241,8 @@ global $post;
 
     $post_slug = $post->post_name;
 	
-	$page = get_page_by_path( $post_slug );
-    $post_id_deal = get_the_id( $page );
+	$pageAlt = get_page_by_path( $post_slug );
+    $post_id_deal = get_the_id( $pageAlt );
 
 	$post_12 = get_post( $post_id_deal); 
 
@@ -285,7 +285,11 @@ global $post;
       
 				
 <?php		
-$deal_search= $_GET['search']; 
+$deal_search='';
+if(isset($_GET['search'])){
+	$deal_search= $_GET['search']; 
+}
+
 			
 ?>
 				
@@ -336,7 +340,7 @@ $deal_search= $_GET['search'];
 					
 		<?php	
 						$count=0;
-					$page = 1;
+					$pageAlt = 1;
 						$total_coupon = 0;
 						foreach($allDealPost as $alllist){
 							$taxonomy = wp_get_post_terms($alllist, 'list_categories',  array("fields" => "all"));
@@ -436,7 +440,7 @@ foreach($taxonomy as $category)
 						$deal_link = get_site_url().'/deal/?cat='.$term->name;
 if($i<4){
 		
-		echo "<div class='cpn_list'><a  data-id='$cat_id' data-url= '$cat_link' data-name= '$term->name' class='all_cat_name' data-page='1'  data-search = '$deal_search' data-post ='$var'>".$term->name."</a></div>";
+		echo "<div class='cpn_list'><a  data-id='$cat_id' data-url= '$cat_link' data-name= '$term->name' class='all_cat_name' data-page='1'  data-search = '$deal_search'>".$term->name."</a></div>";
 			
 		
 		?>		
@@ -501,7 +505,7 @@ if($i<4){
   <div id="ajax-result"></div>
                         
                         <div class="ajax-ele" style="text-align: center;"> 
-                          <button id="morecoupon" data-startpage="<?php echo $current_page+1 ?>"  data-uri="<?php echo $_SERVER['REQUEST_URI']; ?>"  class="getbtn" style="border:none"><?php echo $current_page+1; ?> Load More</button>  
+                          <button id="morecoupon" data-startpage="<?php //echo $current_page+1 ?>"  data-uri="<?php //echo $_SERVER['REQUEST_URI']; ?>"  class="getbtn" style="border:none"><?php //echo $current_page+1; ?> Load More</button>  
                          
                       </div>
 -->
@@ -512,15 +516,15 @@ if($i<4){
 <!-------------------- load more coupon -------------------------------------------------->
 
 <script>
-	var current_page = <?php $curpage = $_GET['pageno'];
-	if( $_GET['pageno'])
+	var current_page = <?php 
+	if( isset($_GET['pageno']))
 		echo  $_GET['pageno'];
 	else
 		echo 1; ?>;
 	<?php 
 	$termid = '\'\'';
 	$categoryName = 'all';
-	if($_GET['cat']){
+	if(isset($_GET['cat'])){
 		$categoryName = urldecode($_GET['cat']);
 		
 		$taxonomy = get_terms('list_categories');
