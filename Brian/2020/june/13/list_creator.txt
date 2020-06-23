@@ -1,0 +1,3 @@
+multiverse_name_scripts is page is single post type : page
+post slug :update-software
+multiverse_name_scripts multiverse_name_scripts multiverse_name_scripts 
