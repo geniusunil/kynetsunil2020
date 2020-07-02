@@ -496,16 +496,20 @@ $get_list_data =  get_item_ranks($post->ID);
     <div class="alternate-list-items alternate_upper_rank">
     <div class="mv-single-lists_sec1">
     <div id="poll">
-               <div class="equalWidth"><span>Cost</span><div class="grey cost"><div class="whiteText" data-voteTo="cost">Click to Vote</div></div></div> <!-- <div class="blue"></div> -->
-               <div class="equalWidth"><span>Functionality</span><div class="grey functionality"><div class="whiteText" data-voteTo="functionality">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>Services</span><div class="grey services"><div class="whiteText" data-voteTo="services">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>Architecture</span><div class="grey architecture"><div class="whiteText" data-voteTo="architecture">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>Changing needs</span><div class="grey changing_needs"><div class="whiteText" data-voteTo="changing_needs">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>Political Reasons</span><div class="grey political_reasons"><div class="whiteText" data-voteTo="political_reasons">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>Vendor Rationalization</span><div class="grey vendor_rationalization"><div class="whiteText" data-voteTo="vendor_rationalization">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>Usability</span><div class="grey usability"><div class="whiteText" data-voteTo="usability">Click to Vote</div></div></div>
-               <div class="equalWidth"><span>other</span><div class="grey other"><div class="whiteText" data-voteTo="other">Click to Vote</div></div></div>
-
+                <div class="section_head">
+                    <span class="poll_label" id="poll_label">Why did you leave?</span>
+                </div>
+                <div>
+                    <div class="equalWidth"><span style="display:none;">Cost</span><div class="grey cost"><div class="whiteText" data-voteTo="cost">Cost</div></div></div> <!-- <div class="blue"></div> -->
+                    <div class="equalWidth"><span style="display:none;">Functionality</span><div class="grey functionality"><div class="whiteText" data-voteTo="functionality">Functionality</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">Services</span><div class="grey services"><div class="whiteText" data-voteTo="services">Services</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">Architecture</span><div class="grey architecture"><div class="whiteText" data-voteTo="architecture">Architecture</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">Changing needs</span><div class="grey changing_needs"><div class="whiteText" data-voteTo="changing_needs">Changing needs</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">Political Reasons</span><div class="grey political_reasons"><div class="whiteText" data-voteTo="political_reasons">Political Reasons</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">Vendor Rationalization</span><div class="grey vendor_rationalization"><div class="whiteText" data-voteTo="vendor_rationalization">Vendor Rationalization</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">Usability</span><div class="grey usability"><div class="whiteText" data-voteTo="usability">Usability</div></div></div>
+                    <div class="equalWidth"><span style="display:none;">other</span><div class="grey other"><div class="whiteText" data-voteTo="other">other</div></div></div>
+               </div>
             </div>
             </div>
         <div class="mv-single-lists">
@@ -1245,6 +1249,8 @@ else{
                 .whiteText{
                     margin:auto;
                     cursor:pointer;
+                    height: 0;
+                    width: 90%;
                 }
             </style>
 
@@ -1334,6 +1340,10 @@ var showChar = 200;
 
                   success: function (data)
                   {
+                    const ews = document.querySelectorAll(".equalWidth span");
+                    for (const ewspan of ews) {
+                        ewspan.style.display = "block";
+                    }
                       console.log(data);
                       const greys = document.querySelectorAll(".grey");
                         var totalVotes=0;
