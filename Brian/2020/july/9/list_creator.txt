@@ -1,0 +1,3 @@
+multiverse_name_scripts is page is single post type : page
+post slug :alternative
+posttype pagemultiverse_name_scripts 

@@ -1,0 +1,924 @@
+inside send_real_user_dbuser id :13database namea55_wordpressArray
+(
+    [g2] => https://www.g2.com/products/wordpress-org/reviews
+    [trustpilot] => https://www.trustpilot.com/review/www.wordpress.org
+    [capterra] => https://www.capterra.com/p/131687/WordPress/
+)
+
+metaboxvalue is: Array
+(
+    [0] => Free SSL Certificate
+    [1] => Money Back Guarantee
+    [2] => Multiple Server Location
+    [3] => Backup & Monitoring
+    [4] => 99.9% Uptime
+    [5] => Webmail
+    [6] => Popular Applications With 1-Click
+    [7] => High performance
+    [8] => 24/7 Support
+    [9] => Control Panel Integration
+    [10] => Website Migration
+    [11] => Cloud Hosting
+    [12] => VPS Hosting
+    [13] => FTP access
+)
+inside re_save_coupon_meta_boxes
+coupons_list is: Array
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [type] => deal
+                    [link] => https://www.softwarefindr.com/out/siteground-bf
+                    [title] => 70% off SiteGround
+                    [description] => For a limited time only save upto 70% off SiteGround hosting plans
+                    [code] => 
+                    [showDate] => show
+                    [expdate] => 2019-12-02
+                    [id] => 124796_0
+                    [votes] => -2
+                )
+
+        )
+
+)
+post inside save coupons function : Array
+(
+    [_wpnonce] => 5ee3c50723
+    [_wp_http_referer] => /wp-admin/post.php?post=124796&action=edit&message=1
+    [user_ID] => 13
+    [action] => editpost
+    [originalaction] => editpost
+    [post_author] => 2
+    [post_type] => list_items
+    [original_post_status] => publish
+    [referredby] => https://a55.saasscout.com/wp-admin/post.php?post=124796&action=edit
+    [_wp_original_http_referer] => https://a55.saasscout.com/wp-admin/post.php?post=124796&action=edit
+    [post_ID] => 124796
+    [meta-box-order-nonce] => a19bae140a
+    [closedpostboxesnonce] => fe690029fd
+    [post_title] => Siteground
+    [samplepermalinknonce] => 597f6b6caa
+    [_acf_screen] => post
+    [_acf_post_id] => 124796
+    [_acf_validation] => 1
+    [_acf_nonce] => 
+    [_acf_changed] => 0
+    [content] => Siteground is a reputable hosting provider that has several WordPress hosting plans. The integrated one-click installer helps you get started within a short period. Intelligent auto-update feature will make sure that your website is always using the latest version of WordPress. Free WP-CLI support will make it a lot easier to manage your website by using the command line interface.
+
+The professionally optimized SSD servers utilize a proprietary caching tool and support the latest versions of PHP and HTTP. All of these play critical roles in delivering a fast loading speed for your website.
+
+There is a dedicated team of security experts who are always looking for vulnerabilities and security issues related to WordPress. In the case of any such incidents, they will immediately notify the users. It is also possible to get timely support from the chat, phone, and ticketing system.
+
+Siteground offers three hosting plans for WordPress. All plans include unmetered traffic, unlimited MySQL databases, multiple server locations, daily backup, free CDN, and WP-CLI support.
+<ul>
+ 	<li>StartUp is priced at $3.95 per month. It allows you to host one website and comes with 10GB of space.</li>
+ 	<li>GrowBig will cost you $5.95 per month. It allows multiple websites, 20GB web space, 30 backup copies, and free one-year SSL.</li>
+ 	<li>GoGeek is $11.95 per month. It supports multiple websites, 30GB space, free SSL, instant staging, readymade Git, and a less crowded server.</li>
+</ul>
+<p class=\"p1\"><strong><span class=\"s1\">Features</span></strong></p>
+
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">One of the best thing about SiteGround is that they have data centers in Asia, US, and Europe, covering more grounds.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their servers have been optimized perfectly for delivering top-notch performance. The speed optimized tech is named SuperCacher.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They have mentioned every technical aspect of a particular plan clearly.</span></li>
+</ul>
+<b>Pros</b>
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their Cloud and Dedicated hosting plans are good, however, a little expensive.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their Shared hosting plan is the best for the newbies as they offer industry standard services.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The geeks behind the service team are talented and experienced.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They also have Reseller hosting options if you’re looking for one.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Cons</b></span></p>
+
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their one-click WordPress installation is not that clean, as they have customized it accordingly.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The Shared plans have limited disk storage and other related numbers.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Pingdom test</b></span></p>
+<p class=\"p1\"><img class=\"aligncenter size-full wp-image-120350 td-animation-stack-type0-1\" src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround.png\" alt=\"\" width=\"583\" height=\"196\" /></p>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>LoadImpact test</b></span></p>
+<img src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround1.png\" />
+
+SiteGround Hosting
+<p class=\"p1\">It’s a 12 years old company, which was started in Bulgaria and currently operated privately from their headquarters in the same country. They offer Linux and Unix based servers, missing the Windows one. They also offer dedicated WordPress and Joomla based hosting solutions where everything is taken care by the team behind. Delivering quality service has been their primary objective throughout the years and they have managed to do well. The Dashboard used behind is simple and according to the hosting standards. It makes everything easy for the newbies and also for the existing web developers.</p>
+    [available_meta_box_nonce] => 31c7ed055d
+    [item_available] => yes
+    [essb_metabox] => Array
+        (
+            [essb_pc_twitter] => 
+            [essb_post_twitter_tweet] => 
+            [essb_post_twitter_hashtags] => 
+            [essb_post_twitter_username] => 
+            [essb_post_twitter_image] => 
+            [essb_post_twitter_title] => 
+            [essb_post_twitter_desc] => 
+            [essb_post_share_url] => 
+            [essb_post_share_message] => 
+            [essb_post_share_image] => 
+            [essb_post_share_text] => 
+            [essb_activate_ga_campaign_tracking] => 
+        )
+
+    [wpacu_meta_box_page_options_loaded] => 1
+    [wp-preview] => 
+    [hidden_post_status] => publish
+    [post_status] => publish
+    [hidden_post_password] => 
+    [hidden_post_visibility] => public
+    [visibility] => public
+    [post_password] => 
+    [mm] => 06
+    [jj] => 09
+    [aa] => 2017
+    [hh] => 11
+    [mn] => 01
+    [ss] => 55
+    [hidden_mm] => 06
+    [cur_mm] => 07
+    [hidden_jj] => 09
+    [cur_jj] => 03
+    [hidden_aa] => 2017
+    [cur_aa] => 2020
+    [hidden_hh] => 11
+    [cur_hh] => 11
+    [hidden_mn] => 01
+    [cur_mn] => 48
+    [original_publish] => Update
+    [save] => Update
+    [tax_input] => Array
+        (
+            [list_categories] => Array
+                (
+                    [0] => 0
+                )
+
+            [item_tags] => 
+        )
+
+    [newlist_categories] => New Category Name
+    [newlist_categories_parent] => -1
+    [_ajax_nonce-add-list_categories] => 170bdbe2b4
+    [newtag] => Array
+        (
+            [item_tags] => 
+        )
+
+    [acf] => Array
+        (
+            [field_595c8bb12d183] => 0
+            [field_595c8bc02d184] => 0
+            [field_5ebcc2d5703b4] => 0
+            [field_5ebcc30d703b5] => 0
+            [field_5d26d08dbd08a] => 
+            [field_5d29816759a9c] => 13
+            [field_5d5f8a6a363c8] => 1
+            [field_5d204e3433034] => 119541
+            [field_5d203b4e18af6] => Array
+                (
+                    [0] => subscription
+                )
+
+            [field_5ea909c448194] => 0
+            [field_5d5f66d9a5917] => 0
+            [field_5e9a60b18cc24] => 
+            [field_5d1f1c2c8b66d] => 3.95/mo
+            [field_5d5f68d306547] => Visit Website
+            [field_5d5f67d25ca1a] => 
+            [field_5d5f67d65ca1b] => 
+            [field_5d4a5c43bbc3e] => Month
+            [field_5e6b742603507] => 
+            [field_5e6c6b587c16d] => 
+            [field_5d1f1c418b66e] => 
+            [field_5d1f211b0020a] => 
+            [field_5d203c4a595d1] => Array
+                (
+                    [0] => comments
+                    [1] => envelope
+                    [2] => phone
+                )
+
+            [field_59352650bde8a] => Array
+                (
+                    [0] => 124800
+                    [1] => 124805
+                    [2] => 124811
+                    [3] => 124793
+                    [4] => 136608
+                    [5] => 137467
+                    [6] => 140115
+                )
+
+            [field_5efdca8fef33d] => Array
+                (
+                    [field_5efdcaa9ef33e] => https://www.g2.com/products/wordpress-org/reviews
+                    [field_5efdcab2ef33f] => https://www.trustpilot.com/review/www.wordpress.org
+                    [field_5efdcac9ef340] => https://www.capterra.com/p/131687/WordPress/
+                )
+
+            [field_5efdbbc11d2ba] => Array
+                (
+                    [row-0] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 150499
+                        )
+
+                    [row-1] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 150503
+                        )
+
+                    [row-2] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 150504
+                        )
+
+                    [row-3] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 
+                        )
+
+                )
+
+            [field_5d243c6578e56] => 
+            [field_5d36829a25564] => 
+            [field_5d243dc978e58] => 
+            [field_5da9a69f06ffe] => https://www.softwarefindr.com/out/siteground-bf
+            [field_5da9a6b206fff] => 0
+            [field_5efdc2f630737] => me
+        )
+
+    [_thumbnail_id] => 119541
+    [yoast_free_metabox_nonce] => 243f200b02
+    [yoast_free_metabox_social_nonce] => 2e887db2b7
+    [yoast_wpseo_focuskw] => Siteground
+    [yoast_wpseo_title] => Siteground WordPress Hosting Review %%currentyear%%
+    [yoast_wpseo_metadesc] => 
+    [yoast_wpseo_linkdex] => 69
+    [yoast_wpseo_content_score] => 0
+    [yoast_wpseo_is_cornerstone] => false
+    [yoast_wpseo_focuskeywords] => []
+    [yoast_wpseo_keywordsynonyms] => [\"\"]
+    [yoast_wpseo_primary_list_categories_term] => 
+    [yoast_wpseo_primary_list_categories_nonce] => 94cb5a2cd0
+    [yoast_wpseo_primary_list_comp_categories_term] => 
+    [yoast_wpseo_primary_list_comp_categories_nonce] => 94cb5a2cd0
+    [yoast_wpseo_opengraph-title] => 
+    [yoast_wpseo_opengraph-description] => 
+    [yoast_wpseo_opengraph-image] => 
+    [yoast_wpseo_opengraph-image-id] => 
+    [yoast_wpseo_twitter-title] => 
+    [yoast_wpseo_twitter-description] => 
+    [yoast_wpseo_twitter-image] => 
+    [yoast_wpseo_twitter-image-id] => 
+    [yoast_wpseo_meta-robots-noindex] => 0
+    [yoast_wpseo_meta-robots-nofollow] => 0
+    [yoast_wpseo_meta-robots-adv] => Array
+        (
+            [0] => -
+        )
+
+    [yoast_wpseo_bctitle] => 
+    [yoast_wpseo_canonical] => 
+    [nd-list-item-mbnonce] => 31c7ed055d
+    [features_list] => Array
+        (
+            [0] => Free SSL Certificate
+            [1] => Money Back Guarantee
+            [2] => Multiple Server Location
+            [3] => Backup & Monitoring
+            [4] => 99.9% Uptime
+            [5] => Webmail
+            [6] => Popular Applications With 1-Click
+            [7] => High performance
+            [8] => 24/7 Support
+            [9] => Control Panel Integration
+            [10] => Website Migration
+            [11] => Cloud Hosting
+            [12] => VPS Hosting
+            [13] => FTP access
+        )
+
+    [new_video_list] => Array
+        (
+            [0] => https://www.youtube.com/watch?v=j37UUyqaGH0
+        )
+
+    [old_coupon_type] => Array
+        (
+            [0] => deal
+        )
+
+    [old_coupon_code] => Array
+        (
+            [0] => 
+        )
+
+    [old_coupon_link] => Array
+        (
+            [0] => https://www.softwarefindr.com/out/siteground-bf
+        )
+
+    [old_coupon_title] => Array
+        (
+            [0] => 70% off SiteGround
+        )
+
+    [old_coupon_description] => Array
+        (
+            [0] => For a limited time only save upto 70% off SiteGround hosting plans
+        )
+
+    [old_coupon_expdate_show] => Array
+        (
+            [0] => show
+        )
+
+    [old_coupon_expiry_date] => Array
+        (
+            [0] => 2019-12-02
+        )
+
+    [old_coupon_id] => Array
+        (
+            [0] => 124796_0
+        )
+
+    [old_coupon_votes] => Array
+        (
+            [0] => -2
+        )
+
+    [excerpt] => 
+    [advanced_view] => 1
+    [comment_status] => open
+    [ping_status] => open
+    [add_comment_nonce] => 43238438a0
+    [_ajax_fetch_list_nonce] => 55acdf3bf5
+    [post_name] => siteground
+    [post_author_override] => 2
+    [rwp_reviews_meta_box_nonce] => 1f10248411
+    [rwp-review-type] => PAR+UR
+    [rwp_reviews] => Array
+        (
+            [0] => Array
+                (
+                    [review_type] => PAR+UR
+                    [review_title] => Review 0
+                    [review_title_options] => custom_title
+                    [review_template] => rwp_template_590f86153bc54
+                    [review_scores] => Array
+                        (
+                            [rwp_template_590f86153bc54] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 4
+                                    [2] => 4
+                                    [3] => 5
+                                )
+
+                        )
+
+                    [review_custom_overall_score] => 
+                    [review_criteria_source] => reviewer
+                    [review_pros] => 
+                    [review_cons] => 
+                    [review_summary] => 
+                    [review_image] => 
+                    [review_image_url] => 
+                    [review_sameas_attr] => 
+                    [review_id] => 0
+                )
+
+        )
+
+    [rwp_tables_meta_box_nonce] => 9b64fc0ac6
+    [post_mime_type] => 
+    [ID] => 124796
+    [post_content] => Siteground is a reputable hosting provider that has several WordPress hosting plans. The integrated one-click installer helps you get started within a short period. Intelligent auto-update feature will make sure that your website is always using the latest version of WordPress. Free WP-CLI support will make it a lot easier to manage your website by using the command line interface.
+
+The professionally optimized SSD servers utilize a proprietary caching tool and support the latest versions of PHP and HTTP. All of these play critical roles in delivering a fast loading speed for your website.
+
+There is a dedicated team of security experts who are always looking for vulnerabilities and security issues related to WordPress. In the case of any such incidents, they will immediately notify the users. It is also possible to get timely support from the chat, phone, and ticketing system.
+
+Siteground offers three hosting plans for WordPress. All plans include unmetered traffic, unlimited MySQL databases, multiple server locations, daily backup, free CDN, and WP-CLI support.
+<ul>
+ 	<li>StartUp is priced at $3.95 per month. It allows you to host one website and comes with 10GB of space.</li>
+ 	<li>GrowBig will cost you $5.95 per month. It allows multiple websites, 20GB web space, 30 backup copies, and free one-year SSL.</li>
+ 	<li>GoGeek is $11.95 per month. It supports multiple websites, 30GB space, free SSL, instant staging, readymade Git, and a less crowded server.</li>
+</ul>
+<p class=\"p1\"><strong><span class=\"s1\">Features</span></strong></p>
+
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">One of the best thing about SiteGround is that they have data centers in Asia, US, and Europe, covering more grounds.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their servers have been optimized perfectly for delivering top-notch performance. The speed optimized tech is named SuperCacher.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They have mentioned every technical aspect of a particular plan clearly.</span></li>
+</ul>
+<b>Pros</b>
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their Cloud and Dedicated hosting plans are good, however, a little expensive.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their Shared hosting plan is the best for the newbies as they offer industry standard services.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The geeks behind the service team are talented and experienced.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They also have Reseller hosting options if you’re looking for one.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Cons</b></span></p>
+
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their one-click WordPress installation is not that clean, as they have customized it accordingly.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The Shared plans have limited disk storage and other related numbers.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Pingdom test</b></span></p>
+<p class=\"p1\"><img class=\"aligncenter size-full wp-image-120350 td-animation-stack-type0-1\" src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround.png\" alt=\"\" width=\"583\" height=\"196\" /></p>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>LoadImpact test</b></span></p>
+<img src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround1.png\" />
+
+SiteGround Hosting
+<p class=\"p1\">It’s a 12 years old company, which was started in Bulgaria and currently operated privately from their headquarters in the same country. They offer Linux and Unix based servers, missing the Windows one. They also offer dedicated WordPress and Joomla based hosting solutions where everything is taken care by the team behind. Delivering quality service has been their primary objective throughout the years and they have managed to do well. The Dashboard used behind is simple and according to the hosting standards. It makes everything easy for the newbies and also for the existing web developers.</p>
+    [post_excerpt] => 
+    [rwp_tables] => Array
+        (
+        )
+
+)
+
+final metaboxvalue is: Array
+(
+    [0] => Array
+        (
+            [type] => deal
+            [link] => https://www.softwarefindr.com/out/siteground-bf
+            [title] => 70% off SiteGround
+            [description] => For a limited time only save upto 70% off SiteGround hosting plans
+            [code] => 
+            [showDate] => show
+            [expdate] => 2019-12-02
+            [id] => 124796_0
+            [votes] => -2
+        )
+
+)
+inside re_save_qa_meta_boxes
+qas_list is: Array
+(
+    [0] => Array
+        (
+        )
+
+)
+post inside save qas function : Array
+(
+    [_wpnonce] => 5ee3c50723
+    [_wp_http_referer] => /wp-admin/post.php?post=124796&action=edit&message=1
+    [user_ID] => 13
+    [action] => editpost
+    [originalaction] => editpost
+    [post_author] => 2
+    [post_type] => list_items
+    [original_post_status] => publish
+    [referredby] => https://a55.saasscout.com/wp-admin/post.php?post=124796&action=edit
+    [_wp_original_http_referer] => https://a55.saasscout.com/wp-admin/post.php?post=124796&action=edit
+    [post_ID] => 124796
+    [meta-box-order-nonce] => a19bae140a
+    [closedpostboxesnonce] => fe690029fd
+    [post_title] => Siteground
+    [samplepermalinknonce] => 597f6b6caa
+    [_acf_screen] => post
+    [_acf_post_id] => 124796
+    [_acf_validation] => 1
+    [_acf_nonce] => 
+    [_acf_changed] => 0
+    [content] => Siteground is a reputable hosting provider that has several WordPress hosting plans. The integrated one-click installer helps you get started within a short period. Intelligent auto-update feature will make sure that your website is always using the latest version of WordPress. Free WP-CLI support will make it a lot easier to manage your website by using the command line interface.
+
+The professionally optimized SSD servers utilize a proprietary caching tool and support the latest versions of PHP and HTTP. All of these play critical roles in delivering a fast loading speed for your website.
+
+There is a dedicated team of security experts who are always looking for vulnerabilities and security issues related to WordPress. In the case of any such incidents, they will immediately notify the users. It is also possible to get timely support from the chat, phone, and ticketing system.
+
+Siteground offers three hosting plans for WordPress. All plans include unmetered traffic, unlimited MySQL databases, multiple server locations, daily backup, free CDN, and WP-CLI support.
+<ul>
+ 	<li>StartUp is priced at $3.95 per month. It allows you to host one website and comes with 10GB of space.</li>
+ 	<li>GrowBig will cost you $5.95 per month. It allows multiple websites, 20GB web space, 30 backup copies, and free one-year SSL.</li>
+ 	<li>GoGeek is $11.95 per month. It supports multiple websites, 30GB space, free SSL, instant staging, readymade Git, and a less crowded server.</li>
+</ul>
+<p class=\"p1\"><strong><span class=\"s1\">Features</span></strong></p>
+
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">One of the best thing about SiteGround is that they have data centers in Asia, US, and Europe, covering more grounds.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their servers have been optimized perfectly for delivering top-notch performance. The speed optimized tech is named SuperCacher.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They have mentioned every technical aspect of a particular plan clearly.</span></li>
+</ul>
+<b>Pros</b>
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their Cloud and Dedicated hosting plans are good, however, a little expensive.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their Shared hosting plan is the best for the newbies as they offer industry standard services.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The geeks behind the service team are talented and experienced.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They also have Reseller hosting options if you’re looking for one.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Cons</b></span></p>
+
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their one-click WordPress installation is not that clean, as they have customized it accordingly.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The Shared plans have limited disk storage and other related numbers.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Pingdom test</b></span></p>
+<p class=\"p1\"><img class=\"aligncenter size-full wp-image-120350 td-animation-stack-type0-1\" src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround.png\" alt=\"\" width=\"583\" height=\"196\" /></p>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>LoadImpact test</b></span></p>
+<img src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround1.png\" />
+
+SiteGround Hosting
+<p class=\"p1\">It’s a 12 years old company, which was started in Bulgaria and currently operated privately from their headquarters in the same country. They offer Linux and Unix based servers, missing the Windows one. They also offer dedicated WordPress and Joomla based hosting solutions where everything is taken care by the team behind. Delivering quality service has been their primary objective throughout the years and they have managed to do well. The Dashboard used behind is simple and according to the hosting standards. It makes everything easy for the newbies and also for the existing web developers.</p>
+    [available_meta_box_nonce] => 31c7ed055d
+    [item_available] => yes
+    [essb_metabox] => Array
+        (
+            [essb_pc_twitter] => 
+            [essb_post_twitter_tweet] => 
+            [essb_post_twitter_hashtags] => 
+            [essb_post_twitter_username] => 
+            [essb_post_twitter_image] => 
+            [essb_post_twitter_title] => 
+            [essb_post_twitter_desc] => 
+            [essb_post_share_url] => 
+            [essb_post_share_message] => 
+            [essb_post_share_image] => 
+            [essb_post_share_text] => 
+            [essb_activate_ga_campaign_tracking] => 
+        )
+
+    [wpacu_meta_box_page_options_loaded] => 1
+    [wp-preview] => 
+    [hidden_post_status] => publish
+    [post_status] => publish
+    [hidden_post_password] => 
+    [hidden_post_visibility] => public
+    [visibility] => public
+    [post_password] => 
+    [mm] => 06
+    [jj] => 09
+    [aa] => 2017
+    [hh] => 11
+    [mn] => 01
+    [ss] => 55
+    [hidden_mm] => 06
+    [cur_mm] => 07
+    [hidden_jj] => 09
+    [cur_jj] => 03
+    [hidden_aa] => 2017
+    [cur_aa] => 2020
+    [hidden_hh] => 11
+    [cur_hh] => 11
+    [hidden_mn] => 01
+    [cur_mn] => 48
+    [original_publish] => Update
+    [save] => Update
+    [tax_input] => Array
+        (
+            [list_categories] => Array
+                (
+                    [0] => 0
+                )
+
+            [item_tags] => 
+        )
+
+    [newlist_categories] => New Category Name
+    [newlist_categories_parent] => -1
+    [_ajax_nonce-add-list_categories] => 170bdbe2b4
+    [newtag] => Array
+        (
+            [item_tags] => 
+        )
+
+    [acf] => Array
+        (
+            [field_595c8bb12d183] => 0
+            [field_595c8bc02d184] => 0
+            [field_5ebcc2d5703b4] => 0
+            [field_5ebcc30d703b5] => 0
+            [field_5d26d08dbd08a] => 
+            [field_5d29816759a9c] => 13
+            [field_5d5f8a6a363c8] => 1
+            [field_5d204e3433034] => 119541
+            [field_5d203b4e18af6] => Array
+                (
+                    [0] => subscription
+                )
+
+            [field_5ea909c448194] => 0
+            [field_5d5f66d9a5917] => 0
+            [field_5e9a60b18cc24] => 
+            [field_5d1f1c2c8b66d] => 3.95/mo
+            [field_5d5f68d306547] => Visit Website
+            [field_5d5f67d25ca1a] => 
+            [field_5d5f67d65ca1b] => 
+            [field_5d4a5c43bbc3e] => Month
+            [field_5e6b742603507] => 
+            [field_5e6c6b587c16d] => 
+            [field_5d1f1c418b66e] => 
+            [field_5d1f211b0020a] => 
+            [field_5d203c4a595d1] => Array
+                (
+                    [0] => comments
+                    [1] => envelope
+                    [2] => phone
+                )
+
+            [field_59352650bde8a] => Array
+                (
+                    [0] => 124800
+                    [1] => 124805
+                    [2] => 124811
+                    [3] => 124793
+                    [4] => 136608
+                    [5] => 137467
+                    [6] => 140115
+                )
+
+            [field_5efdca8fef33d] => Array
+                (
+                    [field_5efdcaa9ef33e] => https://www.g2.com/products/wordpress-org/reviews
+                    [field_5efdcab2ef33f] => https://www.trustpilot.com/review/www.wordpress.org
+                    [field_5efdcac9ef340] => https://www.capterra.com/p/131687/WordPress/
+                )
+
+            [field_5efdbbc11d2ba] => Array
+                (
+                    [row-0] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 150499
+                        )
+
+                    [row-1] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 150503
+                        )
+
+                    [row-2] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 150504
+                        )
+
+                    [row-3] => Array
+                        (
+                            [field_5efdbbdb1d2bb] => 
+                        )
+
+                )
+
+            [field_5d243c6578e56] => 
+            [field_5d36829a25564] => 
+            [field_5d243dc978e58] => 
+            [field_5da9a69f06ffe] => https://www.softwarefindr.com/out/siteground-bf
+            [field_5da9a6b206fff] => 0
+            [field_5efdc2f630737] => me
+        )
+
+    [_thumbnail_id] => 119541
+    [yoast_free_metabox_nonce] => 243f200b02
+    [yoast_free_metabox_social_nonce] => 2e887db2b7
+    [yoast_wpseo_focuskw] => Siteground
+    [yoast_wpseo_title] => Siteground WordPress Hosting Review %%currentyear%%
+    [yoast_wpseo_metadesc] => 
+    [yoast_wpseo_linkdex] => 69
+    [yoast_wpseo_content_score] => 0
+    [yoast_wpseo_is_cornerstone] => false
+    [yoast_wpseo_focuskeywords] => []
+    [yoast_wpseo_keywordsynonyms] => [\"\"]
+    [yoast_wpseo_primary_list_categories_term] => 
+    [yoast_wpseo_primary_list_categories_nonce] => 94cb5a2cd0
+    [yoast_wpseo_primary_list_comp_categories_term] => 
+    [yoast_wpseo_primary_list_comp_categories_nonce] => 94cb5a2cd0
+    [yoast_wpseo_opengraph-title] => 
+    [yoast_wpseo_opengraph-description] => 
+    [yoast_wpseo_opengraph-image] => 
+    [yoast_wpseo_opengraph-image-id] => 
+    [yoast_wpseo_twitter-title] => 
+    [yoast_wpseo_twitter-description] => 
+    [yoast_wpseo_twitter-image] => 
+    [yoast_wpseo_twitter-image-id] => 
+    [yoast_wpseo_meta-robots-noindex] => 0
+    [yoast_wpseo_meta-robots-nofollow] => 0
+    [yoast_wpseo_meta-robots-adv] => Array
+        (
+            [0] => -
+        )
+
+    [yoast_wpseo_bctitle] => 
+    [yoast_wpseo_canonical] => 
+    [nd-list-item-mbnonce] => 31c7ed055d
+    [features_list] => Array
+        (
+            [0] => Free SSL Certificate
+            [1] => Money Back Guarantee
+            [2] => Multiple Server Location
+            [3] => Backup & Monitoring
+            [4] => 99.9% Uptime
+            [5] => Webmail
+            [6] => Popular Applications With 1-Click
+            [7] => High performance
+            [8] => 24/7 Support
+            [9] => Control Panel Integration
+            [10] => Website Migration
+            [11] => Cloud Hosting
+            [12] => VPS Hosting
+            [13] => FTP access
+        )
+
+    [new_video_list] => Array
+        (
+            [0] => https://www.youtube.com/watch?v=j37UUyqaGH0
+        )
+
+    [old_coupon_type] => Array
+        (
+            [0] => deal
+        )
+
+    [old_coupon_code] => Array
+        (
+            [0] => 
+        )
+
+    [old_coupon_link] => Array
+        (
+            [0] => https://www.softwarefindr.com/out/siteground-bf
+        )
+
+    [old_coupon_title] => Array
+        (
+            [0] => 70% off SiteGround
+        )
+
+    [old_coupon_description] => Array
+        (
+            [0] => For a limited time only save upto 70% off SiteGround hosting plans
+        )
+
+    [old_coupon_expdate_show] => Array
+        (
+            [0] => show
+        )
+
+    [old_coupon_expiry_date] => Array
+        (
+            [0] => 2019-12-02
+        )
+
+    [old_coupon_id] => Array
+        (
+            [0] => 124796_0
+        )
+
+    [old_coupon_votes] => Array
+        (
+            [0] => -2
+        )
+
+    [excerpt] => 
+    [advanced_view] => 1
+    [comment_status] => open
+    [ping_status] => open
+    [add_comment_nonce] => 43238438a0
+    [_ajax_fetch_list_nonce] => 55acdf3bf5
+    [post_name] => siteground
+    [post_author_override] => 2
+    [rwp_reviews_meta_box_nonce] => 1f10248411
+    [rwp-review-type] => PAR+UR
+    [rwp_reviews] => Array
+        (
+            [0] => Array
+                (
+                    [review_type] => PAR+UR
+                    [review_title] => Review 0
+                    [review_title_options] => custom_title
+                    [review_template] => rwp_template_590f86153bc54
+                    [review_scores] => Array
+                        (
+                            [rwp_template_590f86153bc54] => Array
+                                (
+                                    [0] => 4
+                                    [1] => 4
+                                    [2] => 4
+                                    [3] => 5
+                                )
+
+                        )
+
+                    [review_custom_overall_score] => 
+                    [review_criteria_source] => reviewer
+                    [review_pros] => 
+                    [review_cons] => 
+                    [review_summary] => 
+                    [review_image] => 
+                    [review_image_url] => 
+                    [review_sameas_attr] => 
+                    [review_id] => 0
+                )
+
+        )
+
+    [rwp_tables_meta_box_nonce] => 9b64fc0ac6
+    [post_mime_type] => 
+    [ID] => 124796
+    [post_content] => Siteground is a reputable hosting provider that has several WordPress hosting plans. The integrated one-click installer helps you get started within a short period. Intelligent auto-update feature will make sure that your website is always using the latest version of WordPress. Free WP-CLI support will make it a lot easier to manage your website by using the command line interface.
+
+The professionally optimized SSD servers utilize a proprietary caching tool and support the latest versions of PHP and HTTP. All of these play critical roles in delivering a fast loading speed for your website.
+
+There is a dedicated team of security experts who are always looking for vulnerabilities and security issues related to WordPress. In the case of any such incidents, they will immediately notify the users. It is also possible to get timely support from the chat, phone, and ticketing system.
+
+Siteground offers three hosting plans for WordPress. All plans include unmetered traffic, unlimited MySQL databases, multiple server locations, daily backup, free CDN, and WP-CLI support.
+<ul>
+ 	<li>StartUp is priced at $3.95 per month. It allows you to host one website and comes with 10GB of space.</li>
+ 	<li>GrowBig will cost you $5.95 per month. It allows multiple websites, 20GB web space, 30 backup copies, and free one-year SSL.</li>
+ 	<li>GoGeek is $11.95 per month. It supports multiple websites, 30GB space, free SSL, instant staging, readymade Git, and a less crowded server.</li>
+</ul>
+<p class=\"p1\"><strong><span class=\"s1\">Features</span></strong></p>
+
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">One of the best thing about SiteGround is that they have data centers in Asia, US, and Europe, covering more grounds.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their servers have been optimized perfectly for delivering top-notch performance. The speed optimized tech is named SuperCacher.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They have mentioned every technical aspect of a particular plan clearly.</span></li>
+</ul>
+<b>Pros</b>
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their Cloud and Dedicated hosting plans are good, however, a little expensive.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">Their Shared hosting plan is the best for the newbies as they offer industry standard services.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The geeks behind the service team are talented and experienced.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">They also have Reseller hosting options if you’re looking for one.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Cons</b></span></p>
+
+<div>
+<ul>
+ 	<li class=\"li1\"><span class=\"s1\">Their one-click WordPress installation is not that clean, as they have customized it accordingly.</span></li>
+ 	<li class=\"li1\"><span class=\"s1\">The Shared plans have limited disk storage and other related numbers.</span></li>
+</ul>
+</div>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>Pingdom test</b></span></p>
+<p class=\"p1\"><img class=\"aligncenter size-full wp-image-120350 td-animation-stack-type0-1\" src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround.png\" alt=\"\" width=\"583\" height=\"196\" /></p>
+&nbsp;
+<p class=\"p1\"><span class=\"s1\"><b>LoadImpact test</b></span></p>
+<img src=\"https://www.softwarefindr.com/wp-content/uploads/SiteGround1.png\" />
+
+SiteGround Hosting
+<p class=\"p1\">It’s a 12 years old company, which was started in Bulgaria and currently operated privately from their headquarters in the same country. They offer Linux and Unix based servers, missing the Windows one. They also offer dedicated WordPress and Joomla based hosting solutions where everything is taken care by the team behind. Delivering quality service has been their primary objective throughout the years and they have managed to do well. The Dashboard used behind is simple and according to the hosting standards. It makes everything easy for the newbies and also for the existing web developers.</p>
+    [post_excerpt] => 
+    [rwp_tables] => Array
+        (
+        )
+
+)
+
+check 1 : 
+check 2 : 
+check 3 : 
+final metaboxvalue is: Array
+(
+)
+couponlist is Array
+(
+    [0] => Array
+        (
+            [type] => deal
+            [link] => https://www.softwarefindr.com/out/siteground-bf
+            [title] => 70% off SiteGround
+            [description] => For a limited time only save upto 70% off SiteGround hosting plans
+            [code] => 
+            [showDate] => show
+            [expdate] => 2019-12-02
+            [id] => 124796_0
+            [votes] => -2
+        )
+
+)
+
+qalist is Array
+(
+)
+

@@ -1,0 +1,5786 @@
+on feature rateitem id : 123082 
+ feature_name : Multiple layouts 
+ vote_size : 4
+cookie_value : else condition : 4
+cur_feature_score : Array
+(
+    [Woocommerce Compatibility] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [BuddyPress Compatibility] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [1 Click Installation] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple layouts] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Custom Post Types] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple header styles] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Responsive design] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Drag & Drop Page Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [SEO Optimized] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Custom Widgets] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Major Plugins Supported] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Inline Editing] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Animations] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Import/Export] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Translation Ready] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Woocommerce Compatibility] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [BuddyPress Compatibility] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [1 Click Installation] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple layouts] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [Custom Post Types] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple header styles] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Responsive design] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Drag & Drop Page Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [SEO Optimized] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Custom Widgets] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Major Plugins Supported] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Inline Editing] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Animations] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Import/Export] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Translation Ready] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+LOCATION FROM postINmeta key downloads_in_IN and total downloads this location 1.1meta key downloads_in_IN and total downloads this location 0.5on feature rateitem id : 126264 
+ feature_name : Free Domain 
+ vote_size : 5
+cookie_value : else condition : 5
+cur_feature_score : Array
+(
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Domain] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [eCommerce Websites ] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Web Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Domain] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [eCommerce Websites ] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Web Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Free SSL Certificate 
+ vote_size : 7
+cookie_value : else condition : 7
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 7
+            [votes] => 1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126254 
+ feature_name : Free SSL Certificate 
+ vote_size : 2
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+        )
+
+)
+: else condition : 2
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 2
+            [votes] => 1
+            [average] => 2
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126254 
+ feature_name : Money Back Guarantee 
+ vote_size : 10
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+        )
+
+)
+: else condition : 10
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 2
+            [votes] => 1
+            [average] => 2
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 2
+            [votes] => 1
+            [average] => 2
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 10
+            [votes] => 1
+            [average] => 10
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Website Migration 
+ vote_size : 5
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+)
+: else condition : 5
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Popular Applications With 1-Click 
+ vote_size : 4
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+)
+: else condition : 4
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126610 
+ feature_name : Popular Applications With 1-Click 
+ vote_size : 9
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+)
+: else condition : 9
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : 99.9% Uptime 
+ vote_size : 9
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+        )
+
+)
+: else condition : 9
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126610 
+ feature_name : 99.9% Uptime 
+ vote_size : 3
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+        )
+
+)
+: else condition : 3
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Webmail 
+ vote_size : 6
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+        )
+
+)
+: else condition : 6
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126610 
+ feature_name : Webmail 
+ vote_size : 5
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+        )
+
+)
+: else condition : 5
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Free SSL Certificate 
+ vote_size : 4
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 7
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+        )
+
+)
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+: old_vote_Size : 4
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Free SSL Certificate 
+ vote_size : 4
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 4
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+        )
+
+)
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+: old_vote_Size : 4
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Free SSL Certificate 
+ vote_size : 5
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 4
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+        )
+
+)
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+: old_vote_Size : 5
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -2
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126610 
+ feature_name : Free SSL Certificate 
+ vote_size : 8
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 5
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+        )
+
+)
+: else condition : 8
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Backup & Monitoring 
+ vote_size : 4
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 5
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+        )
+
+)
+: else condition : 4
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -2
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -2
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126610 
+ feature_name : Backup & Monitoring 
+ vote_size : 8
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 5
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+            [Backup & Monitoring] => 4
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+        )
+
+)
+: else condition : 8
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Free SSL Certificate 
+ vote_size : 5
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 5
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+            [Backup & Monitoring] => 4
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+            [Backup & Monitoring] => 8
+        )
+
+)
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -2
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+: old_vote_Size : 5
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -2
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Free SSL Certificate 
+ vote_size : 4
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 5
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+            [Backup & Monitoring] => 4
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+            [Backup & Monitoring] => 8
+        )
+
+)
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -2
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+: old_vote_Size : 4
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -7
+            [votes] => -1
+            [average] => 7
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : High performance 
+ vote_size : 8
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 4
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+            [Backup & Monitoring] => 4
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+            [Backup & Monitoring] => 8
+        )
+
+)
+: else condition : 8
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => -3
+            [votes] => 0
+            [average] => -INF
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 6
+            [votes] => 1
+            [average] => 6
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 126610 
+ feature_name : High performance 
+ vote_size : 4
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 4
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+            [Backup & Monitoring] => 4
+            [High performance] => 8
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+            [Backup & Monitoring] => 8
+        )
+
+)
+: else condition : 4
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 8
+            [votes] => 1
+            [average] => 8
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 3
+            [votes] => 1
+            [average] => 3
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 5
+            [votes] => 1
+            [average] => 5
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 9
+            [votes] => 1
+            [average] => 9
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 4
+            [votes] => 1
+            [average] => 4
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Free Website Builder] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+on feature rateitem id : 124796 
+ feature_name : Backup & Monitoring 
+ vote_size : 2
+cookie_value Array
+(
+    [124796] => Array
+        (
+            [Free SSL Certificate] => 4
+            [Website Migration] => 5
+            [Popular Applications With 1-Click] => 4
+            [99.9% Uptime] => 9
+            [Webmail] => 6
+            [Backup & Monitoring] => 4
+            [High performance] => 8
+        )
+
+    [126254] => Array
+        (
+            [Free SSL Certificate] => 2
+            [Money Back Guarantee] => 10
+        )
+
+    [126610] => Array
+        (
+            [Popular Applications With 1-Click] => 9
+            [99.9% Uptime] => 3
+            [Webmail] => 5
+            [Free SSL Certificate] => 8
+            [Backup & Monitoring] => 8
+            [High performance] => 4
+        )
+
+)
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : integercur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+: old_vote_Size : 2
+cur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)
+vote type is : stringcur_feature_score : Array
+(
+    [Free SSL Certificate] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Money Back Guarantee] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Multiple Server Location] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Backup & Monitoring] => Array
+        (
+            [total_score] => 2
+            [votes] => 1
+            [average] => 0
+        )
+
+    [99.9% Uptime] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Webmail] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Popular Applications With 1-Click] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [High performance] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [24/7 Support] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Control Panel Integration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Website Migration] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [Cloud Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [VPS Hosting] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+    [FTP access] => Array
+        (
+            [total_score] => 0
+            [votes] => 0
+            [average] => 0
+        )
+
+)

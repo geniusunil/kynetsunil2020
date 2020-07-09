@@ -1,0 +1,57 @@
+cookie name: mes-lc-item-votes
+cookie value: 
+has not voted before 
+my vote = up
+inside update ovte single meta key after  update ovte single meta key Array
+(
+    [up] => 1
+    [down] => 0
+)
+cookie name: mes-lc-item-votes
+cookie value: Array
+(
+    [124792] => up
+)
+
+my vote = undo_up_then_down
+inside update ovte single meta key Array
+(
+    [up] => 1
+    [down] => 0
+)
+after  update ovte single meta key Array
+(
+    [up] => 0
+    [down] => 1
+)
+cookie name: mes-lc-item-votes
+cookie value: 
+has not voted before 
+my vote = up
+inside update ovte single meta key Array
+(
+    [up] => 0
+    [down] => 1
+)
+after  update ovte single meta key Array
+(
+    [up] => 1
+    [down] => 1
+)
+cookie name: mes-lc-item-votes
+cookie value: Array
+(
+    [124792] => up
+)
+
+my vote = undo_up_then_down
+inside update ovte single meta key Array
+(
+    [up] => 1
+    [down] => 1
+)
+after  update ovte single meta key Array
+(
+    [up] => 0
+    [down] => 2
+)
