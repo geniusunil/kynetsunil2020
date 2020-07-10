@@ -365,7 +365,23 @@ foreach($software_id as $k ) {
         }
         
         
-        </script>
+        </script>';
+
+
+        //http://www.kvcodes.com/2013/12/create-front-end-multiple-file-upload-wordpress/
+
+        $html_before_form .= '<h2>Downloads</h2>
+        <h5>Capture demand from engaged buyers through gated downloads.</h5>
+        <div class="yesnobtns" id="couponButtons"><button type="button" id="yesdownloadsbtn" >yes</button>
+        <button type="button" id="nodownloadsbtn" >no</button></div>
+        <div id="downloads" class="hidden"></div>
+        <div style="
+        display: flex;
+        justify-content: center;
+    "><span id="adddownloads" style="
+        cursor: pointer;
+    ">+ Add another downloadable </span></div>
+        
         
         <div>
         <h2>Want to boost conversions?</h2>
@@ -524,16 +540,7 @@ foreach($software_id as $k ) {
             
         $html_before_form .= '</div>
         </div>';
-        $html_before_form .= "  <table>
-        <tr>
-          <td>Upload file</td>
-          <td><input type='file' name='file'></td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td><input type='submit' name='but_submit' value='Submit'></td>
-        </tr>
-      </table>";
+        
         // <!----------------------------------------- qa end -------------------------------------------------------->
 	//---------------------------form group-------------------------------------
 
@@ -549,7 +556,9 @@ foreach($software_id as $k ) {
 			  'html_after_fields' => $html_before_form,
 			  'field_groups' => array(146140,146079),
 			  'submit_value'=> 'Submit',
-			
+              'form_attributes' => array(
+                'enctype' => 'multipart/form-data',
+           ),
 			 );
 
       $value = acf_form( $settings );	
@@ -605,6 +614,19 @@ jQuery(document).ready(function () {
     jQuery("#couponForm").addClass("hidden");
     console.log("hide");
   });
+  jQuery(document).on('click','#yesdownloadsbtn',unhideAndAddDownlod);
+          function unhideAndAddDownlod(){
+            jQuery("#downloads").removeClass("hidden");
+              
+              jQuery("#downloads").append(' <input type="file" name="kv_multiple_attachments[]"  multiple="multiple" > ');
+                       
+          
+          }
+          jQuery(document).on('click','#adddownloads',unhideAndAddDownlod);
+        jQuery(document).on('click','#nodownloadsbtn',function () {
+          jQuery("#downloads").addClass("hidden");
+          console.log("hide");
+        });
   jQuery(document).on('click','#yesqabtn',function () {
 		  
           jQuery("#qaForm").removeClass("hidden");
@@ -804,34 +826,7 @@ function simulateClick() {
 
 <?php
 
-// Upload file
-if(isset($_POST['but_submit'])){
 
-  if($_FILES['file']['name'] != ''){
-    $uploadedfile = $_FILES['file'];
-    $upload_overrides = array( 'test_form' => false );
-
-    $movefile = wp_handle_upload( $uploadedfile, $upload_overrides );
-    $imageurl = "";
-    if ( $movefile && ! isset( $movefile['error'] ) ) {
-       $imageurl = $movefile['url'];
-       echo "url : ".$imageurl;
-    } else {
-       echo $movefile['error'];
-    }
-  }
- 
-}
-
-?>
-<h1>Upload File</h1>
-
-<!-- Form -->
-<form method='post' action='' name='myform' enctype='multipart/form-data'>
-
-</form>
-
-<?php
 
 
 
