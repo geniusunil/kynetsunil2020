@@ -363,7 +363,7 @@ foreach($software_id as $k ) {
         function hideButtons{
             document.getElementById("couponButtons").style.display = "none";
         }
-        
+   
         
         </script>';
 
@@ -618,13 +618,13 @@ jQuery(document).ready(function () {
           function unhideAndAddDownlod(){
             jQuery("#downloads").removeClass("hidden");
               
-              jQuery("#downloads").append(' <div class="newfile"><input type="file" name="kv_multiple_attachments[]"  multiple="multiple" ><button onclick="removefile"><button></div> ');
+              jQuery("#downloads").append('<div class="newfile"> <input type="file" name="kv_multiple_attachments[]"  required /> <input type="text" name="kv_multiple_attachment_titles[]"  >'+
+              '<input type="file" name="kv_multiple_attachment_thumbs[]" accept="image/x-png,image/gif,image/jpeg" />'+
+              '<button type="button" class="remove_download"></button></div>');
                        
           
           }
-          function removefile(this){
-            console.log(this);
-          }
+         
           jQuery(document).on('click','#adddownloads',unhideAndAddDownlod);
         jQuery(document).on('click','#nodownloadsbtn',function () {
           jQuery("#downloads").addClass("hidden");
@@ -732,6 +732,13 @@ jQuery(document).on('click','.remove_coupon',function () {
 
         }
         jQuery(this).closest('li').remove();
+
+
+
+    });
+    jQuery(document).on('click','.remove_download',function () {
+        
+        jQuery(this).closest('div').remove();
 
 
 

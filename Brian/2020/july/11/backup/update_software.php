@@ -618,12 +618,9 @@ jQuery(document).ready(function () {
           function unhideAndAddDownlod(){
             jQuery("#downloads").removeClass("hidden");
               
-              jQuery("#downloads").append(' <div class="newfile"><input type="file" name="kv_multiple_attachments[]"  multiple="multiple" ><button onclick="removefile"><button></div> ');
+              jQuery("#downloads").append(' <input type="file" name="kv_multiple_attachments[]"  multiple="multiple" > ');
                        
           
-          }
-          function removefile(this){
-            console.log(this);
           }
           jQuery(document).on('click','#adddownloads',unhideAndAddDownlod);
         jQuery(document).on('click','#nodownloadsbtn',function () {

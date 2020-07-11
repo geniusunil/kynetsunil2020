@@ -1700,7 +1700,7 @@ class Mv_List_Single_View_New
                                             {
                                                 $image = '';
                                             }
-                                            $table_css = '<style>.table-img{ height:140px; width:80px;} .table-img img{ width:100% !important; height: 80px !important; }</style>';
+                                            $table_css = '<style>.hidecheckbox { display:none; } .table-img{ height:140px; width:80px;} .table-img img{ width:100% !important; height: 80px !important; }</style>';
                                             $item_image_html = '<div class="table-img"><img class="table-image" src=" ' . $image[0] . ' ">';
                                             $item_title_html = '<p class="table-item-title" style="margin: 7px 0px"><b> '. $item_link_title .' </b></p></div>';
 
@@ -1740,8 +1740,8 @@ class Mv_List_Single_View_New
                                             //table button for item  END
 
                                             //COMPARE 
-                                            $item_compare = '<p class=""><a class="" href="#">Compare</a></p>';
-
+                                            $item_compare = '<label style="cursor:pointer; margin-top:5px;"><input type="checkbox" class = "compre_data" value ="compare" name="compare" data-link="'.$item_id.'" style="display: inline; width: auto;"> Compare</label>';
+                                            
                                             //REVIEWS
                                             $overall = 0;
                                             $rating = get_overall_combined_rating($item_id);
@@ -1808,7 +1808,10 @@ class Mv_List_Single_View_New
                                             }
                                             else 
                                             {
-                                                echo '<td> $' . $price . '/ '. $frequencies[$key] . '</td> ';
+                                                $freq_plan ='';
+                                                if(!empty($frequencies[$key]))
+                                                $freq_plan = '/' . $frequencies[$key];
+                                                echo '<td> $' . $price . $freq_plan . '</td> ';
                                             }
 										} ?>
 									</tr>
@@ -1897,12 +1900,6 @@ class Mv_List_Single_View_New
                                         
 										$frequent_used = array_count_values($all_feature_list);
 										arsort($frequent_used);
-
-                                        // echo '<pre>';
-                                        // print_r($all_feature_list_score);
-                                        // echo '</pre>';
-
-
 										$ab = 0;
 										foreach ($frequent_used as $k => $list) 
 										{
@@ -1953,16 +1950,25 @@ class Mv_List_Single_View_New
                                                         {
                                                             $cellcolor = '#00ff00';
                                                         }
-                                                        echo '<td style="background-color:'.$cellcolor.'"><i class="fa fa-check" aria-hidden="true" style="color: green;" ></i> <p>'.$score.'</p></td>';
+                                                        if($score == 0)
+                                                        {
+                                                            echo '<td style="background-color:#ffff80"><i class="fa fa-check" aria-hidden="true" style="color: green;" ></i><p>Unrated</p></td>';
+                                                        }
+                                                        else
+                                                        {
+                                                            $score = $score*10 . '%';
+                                                            echo '<td style="background-color:'.$cellcolor.'"><i class="fa fa-check" aria-hidden="true" style="color: green;" ></i> <p>'.$score.'</p></td>';
+                                                        }
+                                                        
 													}
 													else 
 													{
-														echo "<td style='background-color:#ffff33'><i class='fa fa-minus' aria-hidden='true' style='color: grey;' ></i></td>";
+														echo "<td style='background-color:#ffffcc'><i class='fa fa-minus' aria-hidden='true' style='color: grey;' ></i></td>";
 													}
 												}
 												else
 												{
-													echo "<td style='background-color:#ffff33'><i class='fa fa-minus' aria-hidden='true' style='color: grey;' ></i></td>";
+													echo "<td style='background-color:#ffffcc'><i class='fa fa-minus' aria-hidden='true' style='color: grey;' ></i></td>";
 												}
 											}
 											echo "</tr>";
@@ -2184,7 +2190,7 @@ class Mv_List_Single_View_New
                 $html=ob_get_contents();
                 ob_end_clean();
                 ob_start();
-				echo generate_list_html(false,$sorts,$current_page,$this_list); 
+				echo generate_list_html($this_list, false,$sorts,$current_page); 
 				$big = 999999999; // need an unlikely integer
 				$pagelink = get_permalink();
 				$options = get_option('mv_list_items_settings');
